@@ -1,0 +1,279 @@
+
+.modify {
+    background: #fff;
+    padding: 85px 20px 25px;
+    box-shadow: 0px 0px 20px 0px #adadad;
+}
+.mod_serch li {
+    margin: 0px 10px;
+    max-width: 180px!important;
+}
+@media screen and (max-width: 767px) {
+    .mod_serch .btn-set {
+        margin-top: 30px;
+        min-width: 150px;
+    }
+
+
+    .mod_serch li { width:94%;
+    }
+
+
+
+    .modify {
+        background: #fff;
+        padding: 40px;
+        box-shadow: 0px 0px 20px 0px #adadad;
+        z-index: 10000;
+        position: absolute;
+        left: 65px;
+        top: 39px;
+        width: 76%;
+    }
+
+}
+
+
+.flight_heading {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+    .flight_heading h3 {
+        font-size: 21px !important;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px; padding:15px 0 5px 10px;
+    }
+.button_main {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #004aad;
+    border: solid 1px #fff;
+    padding: 10px 20px;
+}
+
+.ticket_heading {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+    .ticket_heading p {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        margin-bottom: -20px;
+    }
+
+    .ticket_heading span {
+        font-size: 11px;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+    }
+    
+.paymnt-btn {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sub_btn {
+    background: #479329;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 70px;
+    border-radius: 4px;
+}
+
+.payment_box {
+    border-radius: 10px;
+    float: left;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.2);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.link_bar {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+    .link_bar ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .link_bar ul li {
+            display: block;
+            list-style: none;
+            margin-bottom: 4px;
+        }
+
+            .link_bar ul li a {
+                width: 100%;
+                height: auto;
+                float: left;
+                margin-bottom: 4px;
+                font-size: 18px;
+                text-decoration: none;
+                font-weight: normal;
+                color: #000;
+                background: #89777924;
+                padding: 20px 14px;
+            }
+
+                .link_bar ul li a:hover {
+                    background: #004aad;
+                    color: #fff;
+                }
+
+                .link_bar ul li a.active {
+                    background: #004aad;
+                    color: #fff;
+                }
+
+.pay_main {
+    width: 100%;
+    height: auto;
+    float: left;
+    border-top: solid 1px #ccc;
+    margin-top: 30px;
+    padding: 20px 0 0 0;
+}
+
+.pay_inp {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: solid 1px #ccc;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.rd {
+    width: 13% !important;
+}
+
+.pay_inp b {
+    font-size: 13px;
+}
+
+
+
+.pay_inpp b {
+    font-size: 13px;
+    color: #000;
+    padding: 0px 0px 10px 6px;
+    line-height: 36px;
+}
+
+.pay_btn {
+    background: #004aad;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+}
+
+.pay_wallet {
+    width: 100%;
+    height: auto;
+    float: left;
+    border-top: solid 1px #ccc;
+    margin-top: 30px;
+    padding: 20px 0 0 0;
+}
+
+.pay_upi {
+    width: 100%;
+    height: auto;
+    float: left;
+    border-top: solid 1px #ccc;
+    margin-top: 30px;
+    padding: 20px 0 0 0;
+}
+
+body {
+    background: #e1e7ee;
+}
+
+#divprogress_D header, #divprogress_D .modifybx {
+    background: #004aad;
+}
+
+#divprogress_D .custom-control-label {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#dvProgress_M header {
+    background: #004aad;
+}
+
+#dvProgress_M .mobmodifybx {
+    float: inherit;
+}
+
+.searchpopinner_wait, .searchpopinner1_wait {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.searchpopinner_wait {
+    max-width: 500px;
+    margin: 15% auto auto;
+}
+
+.searchpopinner1_wait {
+    max-width: 400px;
+    margin: 15% auto auto;
+    border-radius: 5px;
+}
+@media(max-width:600px) {
+    .searchpopinner1_wait {
+        margin: 50% auto;
+    }
+}
+
+.sessionpop_new_wait {
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.sessionpop_new_wait {
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+}

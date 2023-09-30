@@ -1,0 +1,211 @@
+.mobileView {
+  display: none;
+}
+.desktopView {
+  display: block;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background: #ffffff;
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  padding: 3px;
+  background-color: darkblue;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  text-align: center;
+}
+
+.topPhone {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bolder;
+  text-decoration: none !important;
+  color: white;
+}
+
+.topPhone:hover {
+  color: white;
+}
+
+.callIconSpan {
+  background-color: white;
+  color: #333;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.callIcon {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  background-color: #ffffff;
+  padding-top: 50px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 16px;
+  word-spacing: 300px !important;
+  letter-spacing: 2px;
+}
+
+.tagline:hover {
+  color: darkblue;
+}
+
+.runstrip {
+  background-color: gold;
+  position: relative;
+  overflow: hidden;
+  height: 25px;
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  position: absolute;
+  animation: scroll 15s linear infinite;
+}
+
+.scrolling-text span {
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.titleverse {
+  background-color: #00008b;
+}
+
+.airline-flight-image-2 {
+  height: fit-content;
+  width: fit-content;
+}
+
+.addedtext11 {
+  text-align: center;
+  color: #fff;
+  /* display: flexbox; */
+  /* justify-content: space-between; */
+}
+
+.addedtextt {
+  font-size: 16px;
+  /* display: inline-block; */
+  margin-bottom: 0%;
+  /* padding-left: 200px; */
+}
+
+.addedtexttt {
+  font-size: 16px;
+  /* display: inline-block; */
+  margin-bottom: 0%;
+  /* padding-left: 500px; */
+}
+
+.saletitle {
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: white;
+}
+
+.salediv {
+  background-color: red;
+  position: relative;
+  color: white;
+  width: fit-content;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: 5px;
+  border-radius: 500px;
+  padding: 10px;
+  font-weight: 900;
+  border: white 1px groove;
+}
+
+.girl {
+  width: 100px;
+  height: 100px;
+  display: inline;
+  margin-top: 10px;
+  display: inline;
+}
+
+.nohold {
+  background-color: white;
+  border-radius: 500px;
+  width: fit-content;
+  color: darkblue;
+  padding: 10px;
+  display: inline;
+  font-size: 16px;
+}
+
+.titlenumber {
+  font-size: 30px;
+  border: 2px groove white;
+  border-radius: 500px;
+  overflow: hidden;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.aboutair {
+  text-align: center;
+  padding: 2px;
+  background-color: #ffffff !important;
+  margin-top: 10px;
+}
+
+.aboutairtitle {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  color: #00008b;
+}
+
+#about-us-description {
+  font-size: 15px;
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

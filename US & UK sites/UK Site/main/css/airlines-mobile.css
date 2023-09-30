@@ -1,0 +1,325 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .desktopView {
+    display: none;
+  }
+
+  .mobileView {
+    display: block;
+  }
+  
+  
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background: #ffffff;
+    background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  }
+
+  #mainscreen {
+    display: none;
+    padding-bottom: 60px;
+  }
+
+  header {
+    width: 100%;
+    height: fit-content;
+    background-color: darkblue;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+  }
+
+  .topPhone {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bolder;
+    text-decoration: none !important;
+    color: white;
+  }
+
+  .topPhone:hover {
+    color: white;
+  }
+
+  .callIconSpan {
+    background-color: white;
+    color: #333;
+    border-radius: 50%;
+    padding: 15px;
+  }
+
+  .callIcon {
+    animation: shake 0.5s ease-in-out infinite;
+  }
+
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(5px);
+    }
+  }
+
+  .title {
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    padding-top: 40px;
+  }
+
+  .main-airline-image {
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  #airline-image-2 {
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  #airline-image-2 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire div while maintaining aspect ratio */
+    padding: 10px;
+  }
+
+  .main-airline-image img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire div while maintaining aspect ratio */
+    padding: 10px;
+  }
+
+  .tagline {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    word-spacing: 5px !important;
+    letter-spacing: 2px;
+  }
+
+  .tagline:hover {
+    color: darkblue;
+  }
+
+  .runstrip {
+    background-color: gold;
+    position: relative;
+    overflow: hidden;
+    height: 25px;
+  }
+
+  .scrolling-text {
+    white-space: nowrap;
+    position: absolute;
+    animation: scroll 15s linear infinite;
+  }
+
+  .scrolling-text span {
+    overflow: hidden;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .titleverse {
+    background-color: #00008b;
+  }
+
+  .addedtext11 {
+    color: #fff;
+    display: flexbox;
+    justify-content: space-between;
+    border-spacing: 10%;
+  }
+
+  .addedtextt {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 0%;
+    padding-right: 30px;
+  }
+
+  .addedtexttt {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 0%;
+    padding-left: 30px;
+  } 
+
+  .saletitle {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+  }
+
+  .salediv {
+    background-color: red;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-top: -70px;
+    border-radius: 500px;
+    padding: 10px;
+    font-weight: 900;
+    border: white 1px groove;
+    display: none !important;
+  }
+
+  .girl {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .nohold {
+    background-color: white;
+    border-radius: 500px;
+    width: fit-content;
+    color: darkblue;
+    padding: 10px;
+    display: inline-block;
+    font-size: 11px;
+  }
+
+  .titlenumber {
+    border: 2px groove white;
+    border-radius: 500px;
+    overflow: hidden;
+    text-align: center;
+    width: fit-content;
+    letter-spacing: 2px;
+    padding: 2px;
+  }
+
+  .aboutair {
+    text-align: center;
+    background-color: #ffffff !important;
+    font-weight: 800;
+    font-size: 24px;
+    color: #00008b;
+    margin-bottom: -60px;
+  }
+
+  #airline-image-7 {
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  #airline-image-7 img {
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    padding: 5px;
+  }
+
+  #about-us-description {
+    font-size: 15px;
+    font-weight: 100;
+    color: #000000;
+  }
+
+  #airline-image-3 {
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  #airline-image-3 img {
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    padding: 5px;
+  }
+
+  .footer {
+    width: 100%;
+    height: fit-content;
+    padding: 3px;
+    background-color: darkblue;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0 !important;
+  }
+
+  /* ============================================================================================= */
+  /* =====================================POP UP ZONE - MODAL===================================== */
+  /* ============================================================================================= */
+
+  .modal-dialog {
+    opacity: 1;
+    top: 0%;
+    z-index: 0;
+  }
+
+  .modal-content {
+    background-color: darkblue !important;
+    color: white;
+  }
+
+  .close {
+    color: red;
+  }
+  .modal-header {
+    padding: 10px;
+    background-color: white;
+  }
+  .modal-header img {
+    max-height: 40px;
+    margin: auto;
+  }
+
+  .modal-body {
+  }
+
+  .titlemodal {
+    display: inline-block;
+  }
+
+  .modal-title {
+  }
+
+  .addedtext1 {
+    display: flexbox;
+    justify-content: space-between;
+    border-spacing: 10%;
+  }
+
+  .addedtext {
+    font-size: 10px;
+    display: inline-block;
+    margin-bottom: 0%;
+  }
+}

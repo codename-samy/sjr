@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Contact Us - TravelQuads
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Playball&family=Wellfleet&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <script src="../script/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+<style>
+      h1,
+      h2 {
+        text-align: center;
+        padding: 1%;
+        font-family: "Anton", sans-serif;
+      }
+
+      h2 {
+        text-align: center;
+        padding: 1%;
+        font-family: "Playball", cursive;
+      }
+
+      p {
+        text-align: center;
+        padding: 1%;
+        font-family: "Wellfleet", serif;
+      }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="../index.html">
+        <img
+          class="logo-img"
+          src="../images/logo.png"
+          alt="Travelquads"
+          height="60px"
+        />
+        <p class="brand-name">
+          TravelQuads
+        </p>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="../index.html"
+              ><i class="fas fa-home"></i> HOME</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html"
+              ><i class="fas fa-info-circle"></i> ABOUT US</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./hotel.html"><i class="fas fa-hotel"></i> HOTEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html"
+              ><i class="fas fa-envelope"></i> CONTACT US</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-text ml-auto">
+        <a href="tel:+1-888-203-3695" class="blink-bg">
+          &#x1F4DE; +1-888-203-3695
+        </a>
+      </div>
+    </nav>
+
+    <section id="contact-us" class="bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="orange Main_heading">Contact Us</h2>
+          <div class="clear10"></div>
+          <h5 class="blue">We would like to hear from you.</h5>
+        </div>
+        <div class="clear40"></div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-details bg-primary text-white p-3">
+              <h4 class="white">Get in Touch with Us</h4>
+              <p class="add-cntct">
+                85 Great Portland Street, first floor, London W1W 7LT, United
+                Kingdom
+              </p>
+              <h5>
+                <a href="tel:0370466815" class="white"
+                  ><i class="fa fa-phone white"></i> 0370466815</a
+                >
+              </h5>
+              <h5 style="font-size: 22px">
+                <a href="mailto:info@travelquads.live" class="white">
+                  <i class="fa fa-envelope white"></i> </a
+                >info@travelquads.live
+              </h5>
+              <h5 style="font-size: 22px">
+                <a href="javascript:void(0);" class="white"
+                  ><i class="fa fa-phone white"></i>&nbsp;</a
+                >0370466815
+              </h5>
+            </div>
+            <br><br>
+          </div>
+          <div class="col-md-8">
+            <div class="form">
+              <span style="color: red" id="error_msg"></span>
+              <span style="color: red" id="error_msg1"></span>
+              <form method="post" id="contact_frm">
+                <div class="form-group">
+                  <div class="floating-label botLine feild-group">
+                    <input
+                      type="text"
+                      class="form-control fildText"
+                      id="fname"
+                      name="firstname"
+                      placeholder="Your First Name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="floating-label botLine feild-group">
+                    <input
+                      type="text"
+                      class="form-control fildText"
+                      id="lastname"
+                      name="lastname"
+                      placeholder="Your Last Name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="floating-label botLine feild-group">
+                    <input
+                      type="email"
+                      class="form-control fildText"
+                      name="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="floating-label botLine feild-group">
+                    <input
+                      type="text"
+                      class="form-control fildText"
+                      name="pnr"
+                      placeholder="Your PNR/Transaction Id"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="floating-label botLine feild-group">
+                    <input
+                      type="text"
+                      class="form-control fildText"
+                      name="phone"
+                      placeholder="Your Mobile"
+                      required=""
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="floating-label botLine feild-group">
+                    <textarea
+                      class="form-control fildText"
+                      rows="4"
+                      name="feedback"
+                      placeholder="Your Feedback"
+                    ></textarea>
+                  </div>
+                </div>
+                <div
+                  class="form-group g-recaptcha"
+                  data-sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                ></div>
+                <button
+                  type="submit"
+                  name="submit"
+                  class="btn btn-danger btn-block ripple-btn btn-orange"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="jumbotron footer-custom-class" id="footer">
+      <div class="container">
+        <div class="row">
+          <div id="footer2" class="col-lg-12 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <ul class="footer-menu list-unstyled">
+                  <li>
+                    <img
+                      class="foot-logo"
+                      src="../images/logo.png"
+                      alt="TravelQuads"
+                    />
+                  </li>
+                  <li><p class="brand-name">TravelQuads</p></li>
+                </ul>
+              </div>
+              <div id="foot-list"></div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <ul class="footer-menu list-unstyled">
+                  <strong><span style="text-decoration: underline;" class="li1">IMPORTANT LINKS</span></strong>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="./about.html">About Us</a></li>
+                  <li><a href=".contact.html">Contact Us</a></li>
+                  <li><a href="./bagpolicy.html">Baggage Policy</a></li>
+                  <li><a href="./privacy.html">Privacy Policy</a></li>
+                  <li>
+                    <a href="./advisory.html">Travel Advisory</a>
+                  </li>
+                  <li id="sitemap"><a href="#">SiteMap</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <ul class="footer-menu list-unstyled">
+                  <strong><span style="text-decoration: underline;" class="li1">LEGAL</span></strong>
+                  <li><a href="./tnc.html">Terms & Condition</a></li>
+                  <li><a href="./privacy.html">Privacy Policy</a></li>
+                  <li><a href="./xtra.html">Price Match Promise</a></li>
+                  <li><a href="./xtra.html">Taxes & Fees</a></li>
+                  <li><a href="./xtra.html">Post Ticketing Fee</a></li>
+                  <li>
+                    <a href="./privacy.html">Cookie Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <center>
+        <ul class="footerAddress list-unstyled">
+          <li id="contactus">
+            <a href="./contact.html">TravelQuads</a>
+          </li>
+          <li>
+            <a>
+              <i>
+                Company Number 14498022 is a company registered in England and
+                Wales
+              </i>
+              <br />
+              85 Great Portland Street, first floor, London W1W 7LT, United
+              Kingdom <br /><i>
+                which is part of <br />
+                SJR TRAVELS PRIVATE LIMITED <br />
+                CIN NO-U79110DL2023PTC414737 <br />
+                is a company registered in INDIA </i
+              ><br />
+              114-115 1ST FLOOR POCKET 20 ROHINI SECTOR 24 NEW DELHI 110085
+              <br />
+            </a>
+          </li>
+          <li>
+            <strong
+              >TravelQuads is a part of AIRLINE RESERVATION LIMITED</strong
+            >
+          </li>
+          <li><a>Email: info@travelquads.live</a></li>
+          
+          <li>
+            <a href="tel:+1-888-203-3695">Toll Free: +1-888-203-3695</a>
+          </li>
+        </ul>
+      </center>
+    </footer>
+
+    <div class="container mt-4">
+      <!-- Disclaimer for Desktop -->
+      <div class="disclaimer d-none d-lg-block">
+        <p class="text-center">
+          DISCLAIMER: We have no control over airlines or their services. We will advise you to examine the aviation service guidelines with the different airlines. We are an online travel agency providing travel agency services that solely assist people in arranging their travel request at the best possible way at a cheap cost. We have no authority over any airlines and have no direct connections with any airlines and never represent as any airline.
+        </p>
+      </div>
+
+      <!-- Disclaimer for Mobile -->
+      <div class="disclaimer d-lg-none">
+        <p class="text-center">
+          DISCLAIMER: We have no control over airlines or their services. We will advise you to examine the aviation service guidelines with the different airlines. We are an online travel agency providing travel agency services that solely assist people in arranging their travel request at the best possible way at a cheap cost. We have no authority over any airlines and have no direct connections with any airlines and never represent as any airline.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom" style="background-color: black">
+      <div class="container">
+        <footer>
+          <div class="text-center" style="color: white">
+            Copyright © 2023 TravelQuads. All rights reserved.
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div
+      class="text-center"
+      style="
+        position: fixed;
+        bottom: 0;
+        background-color: rgb(255, 255, 255);
+        z-index: 1000;
+        width: 100%;
+        font-size: 28px;
+        padding: 2px 2px 2px 2px;
+        color: #ffffff;
+      "
+    >
+      <a id="shakenumber" href="tel:+1-888-203-3695">
+        <span> &#x1F4DE; </span> +1-888-203-3695
+      </a>
+    </div>
+
+    <div id="sitemap-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <ul class="footer-menu list-unstyled airline-class">
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Air Canada"
+                ><i class="fa fa-map-marker"></i> Air Canada</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="American Airlines"
+                ><i class="fa fa-map-marker"></i> American Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="British Airways"
+                ><i class="fa fa-map-marker"></i> British Airways</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Delta Airlines"
+                ><i class="fa fa-map-marker"></i> Delta Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Emirates Airlines"
+                ><i class="fa fa-map-marker"></i> Emirates Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Etihad Airways"
+                ><i class="fa fa-map-marker"></i> Etihad Airways</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="KLM Royal Dutch Airlines"
+                ><i class="fa fa-map-marker"></i> KLM Royal Dutch_Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Lufthansa Airlines"
+                ><i class="fa fa-map-marker"></i> Lufthansa Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Qatar Airways"
+                ><i class="fa fa-map-marker"></i> Qatar Airways</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Singapore Airlines"
+                ><i class="fa fa-map-marker"></i> Singapore Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Swiss Airlines"
+                ><i class="fa fa-map-marker"></i> Swiss Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="TAP Airlines"
+                ><i class="fa fa-map-marker"></i> TAP Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Thai Airways"
+                ><i class="fa fa-map-marker"></i> Thai Airways</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Turkish Airlines"
+                ><i class="fa fa-map-marker"></i> Turkish Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Virgin Atlantic_Airways"
+                ><i class="fa fa-map-marker"></i> Virgin Atlantic_Airways</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Southwest Airlines"
+                ><i class="fa fa-map-marker"></i> Southwest Airlines</a
+              >
+            </li>
+            <li class="white-text airline-class">
+              <a href="#" data-airline="Qantas Airways"
+                ><i class="fa fa-map-marker"></i> Qantas Airways</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add a click event listener to all navbar links
+        $(".navbar-nav a").on("click", function () {
+          // Check if the navbar is currently expanded (for small screens)
+          if ($(".navbar-toggler").is(":visible")) {
+            // If it's expanded, close the navbar
+            $(".navbar-toggler").click();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

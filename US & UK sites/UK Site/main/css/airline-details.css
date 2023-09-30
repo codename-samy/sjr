@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+/* Center align the phone number */
+.phone {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  letter-spacing: 1px;
+  animation: glowing 1.5s ease-in-out infinite;
+  font-family: "Archivo Black", sans-serif;
+}
+
+/* Center align the navigation bar */
+.navbar {
+  width: 100%; /* Set the width to 100% */
+  position: fixed; /* Set the position to fixed */
+  top: 0; /* Stick it to the top of the viewport */
+  left: 0; /* Align it to the left of the viewport */
+  right: 0; /* Align it to the right of the viewport */
+  text-align: center; /* Center align text within the navbar */
+  z-index: 1000; /* Ensure it's on top of other content */
+  background-color: #1100ff !important; /* Optional: Add a background color with transparency */
+}
+
+/* Style the phone number in the navbar */
+.navbar .phone {
+  color: white; /* Set text color to white (adjust as needed) */
+}
+
+/* Add padding to the phone number for better spacing */
+.navbar .phone {
+  padding: 10px 0;
+}
+
+/* Keyframes for the glowing effect (no changes needed) */
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+/* Apply the animation to the element with ID "shaking" */
+#shaking {
+  animation: shake 0.5s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+  text-decoration: none;
+  margin: 0 15px 0px 0px;
+}
+
+.logo {
+  left: 0;
+  right: 100%;
+}
+
+#airline-flight-image {
+  margin-top: -30% !important;
+}
+
+.special-card-title {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #ff5833b2; /* Change the text color to your preferred color */
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-weight: bold; /* Make the text bold */
+  text-align: center; /* Center-align the text */
+  border-style: none;
+}
+
+.card-title {
+  font-size: larger;
+}
+
+.image-container {
+  margin-top: 100px; /* Adjust this margin as needed */
+}
+
+.aboutus {
+  background-color: #ffffff;
+  color: #0c0303;
+}
+
+hr {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the horizontal rule */
+  background-color: blue; /* Set the background color to blue */
+  width: 90%; /* Set the width to 90% of its container */
+}
+
+.modal-header {
+  padding: 10px; /* Adjust the padding as needed */
+}
+.modal-header img {
+  max-height: 40px;
+}
+
+.aboutspan {
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .widget-container {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* padding: 20px; */
+    /* margin-top: 5%; */
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the widget container */
+    margin: 5%;
+  }
+
+  #airlineModal {
+    display: none !important;
+  }
+  .flightimg {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .flightimage {
+    margin-top: 21%;
+  }
+  .addedtext {
+    font-size: small;
+    margin: 0% !important;
+  }
+}

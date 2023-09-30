@@ -1,0 +1,1294 @@
+@charset "UTF-8";
+body {
+    font-size: 12px;
+    color: #1a1a1a;
+    padding-bottom: 0;
+    padding-top: 65px;
+}
+.bannerInner ._last{
+    text-align:left;
+}
+.headers{
+    background-color: #03531e!important;
+}
+ .container.usp-container  {
+        width: 92%;
+    }  
+.bannerInner ._last h1{
+    font-size: 30px;
+        margin-bottom: 10px;
+}
+.airLineimg, .airlineLlogos{
+    display:none!important;
+}
+ .bannerInner ._last ul.lat{
+     font-size: 17px;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-position: 2px 9px;
+      text-align: left;
+    padding-bottom: 5px;
+    display:block;
+    border-bottom:none;
+        margin-top: 13px;
+ }
+ .banners .bannerInner ._last ul li{
+     text-align: left;
+    font-size: 17px;
+    background-position: left 1px center;
+    padding-left: 22px;
+ }
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+}
+ a{
+     transition: all 0.4s;
+     text-decoration: none;
+}
+ img,a,button,input, *{
+     outline: 0;
+}
+input, button, textarea, select{}
+img{
+     max-width: 100%;
+}
+._headers .number h2 span {
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1px;
+    line-height: 22px;
+    font-weight: bold;
+}
+._headers .number{
+margin-right: 34px;
+}
+._headers .number h2 {
+    font-size: 9px;
+    color: #fff;
+    font-weight: 400;
+    background-image: url(/Content/images/nubmer-ng-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 100px;
+    background-size: 100px;
+    margin: 0;
+    text-align: right;
+    padding: 7px 36px 9px 0;
+    letter-spacing: .2px;
+}
+._headers .number h2 span+a {
+    color: #fff;
+    letter-spacing: -.1px;
+    display: none;
+}
+.toggle-icon {
+   margin-left: 0;
+    position: fixed;
+    top: 14px;
+    right: 12px;
+    z-index: 2;
+}
+._num-call{
+    display:flex;
+    justify-content:space-between;
+}
+.headerInr._header-logo.active{
+    display:flex;
+}
+.headerInr._header-logo{
+    display:none;
+}
+._num-call.active{
+    display:none;
+}
+.fare-logo{
+        padding-bottom: 12px;
+}
+.toggle-icon span {
+    width: 26px;
+    height: 3px;
+    margin: 5px 0;
+    background: #54e0da;
+}
+
+
+.header {
+    padding: 0;
+    position: absolute;
+    top: -56px;
+    width: 100%;
+    left: 0;
+}
+
+
+ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+.dealContents  ul{
+      margin: 5px;
+     padding: 5px;
+     list-style:disc;
+}
+.dealContents  ul li{
+         font-size: 14px;
+    font-family: Arial;
+}
+
+
+ button{
+     cursor: pointer;
+}
+.cleafrix{
+     clear: both;
+}
+ .container{
+     width: auto;
+     padding: 0 15px;
+}
+.bannerInner h1 span {
+    font-size: 17px;
+    display: block;
+    margin-top: 15px;
+    line-height: 22px;
+       font-weight:bold;
+}
+ .container-fluid{
+     width: 100%;
+     padding: 0 15px;
+}
+.hdbng {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hdbng h2 {
+    color: #fc3322;
+    font-weight: normal;
+    font-size: 18px;
+    border-bottom: 1px solid #fc3322;
+    display: inline-block;
+    margin-top: 0;
+}
+.bodyFixed{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+/*Header*/
+.headers{
+    background-color: #eb2026;
+    padding: 5px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.headers.btms{
+    top: auto;
+    bottom: 0;
+}
+.headerInr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerInr .rightCall a {
+   color: #fff;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+    padding-top: 1px;
+}
+.headerInr .rightCall a span {
+    font-size: 26px;
+    display: block;
+    padding-top: 0;
+}
+.banners {
+    background-color: #fff;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerInner{
+    background-color: rgba(255,255,255,0.5);    
+    width: 100%;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+.searchbox ul li:nth-of-type(2) img {
+    filter: brightness(0) invert(1);
+}
+div#Tp_roundtrip.searchbox ul li.m-loca span.spanCity{
+	display: none;
+}
+.bannerInner h1 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+.bannerInner h2 {
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banners .bannerInner ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eb2026;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.banners .bannerInner ul li {
+    color: #000;
+    font-size: 14px;
+    background-image: url(../images/checkIcons.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.airlineLlogos {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.airlineLlogos img {
+    width: auto;
+}
+
+.airlineimg .h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 4rem 0 20px 0
+}
+
+.airLineimg {
+    margin: 10px 0 5px 0;
+    display: inline-block;
+    width: 100%;
+}
+.airLineimg img{
+    width: auto;
+}
+
+.bannerInner ul li.active{
+    color:#fff!important;
+}
+
+.bannerInner .numbers a span.nbrs small {
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+}
+.bannerInner hr {
+    border-color: rgb(46 46 46 / 30%);
+    margin: 20px 0 5px 0;
+}
+.bannerInner .numbers {
+    background: #03531e;
+    border: 0;
+    margin-top: 5px;
+}
+.airlineCalling span.font-4.instantcall-right button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border-radius: 50px;
+    height: 36px;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 0 10px;
+}
+.bannerInner .InlineError.CallmeBack {
+    line-height: normal !important;
+}
+.bannerInner .numbers a {
+    color: #fff;
+    font-size: 27px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerInner .numbers a.dn_btn {
+    font-size: 20px;
+    padding: 8px;
+}
+.bannerInner> img{
+    width: 80%;
+    padding-bottom: 10px;
+}
+.boxService {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.boxService .box {
+    width: 47%;
+    background-color: #fff;
+    box-shadow: 0 1px 8px #ccc;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.boxService p{
+    font-size: 13px;
+    color: #000000;
+    padding-top: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: Arial;
+}
+.boxService .icons{
+    background-color: #e05915;
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: -40%;
+}
+/*Deal Section*/
+.dealSection {
+    padding: 30px 0 30px 0;
+    background: #f5f5f5;
+    margin-top: 30px;
+}
+.dealSection h2{
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dealBox{
+   background-color: #fff;
+    box-shadow: 0 1px 8px #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.dealBox{
+    padding: 10px 14px;
+    text-align: center;
+}
+.dealBox h3 {
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 11px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.dealBox h3 img {
+    margin: 0 20px;
+}
+.dealBox ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dealBox ul li {
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+.dealBox ul li p{
+    font-size: 18px;
+}
+.dealBox ul li a {
+    background-color: #76e015;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.dealBox ul li a img{
+    width: 12px;
+    position: relative;
+    top: -1px;
+    left: 2px;
+    z-index: 0;
+}
+.dealContents ul li a{
+    color:#000;
+}
+.dealContents {
+    padding: 0 15px;
+}
+.dealContents h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bold;
+    line-height: 27px;
+}
+.dealContents h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-top: 20px;
+        color: #000;
+        font-weight: bold;
+}
+.dealContents p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: 22px;
+    opacity: 0.9;
+    font-family: Arial;
+}
+/*Footer*/
+footer.footer {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 0;
+    float: left;
+    width: 100%;
+}
+.card-copyrightdiv {
+    width: 100%;
+    background-color: #102b4a;
+    padding: 15px;
+}
+.copyright-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-visalogo {
+    padding-top: 15px;
+}
+footer.footer .copyright,
+.card-copyrightdiv .copyright {
+    width: 100%;
+    background: #fff;
+    color: #333;
+    padding: 10px 0;
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer.footer .copyright p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin: 15px 0;
+}
+
+body .main-nav {
+    height: 53px !important;
+    padding-top: 0;
+}
+.nav-logo-wrap {
+    margin-top: 5px;
+}
+span.callnowpop{
+    display: none;
+}
+body .inner-nav .mobile_menu_switcher {
+    transform: translateY(-22%);
+    background: transparent;
+}
+
+body .tel-top {
+    display: none;
+}
+header.headers.headertoggle {
+    position: static;
+}
+.nav-logo-wrap {
+    position: static;
+    margin-top: 0px;
+    padding: 5px 0;
+}
+.serviceBox {
+    display: inline-block;
+    width: 100%;
+}
+body .card-copyrightdiv {
+   padding: 10px 10px 14px;
+}
+body .headers.btms{
+    position: fixed;
+    display: none;
+}
+.ringing_phone {
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    width: 51px;
+    height: 51px;
+    text-align: center;
+    position: relative;
+    margin-right: 10px;
+    border: 4px solid rgba(555,555,555,0.3);
+}
+/*.ringing_phone i {
+    line-height: 50px;
+    font-size: 22px;
+    position: relative;
+    left: -2px;
+    top: -4px;
+}
+.ringing_phone:after,
+.ringing_phone:before {
+  position: absolute;
+  content: '';
+  opacity: 0;
+  border-right: 2px solid #ffffff;
+  width: 15px;
+  height: 15px;
+  left: 33%;
+  top: 35%;
+  border-radius: 50%;
+  transform: rotate(-40deg);
+  animation: fadeInOne 2s infinite both;
+}
+
+.ringing_phone:before {
+    width: 20px;
+    height: 20px;
+    left: 32%;
+    top: 23%;
+    animation: fadeInTwo 2s infinite both;
+}*/
+
+.ringing_phone {
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.ringing_phone {
+    border: solid 5px #e6effe;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background:  url(./img/phoneRotate.png) center center no-repeat;
+    text-align: center;
+    display: inline-block;
+    background-size: 28px;
+}
+.ringing_phone:after, .ringing_phone:before{display:none !important;}
+.bannerInner .numbers {   
+    padding: 6px;
+}
+.bannerInner .clickFull .numbers { border-radius: 50px;
+                                       background: #03531e;
+}
+/*.bannerInner .numbers a{justify-content: unset;}*/
+
+
+
+
+
+@keyframes fadeInOne {
+  45% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes fadeInTwo {
+  55% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+.phone-call div img,
+.callIcon img{
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes trin {
+    from {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+    20%, 32%, 44%, 56%, 68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    23%, 35%, 47%, 59%, 71% {
+        transform: rotate3d(0,0,1,15deg);
+    }
+    26%, 38%, 50%, 62%, 74% {
+        transform: rotate3d(0,0,1,0deg);
+    }
+    29%, 41%, 53%, 65%, 77% {
+        transform: rotate3d(0,0,1,-15deg);
+    }
+    80% {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+}
+.nav-logo-wrap .logo {
+    text-align: left;
+}
+body .nav-logo-wrap .logo img {
+    width: 140px;
+    filter: brightness(0);
+}
+header.headers.fixedHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: 1px solid #fff;
+}
+.mobile_menu_switcher:before {color: #000;}
+body .main-nav {background: #fff;}
+body .footer-telno a span {
+    font-size: 26px;
+}
+body .footer-telno a span img {
+    filter: brightness(0);
+}
+/*Calling Box*/
+.airlineCalling h6 {
+    color: #000;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: -8px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.airlineCalling span.font-4.instantcall-right {
+    position: relative;
+}
+.airlineCalling .instantcall-right input[type=tel] {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    color: #000;
+    font-size: 20px;
+    padding: 0 0 0 73px;
+    border-radius: 50px;
+    z-index: 0;
+    background-image: url(../images/ukflag-icon2.jpg);
+    background-color: #f5f5f5;
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    background-size: auto 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+}
+.airlineCalling .instantcall-right input::placeholder {color: red;opacity: 1;color: #666; font-size: 14px;}
+.close_UTM_ppForm .cp_UTM_Form input::placeholder {color: red;opacity: 1;color: #666; font-size: 14px !important; font-weight:600}
+.close_UTM_ppForm .cp_UTM_Form span{font-weight: 600;}
+.close_UTM_ppForm .cp_UTM_Form input {
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border: 1px solid #818181!important;
+}
+
+
+.airlineCalling .instantcall-right b.call-bycountry {
+    background: none;
+    color: #000 !important;
+    font-size: 17px !important;
+    position: absolute;
+    left: 37px;
+    height: auto;
+    padding: 0 !important;
+    border: 0 !important;
+    z-index: 1;
+    top: 3px;
+}
+body .InlineError.CallmeBack {
+     font-size: 13px!important;
+}
+.footer_call {
+    display: none;
+}
+body .confirmationPopup p span {
+    color: #000;
+    font-weight: 700;
+}
+body .modalPopup .mob-connecting ul li {
+    background-image: none;
+    font-size: 12px !important;
+    line-height: 18px;
+}
+/*body .mob-connecting ul li:before {
+    content: "\f061";
+    top: 0;
+}*/
+body nav .inner-nav.mobile_nav.opened ul {
+    top: 50px;
+}
+span.nbrs {
+    text-align: left;
+}
+/*Search Widget*/
+.airlineSrchW .widget-container .widget-wrap {
+    background: transparent !important;
+}
+.airlineSrchW .search-bg{
+    background: transparent;
+}
+.airlineSrchW.bannerInner {
+    background-color: transparent;
+    padding: 0;
+}
+.airlineSrchW .numbers {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+.airlineSrchW .label-trip {
+    background: transparent;
+}
+.airlineSrchW .roundonewayHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airlineSrchW .roundonewayHolder label {
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 0 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.airlineSrchW .widget-container .cont_flt b {
+    position: relative;
+    z-index: 9;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}
+.airlineSrchW .widget-container .cont_flt .chk_flt{
+    display: none !important;
+}
+.airlineSrchW .roundonewayHolder.fontc label#btnRoundTrip {
+    background: #fff;
+}
+.airlineSrchW .roundonewayHolder.fontc label#btnRoundTrip b{
+    color: #000;
+}
+.airlineSrchW .roundonewayHolder.fontd label#btnOneway {
+    background: #fff;
+}
+.airlineSrchW .roundonewayHolder.fontd label#btnOneway b{
+    color: #000;
+}
+.label-trip:after{
+    display: none;
+}
+.airlineSrchW .destField {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 0;
+    margin: 10px 0;
+}
+.airlineSrchW .destField input#tbFromMobSelected,
+.airlineSrchW .destField input#tbToMobSelected {
+    padding: 40px 0;
+}
+.airlineSrchW .mobtbFrom + .mobtbFrom:before {
+    top: 80px;
+    position: absolute;
+}
+.airlineSrchW .switchOrigin {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.airlineSrchW .dateFild {
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.airlineSrchW .dateFild i.fa-calendar {
+    position: absolute !important;
+    color: #fff !important;
+    font-size: 20px;
+    top: 14px !important;
+    opacity: 0.7;
+}
+.airlineSrchW .dateFild div#departDateDiv i.fa-calendar {
+    left: auto;
+    right: 20px;
+}
+.airlineSrchW .dateFild #returnDateDiv.roundwaytrip,
+.airlineSrchW .dateFild #departDateDiv.onewaytrip {
+    border: 0;
+    border-radius: 0;
+    padding: 0 5px;
+}
+.airlineSrchW .dateFild #returnDateDiv.roundwaytrip{
+    border-left: 1px solid rgba(255,255,255,0.5);
+}
+.airlineSrchW .search-bg .clasPsngr .searchinput input,
+.airlineSrchW .dateFild #returnDateDiv.roundwaytrip input,
+.airlineSrchW .dateFild #departDateDiv.onewaytrip input{
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 0;
+}
+.airlineSrchW .search-bg .clasPsngr .searchinput{
+    padding: 0;
+}
+
+.airlineSrchW .dateFild  input::-webkit-input-placeholder,
+.airlineSrchW .dateFild input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+.airlineSrchW .dateFild #returnDateDiv.roundwaytrip input :placeholder,
+.airlineSrchW .dateFild #departDateDiv.onewaytrip input ::placeholder {
+  color: #fff !important;
+}
+.airlineSrchW .search-bg .clasPsngr .destination {
+    color: #ccc !important;
+    padding-left: 0;
+    font-weight: normal;
+    font-size: 11px !important;
+    top: 6px;
+    text-transform: uppercase;
+}
+.airlineSrchW .search-bg .searchinput:nth-child(1) .destination,
+.airlineSrchW .search-bg .clasPsngr .mobCoach .destination {
+    right: 0;
+    color: #b2ccc7 !important;
+    padding-left: 0;
+    text-align: left;
+}
+.airlineSrchW .search-bg .clasPsngr .searchinput input {
+    padding-top: 14px;
+    font-size: 12px !important;
+}
+.airlineSrchW .mobtotalperson:after,
+.airlineSrchW .mobCoach:after {
+    top: 30px;
+    border-top: 5px solid #fff;
+    right: 15px;
+}
+.airlineSrchW .mobCoach:after{
+    right: 0;
+}
+.airlineSrchW .clasPsngr {
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.airlineSrchW .search-bg .clasPsngr .searchinput input#totalpersonCoach {
+    padding-right: 18px;
+}
+.airlineSrchW .search-bg .clasPsngr .searchinput.mobCoach {
+    border-left: 1px solid rgba(255,255,255,0.5);
+}
+.airlineSrchW button#btnSearchFlights {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.airlineSrchW .dropdown-content-n .ttl_col,
+.airlineSrchW .economydiv1 .ttl_col {
+    text-align: left;
+}
+.airlineSrchW .search-bg .searchinput:nth-child(4){
+    width: 100%;
+}
+body .mobtbDepart.mobtbfixed .clearBtn{
+    color: #000;
+    font-weight: 600;
+}
+.bannerInner .innr_pnl ul {
+    border-bottom: 2px solid #006885;
+    display: block;
+    text-align: left;
+}
+.bannerInner .innr_pnl ul li{
+    background: none;
+}
+body .airlineSrchW .mobtbDepart.mobtbfixed span#btnClearReturnDP,
+body .airlineSrchW .mobtbDepart.mobtbfixed span#btnClearDepartDP{
+    background: transparent !important;
+}
+.airlineSrchW .tab button.numbers {
+    width: 50%;
+    padding-top: 4px;
+    color: #fff;
+}
+.dealSection .row {
+    margin: 0;
+}
+.dealSection .searchHolder {
+    margin-top: 146px;
+    z-index: 1;
+}
+
+.bannerInner h1 p{font-size:11px;padding-top:5px;}
+body.bodyfixed {
+    position: unset;
+}
+.product-search-title{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.airlineSrchW .please-f-dtDep,
+.airlineSrchW .please-f-dtRet,
+.airlineSrchW .please-s-dest,
+.airlineSrchW .please-s-or{
+    z-index: 1;
+    font-size: 11px;
+    text-align: left;
+    padding: 3px 5px;
+    left: 5px;
+}
+.lock-position {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
+.airlineSrchW .dropdown-content-n .innr_pnl,
+.airlineSrchW .economydiv1 .innr_pnl {
+    z-index: 999;
+}
+div#divReturn .please-s-dest {
+    left: 25px;
+}
+.headerInr {
+    justify-content: flex-start;
+}
+.searchweight {
+    display: inline-block;
+    background: transparent;
+}
+.bannerInner ul.tabs{
+	display: none;
+}
+.bannerInner ul.off-on-btn {
+    justify-content: flex-start;
+    margin: 0;
+}
+.bannerInner ul.off-on-btn li {
+    font-size: 12px;
+    padding: 0;
+}
+.searchbox ul li>span {
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 4px;
+    letter-spacing: 0.2px;
+}
+.searchbox ul li.m-loca input {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 500;
+    background: transparent;
+    filter: brightness(0) invert(1);
+}
+.searchbox ul li input#txtReturnDate,
+.searchbox ul li input#txtDepartDate{
+	background-color: transparent;
+	filter: brightness(0) invert(1);
+}
+.bannerInner ul.off-on-btn li a,
+.searchbox ul.flight-type p{
+	filter: brightness(0) invert(1);	
+}
+.searchbox ul.flight-type span {
+    font-size: 13px;
+    font-weight: 500;
+}
+.searchbox button {
+    background: #76e015;
+    border: 1px solid;
+}
+.bannerInner h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/*.autoSuggest__header {
+     padding: 10px 15px;
+     background: #ccc;
+}*/
+/*.bannerInner .numbers a.autoSuggest__close.close-ol {
+    color: transparent;
+    padding: 0;
+     right: 12px;
+    top: 2px;
+}*/
+.searchbox .autoSuggest-wrap .p-r input {
+    filter: none;
+    color: #666;
+}
+.autoSuggest-wrap {
+    padding-top: 0px;
+}
+.bannerInner ul.off-on-btn li:last-child{
+	display: none;
+}
+.bannerInner ul.off-on-btn li a {
+    font-size: 12px;
+    padding-left: 23px;
+    width: auto;
+}
+.bannerInner .calanderoverly a.close-ol {
+    font-size: 15px !important;
+    padding-left: 0;
+    line-height: 21px;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 500;
+    background: transparent;
+    margin: 0;
+    right: 4px;
+}
+.calanderoverly-hotel h4, .calanderoverly h4, .overhdng h4, .SearchOverlay h4{
+	background: #333;
+	color: #fff;
+}
+.dealBox ul li p sup {
+    font-size: 60%;
+    top: -5px;
+    font-weight: 500;
+}
+.header nav ul li a,
+.header .right-header nav .logo-menu {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.header nav ul li ul li a {
+    background: rgba(0, 0, 0, 0.4);
+}
+.header nav ul li a:hover {
+    color: #fff;
+}
+a.submenus.s-menu {
+    background: rgba(255,225,255,0.2);
+}
+.header .right-header a.menuclose {
+    color: #000;
+    top: 16px;
+}
+.autoSuggest__header h2 {
+    font-size: 16px!important;
+    margin: 0;
+    padding: 0;
+    font-weight: 500!important;
+    text-align: left!important;
+}
+/*.autoSuggest__header h2{
+	color: #fff !important;
+	font-weight: normal;
+}*/
+.bannerInner .numbers a.autoSuggest__close{
+font-size: 30px;
+    color: inherit!important;
+    font-weight: normal!important;
+    padding: 0!important;
+    top: 1px;
+    right: 16px;
+}
+a.autoSuggest__close:before, a.autoSuggest__close:after{
+    display:none;
+}
+/*a.autoSuggest__close:before, a.autoSuggest__close:after {
+    background: #fff;
+}*/
+.bodyfixed body, .bodyfixed {
+    position: relative;
+    overflow: unset;
+}
+.ballmeBackIns,
+.callNowPopup,
+.coverbg{
+	display: none;
+}
+.copyright p{
+	color: #fff;
+}
+.copyright img{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 4px;
+}
+.header .right-header nav .logo-menu {
+    padding: 10px 15px;
+    margin-top: 32px;
+}
+.header .right-header nav .logo-menu img {
+    width: 38px;
+}
+header.headers {
+    position: fixed !important;
+}
+.clickFull {
+    position: relative;
+}
+.clickFull a.ddka {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.bannerInner ul.off-on-btn li,
+.bannerInner .searchbox ul li{
+	background-color: transparent !important;
+}
+.searchbox span.error-message {
+    bottom: -26px;
+    color:#fff!important;
+     font-weight:500;
+}
+.container.airline-hdng h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #000;
+}
+.container.airline-hdng h4 + h4 {
+     margin-top: 20px;
+    color: #000;
+}
+.copyright{
+	background-color: #333;
+}
+a.showlessc,
+a.showmorec{
+	display: none;
+}
+p.extrahideco {
+    margin-bottom: 25px;
+    color: #000;
+}
+.top-deals h2 {
+    font-size: 21px;
+    font-weight: 600;
+}
+.logo-menu a#lnkCompanyLogo {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+.bannerInner h1 {
+    font-size: 20px;
+}
+.bannerInner ul li {
+    font-size: 11px;
+    padding-left: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.bannerInner h2 {
+    font-size: 24px;
+}
+.bannerInner .numbers a {
+    font-size: 26px;
+}
+.boxService {
+    justify-content: space-between;
+}
+.boxService .box {
+    width: 48.5%;
+    box-shadow: 0 1px 4px #ccc;
+}
+.boxService p {
+    font-size: 12px;
+    letter-spacing: -0.2px;
+}
+}
+
+
+@media all and (min-width: 300px) and (max-width: 360px) {
+.container {
+    padding: 0 10px;
+}
+.headerInr .rightCall a {
+    padding-left: 5px;
+    font-size: 10px;
+}
+.headerInr .rightCall a span {
+    font-size: 23px;
+}
+.banners .bannerInner ul li {
+    font-size: 12px;
+    padding-left: 15px;
+}
+.bannerInner h2 {
+    font-size: 17px;
+}
+.bannerInner .numbers a span.nbrs small {
+    font-size: 12px;
+    top: 2px;
+}
+.bannerInner .numbers a {
+    font-size: 23px;
+}
+.ringing_phone {
+    border: solid 4px #e6effe;
+    height: 50px;
+    width: 50px;
+    background-size: 22px;
+}
+p.calfivesec {
+    font-size: 11px !important;
+}
+.call_UTM_NowPopup {
+    padding: 4px 0;
+}
+.call_UTM_NowpMain{
+    padding:  6px 0;
+}
+.close_UTM_ppForm .cp_UTM_Form input::placeholder {font-size: 10px !important;}
+
+
+}
+

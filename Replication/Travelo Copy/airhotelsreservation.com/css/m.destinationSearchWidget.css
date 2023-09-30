@@ -1,0 +1,248 @@
+/***** New changes *****/
+ul.off-on-btn {
+    justify-content: normal;
+    margin: 0 0 19px 0;
+    border-radius: 3px;
+    text-align: left;
+}
+ul.off-on-btn li a {
+    background: #022e3c; 
+    margin-right:0;
+    white-space: nowrap;
+    border-radius: 5px;
+    filter: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+ul.off-on-btn li.active a{
+    background: #fff;
+    color: #000 !important;
+} 
+
+ul.off-on-btn li.active a:before,
+ul.off-on-btn li.active a:after,
+ul.off-on-btn li a:after,
+ul.off-on-btn li a:before {
+    display:none
+}
+.searchbox ul li {border:none;}
+.searchbox ul.orginDestination {display:block;}
+.searchbox ul.orginDestination li { width:100%; border:none; padding: 0}
+.searchbox ul.orginDestination li:nth-child(2) {display:none;
+    }
+    .searchbox ul {margin-top:0px; clear:both;
+    }
+.searchbox ul li.m-loca input,
+.searchbox ul li#divDepartSecton input,
+.searchbox ul li#divReturnSection input  {
+    width: 100%!important; 
+    padding:5px 10px 5px 33px!important;
+    font-size: 12px!important; 
+    border-radius: 5px;
+    margin: 0 0 15px;
+    outline: 0;
+    position: relative; 
+    background-color: #fff !important;
+    color: #000;
+    filter: none; height: 40px;
+}
+.searchbox ul li.m-loca input::placeholder,
+.searchbox ul li#divDepartSecton input::placeholder,
+.searchbox ul li#divReturnSection input::placeholder {
+    font-size:14px!important;   color: #000!important;
+}
+.searchbox .m-loca {position:relative;
+    }
+.searchbox ul.orginDestination .m-loca:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: block;
+    border-radius: 50px;
+    position: absolute;     
+    left: 10px;
+    top: 15px;
+    z-index:9;
+}
+.searchbox ul.orginDestination .m-loca:after {
+         content: "";
+    width: 1px;
+    height: 52px;
+    background-color: #000;
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    z-index:9;
+    left: 16px;
+    top: 26px;
+}
+    .searchbox ul.orginDestination .m-loca.allRightalign:before {
+        content: "";
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    z-index:9;
+    left: 10px;
+    top: 15px;
+    }
+    .searchbox ul.orginDestination .m-loca.allRightalign:after {
+        content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    z-index:9;
+    left: 13px;
+    top: 18px;
+    }
+.searchbox ul li.m-loca.allRightalign input,
+    #divReturnSection input,
+    .allRightalign span, .allRightalign input {
+        text-align: left !important;
+    }
+.searchbox ul li.m-loca span, #divDepartSecton span, #divReturnSection span {display:none;}
+.searchbox ul li input#txtReturnDate, .searchbox ul li input#txtDepartDate { 
+    filter: none;
+}
+.searchbox ul li#mid-li {width:10%;
+    }
+    .searchbox ul.flight-type {margin-top: 0;
+    }
+    .searchbox ul.flight-type li {
+    width: 100%!important; 
+    padding:9px 10px 5px 3px!important;
+    font-size: 12px!important; 
+    border-radius: 5px;
+    margin: 0 0 15px;
+    outline: 0;
+    position: relative; 
+    background-color: #fff !important;
+    color: #000;
+    filter: none; height: 40px;
+}
+    
+.searchbox ul.flight-type p {filter: none; position: relative; text-align: left;}
+.searchbox ul.flight-type p img {
+    width: 18px;
+    margin-right: 9px;
+    margin-left: 4px;
+}
+.searchbox ul li input#txtReturnDate,
+.searchbox ul li input#txtDepartDate { 
+    background-position: 8px 9px;
+    background-size: 17px; 
+}
+.searchbox button {border-radius:5px; margin-top: 5px;border: 1px solid;}
+#spnOriginErrMsg, #spnDestErrMsg, #spnDepDateErrMsg, #spnRetDateErrMsg {
+    bottom: 8px;
+    position: relative;
+    height: auto;
+    margin: 0;
+    background: red;
+    padding: 5px 10px 5px 30px;
+    width: auto;
+    color: #fff !important;
+    font-weight: 600;
+}
+#spnOriginErrMsg, #spnDestErrMsg {padding-left: 30px;}     
+.searchbox ul li {padding-left: 0; padding: 0; margin: 0}
+.searchbox ul.flight-type span {
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+.searchbox ul {
+    margin-top: 0 !important;
+}
+.searchbox ul li input#txtReturnDate, .searchbox ul li input#txtDepartDate {
+    background-position: left 7px top 11px !important;
+}
+.searchbox ul.flight-type p span + img {
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+.banner.airline-bnr{
+    background: #00546e !important;
+    background-image: none !important;    
+}
+.banner.airline-bnr .searchweight {
+    margin-top: 30px;
+}
+.searchbox ul li {
+    padding: 0 !important;
+    border: 0 !important;
+}
+.searchbox ul li.m-loca input {
+    color: #000 !important;
+    font-size: 17px!important;
+}
+.searchbox ul li#divDepartSecton input, .searchbox ul li#divReturnSection input {
+    color: #000 !important;
+    font-size: 14px !important;
+    font-weight: 500;
+}
+span#spnAlreadyExist {
+    color: #f00;
+}
+.searchbox ul {
+    margin-top: 0 !important;
+    align-items: flex-start;
+}
+body #divReturnSection span {
+    text-align: left !important;
+}
+ul.off-on-btn li a#T_RT {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+ul.off-on-btn li a#T_OW {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+a.autoSuggest__close:before, a.autoSuggest__close:after {
+    top: 2px;
+}
+.autoSuggest__close {
+    right: 14px;
+    top: 10px;
+    padding: 12px;
+}
+.searchbox ul.flight-type .passenger-btn+img {
+    pointer-events: none;
+}
+.searchbox ul.flight-type span {
+    position: absolute;
+    top: 2px;
+    width: 94%;
+    left: 28px;
+}
+.bannerInner ul.off-on-btn{
+    margin-bottom: 15px;
+}
+ul.off-on-btn li a {
+    margin-right: 0 !important;
+    white-space: nowrap !important;
+    border-radius: 5px;
+    filter: none !important;
+    text-align: center !important;
+    padding: 10px 20px !important;
+}
+ul.off-on-btn li a#T_OW {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+ul.off-on-btn li a#T_RT {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+header.headers {
+    z-index: 10;
+}

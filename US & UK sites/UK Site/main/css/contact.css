@@ -1,0 +1,10 @@
+#contact-us {
+    margin-top: 20% !important; /* Adjust the value to your preference */
+  }
+
+  @media (max-width: 767px) {
+    #contact-us {
+      margin-top: 80% !important; /* Adjust the value to your preference */
+    }
+    
+  }

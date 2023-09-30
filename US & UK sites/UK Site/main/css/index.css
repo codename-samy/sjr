@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #cac7c7;
+}
+.headBox {
+  background-image: url("../images/flightbackground.png"); /* Replace with the actual image path */
+  background-size: cover;
+}
+.navbar {
+ background-color: #fff;
+  height: fit-content;
+  /* background: url(../images/navbarbg.png); */
+  background-size: cover;
+}
+
+.logo-img {
+  height: 60px; /* Set the desired height for your logo */
+  /* animation: rotateAntiClockwise 5s linear infinite; */
+  margin-top: 5px;
+}
+
+@keyframes rotateAntiClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes underlineAnimation {
+  0% {
+    text-decoration: underline;
+  }
+  50% {
+    text-decoration: none;
+  }
+  100% {
+    text-decoration: underline;
+  }
+}
+
+.brand-name {
+  font-family: "Holtwood One SC", serif;
+  color: rebeccapurple;
+  font-size: x-large;
+  animation: underlineAnimation 1s infinite;
+}
+
+.blink-bg {
+  animation: blink 4s linear infinite;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10%;
+  font-size: x-large;
+}
+/* @keyframes blink {
+  0% {
+    background-color: #190d86;
+    color: white;
+  }
+  25% {
+    background-color: #190d86a8;
+    color: #ffffff;
+  }
+  50% {
+    background-color: #ffffff;
+    color: #080427;
+  }
+  75% {
+    background-color: #190d86a8;
+    color: #ffffff;
+  }
+  100% {
+    background-color: #190d86;
+    color: white;
+  }
+} */
+
+/* Style for the navbar links */
+.navbar-nav .nav-item {
+  margin: 0; /* Remove default margin */
+  padding: 10px 20px; /* Add padding around the links (adjust as needed) */
+}
+
+/* Background color for the navbar links */
+.navbar-nav .nav-item a.nav-link {
+  background-color: #fff; /* Change to your desired background color */
+  color: #000000; /* Text color */
+  text-decoration: none; /* Remove underline by default */
+  border-radius: 10%;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect - underline on hover */
+.navbar-nav .nav-item a.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  background-color: #0056b3; /* Change to a different color on hover if desired */
+  color: #ffffff;
+}
+
+.bg-image {
+  /* height: auto;
+  width: 1300px; */
+  background-image: url("../images/flightbackground.png"); /* Replace with the actual image path */
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  margin-top: 20%;
+}
+
+.header-heading {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  background-color: #00000096;
+  border-radius: 10%;
+  margin-top: 5%;
+}
+
+/* Style for the widget container */
+.widget-container {
+  background-color: #ffdedea1;
+  padding: 20px;
+  margin-top: 10%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the widget container */
+}
+
+.footer-custom-class {
+  background: #77757573; /* fallback for old browsers */
+}
+.footer-menu li a {
+  text-decoration: none; /* Remove underline */
+  color: #000000 !important; /* Set text color to white */
+  font-size: 16px; /* Increase font size by 2 pixels */
+  /* background-color: #4989ff46; */
+  /* border-color: #0f0e0e; */
+  /* border-style: groove; */
+  /* border-radius: 10%; */
+  transition: margin-left 0.3s ease !important; /* Add a transition effect */
+}
+
+.footer-menu li a:hover {
+  margin-left: 10px !important; /* Increase left margin on hover */
+}
+
+.footerAddress {
+  border-style: groove;
+  border-width: 2px;
+  border-color: bisque;
+  background-color: #ffffff !important;
+}
+
+.footer-bottom {
+  margin-bottom: 50px !important;
+}
+
+/* NEW */
+/* CSS */
+
+#destination {
+  background-image: url("../images/destination.png"); /* Replace with the actual image path */
+  background-size: cover;
+  color: #fff;
+  margin-top: 10%;
+  padding: 10%;
+}
+
+#hotels {
+  background-image: url("../images/hotel.png"); /* Replace with the actual image path */
+  background-size: cover;
+  color: #fff;
+  margin-top: 10%;
+  padding: 10%;
+}
+
+#knowme {
+  background-image: url("../images/knowus.png"); /* Replace with the actual image path */
+  background-size: cover;
+  color: #fff;
+  margin-top: 10%;
+  padding: 10%;
+}
+
+#aboutus {
+  background-color: #00000067 !important;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#we {
+  background-image: url("../images/we.png"); /* Replace with the actual image path */
+  background-size: cover;
+  color: #fff;
+  margin-top: 10%;
+  padding: 10%;
+}
+
+#why-oodaan,
+#why-we {
+  background-color: #00000091;
+}
+
+#footer {
+  /* background-image: url("../images/footerpic.png"); Replace with the actual image path */
+  background-size: cover;
+  background-color: #ff8282;
+  margin: 5% 5% 5% 5%;
+}
+#footer2 {
+  background-color: #ffffff6b;
+}
+.foot-logo {
+  /* animation: rotateAntiClockwise 5s linear infinite; */
+}
+
+.disclaimer {
+  background-color: rgba(255, 255, 255, 0.363);
+  color: black;
+  margin-bottom: 10%;
+}
+
+/* Custom CSS to display carousel control buttons on the sides */
+
+/* Move the controls to the sides */
+.carousel-control-prev {
+  left: -50px; /* Adjust the value as needed */
+  background: rgba(0, 0, 0, 0.5); /* Optional background color */
+  border-radius: 50%;
+}
+
+.carousel-control-next {
+  right: -50px; /* Adjust the value as needed */
+  background: rgba(0, 0, 0, 0.5); /* Optional background color */
+  border-radius: 50%;
+}
+
+/* Change the icon color (optional) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: white; /* Customize the color as needed */
+}
+
+/* Increase button size (optional) */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  font-size: 30px; /* Adjust the font size as needed */
+}
+
+/* Hover effect (optional) */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(0, 0, 0, 0.8); /* Optional hover background color */
+  transition: background 0.3s ease; /* Optional transition effect */
+}
+
+.aboutmain {
+  background-image: url("../images/aboutus.png"); /* Replace with the actual image path */
+  background-size: cover;
+  color: black;
+  margin-top: 10%;
+}
+
+.aboutmain1 {
+  background-color: rgba(255, 255, 255, 0.158);
+}
+
+.main-content {
+  margin-top: 15% !important;
+}
+
+#shakenumber {
+  animation: shake 0.5s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+  /* text-decoration: none; */
+  margin: 0 15px 0px 0px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.footnumber {
+  text-decoration: none;
+}
+
+/* BELOW */
+/* ARE */
+/* THE */
+/* MEDIA */
+/* QUERIES */
+/* FOR */
+/* MOBILE PHONES */
+/* TABLETS AND NOTEBOOKS */
+/* DESKTO AND LAPTOPS */
+
+/* Media query for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .bg-image {
+    margin-top: 130px; /* Adjust margin-top to create more space below the navbar on small screens */
+  }
+  #hotels {
+    background-image: url("../images/hotel.png"); /* Replace with the actual image path */
+    background-size: contain;
+    color: #fff;
+    margin-top: 10%;
+    padding: 10%;
+  }
+  #knowme {
+    background-image: url("../images/knowus1.png"); /* Replace with the actual image path */
+    background-size: cover;
+    color: #fff;
+    margin-top: 10%;
+    padding: 10%;
+  }
+  #services {
+    padding: 5%;
+  }
+
+  .aboutmain {
+    background-image: url("../images/aboutus1.png"); /* Replace with the actual image path */
+    background-size: cover;
+    color: black;
+    margin-top: 10%;
+  }
+  .aboutmain1 {
+    background-color: #00000056;
+    color: white;
+  }
+  .main-content {
+    margin-top: 60% !important;
+  }
+}
+
+/* Media query for screens between 768px and 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bg-image {
+    margin-top: 80px; /* Adjust margin-top for tablets */
+  }
+}
+
+/* Media query for screens 992px and larger (e.g., desktop) */
+@media (min-width: 992px) {
+  .bg-image {
+    margin-top: 70px; /* Revert to the default margin for desktop screens */
+  }
+  .widget-container {
+    background-color: rgba(
+      255,
+      222,
+      222,
+      0.63
+    ); /* Add a semi-transparent white background to the widget */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the widget container */
+  }
+}

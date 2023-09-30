@@ -1,0 +1,684 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- for meta search engines and SEO content -->
+    <meta property="og:title" content="Traveltoglobe">
+    <meta property="og:site_name" content="Traveltoglobe">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <title>Traveltoglobe - Top Deals on Holiday Packages</title>
+
+    <link rel="stylesheet" type="text/css" href="ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <link href="ajax/libs/MaterialDesign-Webfont/6.5.95/css/materialdesignicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animated-headline.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/childstyle.css">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script src="js/jquery.min.js"></script>
+    <link href="css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <style type="text/css">
+        .pulse i {
+            color: #fff;
+        }
+
+        .pulse {
+            height: 70px;
+            width: 70px;
+            background-color: #fa9e1b;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*position: relative;*/
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+        }
+
+            .pulse::before {
+                content: "";
+                position: absolute;
+                border: 1px solid #fa9e1b;
+                width: calc(100% + 40px);
+                height: calc(100% + 40px);
+                border-radius: 50%;
+                animation: pulse 1s linear infinite;
+            }
+
+            .pulse::after {
+                content: "";
+                position: absolute;
+                border: 1px solid #fa9e1b;
+                width: calc(100% + 40px);
+                height: calc(100% + 40px);
+                border-radius: 50%;
+                animation: pulse 1s linear infinite;
+                animation-delay: 0.3s;
+            }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.5);
+                opacity: 0
+            }
+
+            50% {
+                transform: scale(1);
+                opacity: 1
+            }
+
+            100% {
+                transform: scale(1.3);
+                opacity: 0
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header-area">
+        <div class="header-top-bar padding-right-100px padding-right-100px">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-top-content">
+                            <div class="header-right">
+                                <ul class="list-items">
+
+                                    <li><a href="mailto:info@traveltoglobe.live"><i class="la la-envelope mr-1"></i>info@traveltoglobe.live</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header-top-content">
+                            <div class="header-right">
+                                <ul class="list-items">
+                                    <li><a href="tel:0370466815-AU 0208 079 8008- UK"> <i class="la la-phone mr-1"></i> 0370466815-AU 0208 079 8008- UK</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="header-menu-wrapper padding-right-100px padding-left-100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="menu-wrapper">
+                            <a href="javascript:void(0)" class="down-button"><i class="la la-angle-down"></i></a>
+                            <div class="logo">
+                                <a href="index.html" style="border-radius:5px">
+                                    <img style="max-height:57px;border-radius:5px;background:transparent;padding:4px;" src="images/logo.png" alt="logo">
+                                </a>
+                                <div class="menu-toggler">
+                                    <i class="la la-bars"></i>
+                                    <i class="la la-times"></i>
+                                </div>
+                            </div>
+                            <div class="main-menu-content">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html" title="home">Home</a></li>
+                                        <li><a href="about-us.html">About Us</a></li>
+
+                                        <li><a href="holiday-packages.html" title="Holiday Packages">Holiday Packages</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+        .lazyloading {
+            background: #c3cdd6
+        }
+    </style>
+
+    <section class="hero-wrapper">
+        <div class="hero-bg active lazyload" data-bg="images/banner-bg" style="min-height:371px;background-attachment: fixed;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto responsive--column-l">
+                        <div class="hero-content pb-4 ">
+                            <div class="section-heading">
+
+                            </div>
+                        </div>
+                        <!-- end hero-content -->
+                        <div class="section-tab fade-in glass" style="min-height:167px">
+                            <ul class="nav nav-tabs listitems" id="Tab" role="tablist">
+                                <li data-position="2" class="nav-item" role="presentation"><button class="nav-link" id="hotels-tab" data-bs-toggle="tab" data-bs-target="#flights" type="button" role="tab" aria-controls="flights" aria-selected="false"><span class="d-xl-none d-lg-none"><i class="la la-plane mx-1"></i></span><span class="d-none d-lg-block d-xl-block"><i class="la la-plane mx-1"></i> flights</span></button></li>
+                            </ul>
+                            <div class="tab-content search-fields-container search_area search_tabs" id="TabContent">
+
+                                <form class="main_search">
+                                    <script charset="utf-8" src="//www.travelpayouts.com/widgets/1fd60119358163185f80f1b39aa90994.js?v=2265" async></script>
+                                </form>
+
+                                <!-- search loading animation -->
+                                <div class="modal-popup">
+                                    <style>
+                                        #flights_load {
+                                            margin: 0px !important;
+                                            padding-left: 0px !important;
+                                            padding-right: 0px !important;
+                                        }
+                                    </style>
+                                    <div class="modal fade" id="flights_load" tabindex="1" role="dialog" aria-hidden="ture">
+                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document" style="max-width:100%;height:100%;margin:0px!important">
+                                            <div class="modal-content" style="border-radius:0px;height:100vh">
+                                                <div class="text-center d-flex justify-content-center">
+
+                                                </div>
+                                                <div id="loading_flight" class="loading-results-globe-wrapper" style="background:#fff;height:80vh;overflow:hidden;">
+                                                    <div class="loading-results-globe ski-svg-responsive ski-svg-globe-geometry-loadingpage" style="margin-top:-200px">
+                                                        <span class="origin">
+                                                            <small>Flying From</small>
+                                                            <div class="clear"></div>
+                                                            <strong>
+                                                                <span class="flying_from"></span>
+                                                                <div class="clear"></div>
+                                                            </strong><small class="date"></small>
+                                                        </span>
+                                                        <span class="destination-prefix">To Destination</span> <span class="destination flying_to" id=""></span>
+                                                        <div class="loading-results-track">
+                                                            <div class="loading-results-track-progress is-active"></div>
+                                                            <div class="loading-results-progress is-active"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <!--  -->
+
+                                <style>
+                                    .hide {
+                                        display: none;
+                                    }
+
+                                    .show {
+                                        display: block !important;
+                                    }
+
+                                    #show, #multiway {
+                                        display: none;
+                                    }
+                                </style>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <section class="info-area info-bg padding-top-50px padding-bottom-50px text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="icon-box">
+                        <div class="info-icon">
+                            <i class="la la-bullhorn"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4 class="info__title">Best Flight Deals For New Zealand</h4>
+                            <p class="info__desc">
+                                Call Our Travel Expert To Find You Best Flight Prices To New Zealand !!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-box">
+                        <div class="info-icon">
+                            <i class="la la-globe"></i>
+                        </div>
+                        <!-- end info-icon-->
+                        <div class="info-content">
+                            <h4 class="info__title">Travel Anywhere In New Zealand</h4>
+                            <p class="info__desc">
+                                Compare The Flight Prices With Our Travel Experts To Find You The Cheapest Airlines Ticket
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-box">
+                        <div class="info-icon">
+                            <i class="la la-thumbs-up"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4 class="info__title">Cancellation Rebooking </h4>
+                            <p class="info__desc">
+                                Book Airlines Tickets Our Travel Advisors And Cancel At Zero Airlines Penalty Within 24 Hours of Booking The Flight
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="round-trip-flight section--padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading text-center">
+                        <h2 class="sec__title line-height-55 bottom-line">Most Popular Routes</h2>
+                    </div><!-- end section-heading -->
+                </div><!-- end col-lg-12 -->
+            </div><!-- end row -->
+            <div class="row padding-top-50px">
+                <div class="col-lg-12">
+
+                    <div class="popular-round-trip-wrap padding-top-40px">
+                        <div class="tab-content" id="myTabContent4">
+                            <div class="tab-pane fade show active" id="new-york" role="tabpanel" aria-labelledby="new-york-tab">
+                                <div class="row">
+
+
+
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="//tp.media/content?currency=aud&promo_id=4044&shmarker=396777&campaign_id=100&trs=198371&target_host=book.traveltoglobe.live%2Fflights&locale=en_us&limit=6&powered_by=false&secondary=%23193A6E&destination=SYD" charset="utf-8"></script>
+                                    </div>
+
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="//tp.media/content?currency=aud&promo_id=4044&shmarker=396777&campaign_id=100&trs=198371&target_host=book.traveltoglobe.live%2Fflights&locale=en_us&limit=6&powered_by=false&secondary=%23193A6E&destination=MEL" charset="utf-8"></script>
+                                    </div>
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="//tp.media/content?currency=aud&promo_id=4044&shmarker=396777&campaign_id=100&trs=198371&target_host=book.traveltoglobe.live%2Fflights&locale=en_us&limit=6&powered_by=false&secondary=%23193A6E&destination=BNE" charset="utf-8"></script>
+                                    </div>
+
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="//tp.media/content?currency=aud&promo_id=4044&shmarker=396777&campaign_id=100&trs=198371&target_host=book.traveltoglobe.live%2Fflights&locale=en_us&limit=6&powered_by=false&secondary=%23193A6E&destination=PER" charset="utf-8"></script>
+                                    </div>
+
+
+
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="//tp.media/content?currency=aud&promo_id=4044&shmarker=396777&campaign_id=100&trs=198371&target_host=book.traveltoglobe.live%2Fflights&locale=en_us&limit=6&powered_by=false&secondary=%23193A6E&destination=ADL" charset="utf-8"></script>
+                                    </div>
+                                    <div class="col-lg-4 responsive-column">
+
+                                        <div class="deal-card">
+                                            <div class="row" style="display: flex; justify-content: center; align-items: center;    width: 100%;">
+                                                <script src="//tp.media/content?currency=aud&promo_id=4044&shmarker=396777&campaign_id=100&trs=198371&target_host=book.traveltoglobe.live%2Fflights&locale=en_us&limit=6&powered_by=false&secondary=%23193A6E&destination=CBR" charset="utf-8"></script>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div><!-- end tab-pane -->
+                        </div><!-- end tab-content -->
+
+                    </div>
+                </div><!-- end col-lg-12 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+
+
+    <section class="round-trip-flight section--padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading text-center">
+                        <h2 class="sec__title line-height-55 bottom-line">Top Deals on Hotels</h2>
+                    </div><!-- end section-heading -->
+                </div><!-- end col-lg-12 -->
+            </div><!-- end row -->
+            <div class="row padding-top-50px">
+                <div class="col-lg-12">
+
+                    <div class="popular-round-trip-wrap padding-top-40px">
+                        <div class="tab-content" id="myTabContent4">
+                            <div class="tab-pane fade show active" id="new-york" role="tabpanel" aria-labelledby="new-york-tab">
+                                <div class="row">
+
+
+
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="https://www.travelpayouts.com/chansey/iframe.js?currency=aud&v=1&marker=396777&trs=198371&host=book.traveltoglobe.live%2Fhotels&locale=en_us&nobooking=&powered_by=false&hotel_id=29288" charset="utf-8" async></script>
+                                    </div>
+
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="https://www.travelpayouts.com/chansey/iframe.js?currency=aud&v=1&marker=396777&trs=198371&host=book.traveltoglobe.live%2Fhotels&locale=en_us&nobooking=&powered_by=false&hotel_id=35949" charset="utf-8" async></script>
+                                    </div>
+                                    <div class="col-lg-4 responsive-column">
+                                        <script src="https://www.travelpayouts.com/chansey/iframe.js?currency=aud&v=1&marker=396777&trs=198371&host=book.traveltoglobe.live%2Fhotels&locale=en_us&nobooking=&powered_by=false&hotel_id=32777" charset="utf-8" async></script>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div><!-- end tab-pane -->
+                    </div><!-- end tab-content -->
+
+                </div>
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+
+    <!-- loadaing CSS -->
+    <div id="back-to-top">
+        <i class="la la-angle-up" title="Go top"></i>
+    </div>
+    <div class="container">
+        <div class="sidebar mb-0 mt-5">
+            <div class="sidebar-widget">
+                <h1 class="title stroke-shape" style="text-transform:capitalize">About Us -Travel to Globe</h1>
+            </div>
+            <div class="sidebar-widget">
+
+                <h2>WE HEAR YOU'RE TRAVELLING</h2>
+                <p>   From coast to coast Australia is a country which offers it all.</p>
+                <p>
+                    See yourself snorkelling the famous Great Barrier Reef one day, then troop around the worlds largest sand island by 4x4 the next. Try your luck at rustic camping under the stars around the iconic Ayers Rock, or maybe bask on the white sands of the Whitsunday Islands.
+                    You choose your own adventure, and we are here to help put it all together. With budgeted East Coast Packages and overland tours available through the outback, getting around has never been easier. 
+                </p>
+                <p>
+                    From the golden shores of Australia and endless Aussie sun to world-class wonders high in the mountain peaks of New Zealand, We specialises in bringing the sights and sounds of Australia, New Zealand, Asia, Fiji and beyond!
+                    Feel free to browse our site for your next awesome trip to add to your itinerary!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end back-to-top -->
+    <!-- ================================
+    START INFO AREA
+    ================================= -->
+    <section class="info-area info-bg padding-top-90px padding-bottom-20px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 responsive-column">
+                    <a href="contact-us.html" class="icon-box icon-layout-2 d-flex">
+                        <div class="info-icon flex-shrink-0 bg-rgb text-color-2">
+                            <i class="la la-phone"></i>
+                        </div>
+                        <!-- end info-icon-->
+                        <div class="info-content pt-2">
+                            <h4 class="info__title">Need Help? Contact us</h4>
+                            <p class="info__desc">
+                                Our support team is available 24/7
+                            </p>
+                        </div>
+                        <!-- end info-content -->
+                    </a>
+                    <!-- end icon-box -->
+                </div>
+                <!-- end col-lg-4 -->
+                <div class="col-lg-4 responsive-column">
+                    <div class="icon-box icon-layout-2 d-flex">
+                        <div class="info-icon flex-shrink-0 bg-rgb-2 text-color-3">
+                            <i class="la la-money"></i>
+                        </div>
+                        <!-- end info-icon-->
+                        <div class="info-content pt-2">
+                            <h4 class="info__title">Secure Payments</h4>
+                            <p class="info__desc">
+                                Remarkable and 99.9% service uptime
+                            </p>
+                        </div>
+                        <!-- end info-content -->
+                    </div>
+                    <!-- end icon-box -->
+                </div>
+                <!-- end col-lg-4 -->
+                <div class="col-lg-4 responsive-column">
+                    <div class="icon-box icon-layout-2 d-flex">
+                        <div class="info-icon flex-shrink-0 bg-rgb-3 text-color-4">
+                            <i class="la la-times"></i>
+                        </div>
+                        <!-- end info-icon-->
+                        <a href="refundandcancellation.html">
+                            <div class="info-content pt-2">
+                                <h4 class="info__title">Cancellation Policy</h4>
+                                <p class="info__desc">
+                                    Cancellation made easy and automated
+                                </p>
+                            </div>
+                        </a>
+                        <!-- end info-content -->
+                    </div>
+                    <!-- end icon-box -->
+                </div>
+                <!-- end col-lg-4 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end info-area -->
+    <!-- ================================
+    END INFO AREA
+    ================================= -->
+    <section class="cta-area subscriber-area section-bg-2 padding-top-60px padding-bottom-60px">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="section-heading">
+                        <h2 class="sec__title font-size-30 text-white">Subscribe to see Secret Deals</h2>
+                    </div>
+                    <!-- end section-heading -->
+                </div>
+                <!-- end col-lg-7 -->
+                <div class="col-lg-5">
+                    <div class="subscriber-box">
+                        <div class="contact-form-action">
+                            <!-- <form action="#"> -->
+                            <div class="input-box">
+                                <label class="label-text text-white">Enter email addresss</label>
+                                <div class="form-group mb-0">
+                                    <span class="la la-envelope form-icon"></span>
+                                    <form role="search" onsubmit="return false;"></form>
+                                    <input type="email" class="form-control sub_email" id="exampleInputEmail1" placeholder="Enter your email">
+                                    <button class="theme-btn theme-btn-small submit-btn sub_newsletter" id="email_subscribe">Subscribe</button>
+                                    <span class="font-size-14 pt-1 text-white-50"><i class="la la-lock mr-1"></i>Don't worry your information is safe with us</span>
+                                    <span class="font-size-14 pt-1">
+                                        <!--<i class="la la-lock mr-1"></i>-->
+                                        <a class="newstext" href="javascript:void(0);">
+                                            <div class="wow fadeIn subscriberesponse"></div>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- </form> -->
+                        </div>
+                    </div>
+                    <!-- end section-heading -->
+                </div>
+                <!-- end col-lg-5 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <div class="fixed">
+        <p style="color:#fff; font-size:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="la la-phone mr-1"></i> <a href="tel:0370466815-AU 0208 079 8008- UK" style="color:#fff">0370466815-AU 0208 079 8008- UK</a></p>
+    </div>
+    <section class="footer-area section-bg padding-top-50px padding-bottom-30px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="padding-bottom-15px">
+                        <h5>Travel to Globe</h5>
+                    </div>
+                </div>
+                <div class="col-lg-12 responsive-column">
+                    <ul class="foot_menu w-100">
+                        <!-- header manue -->
+                        <li class="footm">
+                            <ul class="dropdown-menu-item d-block col-lg-7">
+                                <li><p>Travel to Globe is a hub for travel enthusiasts who are looking for the best deals with minimum fuss. Just call our expert team and they will curate a package for you in no time. </p> </li>
+                                <li>
+                                    <strong>We Accept</strong>
+                                    <hr /><img class="img-fluid" src="images/cards.png" alt="card" width="254" height="47">
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="footm">
+                            <ul class="dropdown-menu-item d-block">
+                                <li><a href="/">Home</a> </li>
+                                <li><a href="about-us.html">About Us</a> </li>
+                                <li><a href="contact-us.html">Contact Us</a> </li>
+                                <li><a href="holiday-packages.html">Holiday Packages</a> </li>
+                            </ul>
+                        </li>
+                        <li class="footm">
+                            <ul class="dropdown-menu-item d-block">
+                                <li><a href="privacy-policy.html">Privacy Policy</a> </li>
+                                <li><a href="terms-and-conditions.html">Terms and Conditions</a> </li>
+                                <li><a href="refundandcancellation.html">Refund and Cancellation</a> </li>
+                                <li><a href="cookie-policy.html">Cookie Policy</a> </li>
+                                <li><a href="disclaimer.html">Disclaimer</a> </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <!-- end row -->
+            <div class="row align-items-center">
+
+                <!-- end col-lg-4 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+        <div class="section-block mt-4"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="copy-right-content d-flex align-items-center justify-content-end padding-top-30px">
+                        <h3 class="font-size-15" style="width:100%">
+                            <div class="d-block d-md-block" style="padding:0px;position:relative">
+
+                                <div class="text-left" style="margin-top:15px;">
+                                    Copyright  © 2022 Traveltoglobe
+                                </div>
+                                <div class="text-right" style="margin-top:15px;">
+                                    <strong>Address</strong><br>
+                                    <p>85 Great Portland Street, first floor, London W1W 7LT, United Kingdom</p>
+                                    
+                                </div>
+                            </div>
+                    </div>
+                    </h3>
+                    <p>
+                        <b style="color: #F50509;">Disclaimer : </b>Traveltoglobe might be an autonomous on-line agency and not related to any third party. By accessing and using Traveltoglobe.live electronic computer you agree that Traveltoglobe is not guilty for any direct or indirect loss, however arising, from the employment of any of the data, offers, materials or links to totally different sites found on this internet site. If you have got any queries you will be able to call us at our Toll Free 0370466815 or simply email Australia at support@Traveltoglobe.live
+                    </p>
+                </div>
+                <!-- end copy-right-content -->
+            </div>
+            <!-- end col-lg-5 -->
+        </div>
+        <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+
+
+
+    <!-- javascript resouces and libs -->
+    <script src="js/airports.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.countTo.min.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/quantity-input.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        $('.select_').select2({ placeholder: { id: '1', text: 'Select Category' } });
+        $('.select2-container').css('width', '100%')
+        $('#select').select2({ placeholder: { id: '1', text: 'Select Category' } });
+
+        $('#email_subscribe').click(function () {
+            let S_email = $('#exampleInputEmail1').val();
+            if (S_email != 0) {
+                if (isValidEmailAddress(S_email)) {
+                    $.ajax({
+                        type: "GET",
+                        url: "https://Traveltoglobe.livesubscribe",
+                        data: { S_email: S_email },
+                        success: function (response) {
+                            res = JSON.parse(response);
+                            if (res.error) {
+                                $('.wow').text("Please add email!");
+                                $(".newstext").fadeIn(3000); $(".newstext").fadeOut(3000);
+                            } else {
+                                if (res.status == true) {
+                                    $('.wow').text("Thank you for subscription");
+                                    $(".newstext").fadeIn(3000); $(".newstext").fadeOut(3000);
+                                    $('#exampleInputEmail1').val('');
+                                } else {
+                                    $('.wow').text("Email exist");
+                                    $(".newstext").fadeIn(3000); $(".newstext").fadeOut(3000);
+                                    $('#exampleInputEmail1').val('');
+                                }
+                            }
+                        }
+                    });
+                } else {
+                    $('.wow').text("Please add correct email!");
+                    $(".newstext").fadeIn(3000); $(".newstext").fadeOut(3000);
+                }
+            } else {
+                $('.wow').text("Please add email!");
+                $(".newstext").fadeIn(3000); $(".newstext").fadeOut(3000);
+            }
+        });
+
+        function isValidEmailAddress(emailAddress) {
+            var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+            return pattern.test(emailAddress);
+        }
+    </script>
+
+</body>
+</html>

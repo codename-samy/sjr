@@ -1,0 +1,72 @@
+USA
+
+
+
+
+FILGHT BOOKING
+
+
+<script
+                    charset="utf-8"
+                    src="//www.travelpayouts.com/widgets/a5630188c5141328aa5c632f38c5012e.js?v=2267"
+                    async
+                  ></script>
+
+
+
+
+
+
+DESTINATION
+
+
+
+
+<script
+              src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&destination=NYC&target_host=www.aviasales.com%2Fsearch&locale=en&limit=6&powered_by=true&primary=%230085FF&promo_id=4044&campaign_id=100"
+              charset="utf-8"
+            ></script>
+
+
+
+<script
+              src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&destination=LAX&target_host=www.aviasales.com%2Fsearch&locale=en&limit=6&powered_by=true&primary=%230085FF&promo_id=4044&campaign_id=100"
+              charset="utf-8"
+            ></script>
+            
+
+
+
+             <script
+              src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&destination=SEA&target_host=www.aviasales.com%2Fsearch&locale=en&limit=6&powered_by=true&primary=%230085FF&promo_id=4044&campaign_id=100"
+              charset="utf-8"
+            ></script>
+            
+            
+            <script src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&destination=BOS&target_host=www.aviasales.com%2Fsearch&locale=en&limit=6&powered_by=true&primary=%230085FF&promo_id=4044&campaign_id=100" charset="utf-8"></script>
+            
+            
+HOTEL
+
+
+<script
+                      src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&host=search.hotellook.com&locale=en&hotel_id=344320&nobooking=&powered_by=true&width=940&primary=%23ff8e00&special=%23e0e0e0&promo_id=4063&campaign_id=101"
+                      charset="utf-8"
+                    ></script>
+
+
+<script
+                      src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&host=search.hotellook.com&locale=en&hotel_id=344645&nobooking=&powered_by=true&width=940&primary=%23ff8e00&special=%23e0e0e0&promo_id=4063&campaign_id=101"
+                      charset="utf-8"
+                    ></script>
+                    
+                    
+                    
+<script
+                      src="https://tp.media/content?currency=usd&trs=267581&shmarker=484323&host=search.hotellook.com&locale=en&hotel_id=277618&nobooking=&powered_by=true&width=940&primary=%23ff8e00&special=%23e0e0e0&promo_id=4063&campaign_id=101"
+                      charset="utf-8"
+                    ></script>
+
+
+
+___________________________________________________________________________________________________________________________

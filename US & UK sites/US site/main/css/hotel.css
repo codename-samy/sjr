@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Playball&family=Wellfleet&display=swap");
+
+body {
+  background: url(../images/hotelbackdrop.png);
+  background-size: cover;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 1%;
+  font-family: "Anton", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding: 1%;
+  font-family: "Playball", cursive;
+}
+
+p {
+  text-align: center;
+  padding: 1%;
+  font-family: "Wellfleet", serif;
+}
+
+.myBox {
+  background: #f4c4f3;
+  background: -webkit-linear-gradient(to right, #7085e45d, #cbc4f4);
+  background: linear-gradient(to right, #7078e457, #c7c4f4af);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+  margin-top: 15%;
+}
+#hotelsearch {
+  background: url(../images/hotel.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+}
+.head1 {
+  text-align: right !important;
+}
+#hotellist,
+#placehotel,
+#wtq {
+  background-color: #ffffffc0;
+  padding: 0 20px 0 20px;
+}
+
+@media (max-width: 767px) {
+  .myBox {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50%;
+    padding: 10%;
+  }
+  .mhead1 {
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,139 @@
+
+
+
+.banner-session{ background:#EAEAEA;}
+.bg-inner{ background:#000;}
+.jumbotron { margin:0px 0;background-color:#333; padding:20px 0 0 !important; border-radius:0px; border-top:1px solid #6f4f54;}
+.service-session{background-color:#fefefe;box-shadow:0 0 50px #dedede;}
+.paddingb { margin:20px 10px 30px 10px ;background-color:#fefefe;box-shadow:0 0 50px #cbcbcb;}
+ul.nav li a {color:#666; font-family: 'latoregular'; font-size:14px;}
+ul.nav li a:hover {background-color:#f73555;color:white;}
+p.h-button {background-color:#00b9f5;color:#fefefe;text-align:center;font-size:20px;padding:5px;font-family:cambria;}
+p.f-button {background-color:transparent;color:#ddd;text-align:Justify;font-size:18px;font-family:Calibri;font-family: 'ralewayregular';}
+.service-icons-row  {background-color:#f7f7f7;box-shadow:0 0 10px grey;}
+.main-page-title  {padding:10px;text-align:center;font-size:40px;color:#f69625;font-family:Baskerville Old Face;font-weight:bold;}
+.big-icon {font-size:156px;padding:38px;background-color:#1280e9;color:#eee;border-radius:128px;height:256px;width:256px;margin-bottom:25px;}
+.big-box{ padding:0 15px 0px; margin-bottom:0px;text-align:center;}
+.big-box img { background:transparent;border:0;}
+.big-box i { padding:25px; margin-bottom:15px;width:110px;height:110px; border:2px solid #f73555;border-radius:72px;} 
+.big-box i:hover { border:2px solid #555;}    
+.big-box i.fa-mobile { background:transparent;font-size:50px;padding:30px;}
+.big-box i.fa-h-square { background:transparent;font-size:50px;padding:30px;}
+.big-box i.fa-bus { background:transparent;font-size:50px;padding:30px;}
+.big-box i.fa-money{ background:transparent;font-size:50px;padding:30px 20px;}
+.green  {color:darkgreen;} .purple  {color:purple;} .blue {color:#ff4d00;}  .white {color:white;}
+.home-icons-name  {font-size:120%;font-family:Cambria;}
+.profile-container  {padding-top:30px;}
+.profile-list li {margin-left:20px;}
+.ui-sortable-handle  {cursor: move;}
+.ui-sortable-handle img {height:175px;max-width:100%;padding:10px 0;}
+.todo-list  li  {font-family:calibri;}
+.large-icon  {font-size:140px;margin-bottom:-20px;}
+.large-icon span  {font-size:110%;}
+.box-primary  {min-height:400px;}
+.my-title  {font-size:24px;}
+.user-name  {padding:0px 20px;margin:0px 0px 10px 0px;}
+.page-title {text-align:center;background-color:#ddd;padding:10px 0px;border-radius:10px 0px;font-size:24px;}
+.page-title .pull-right {margin-right:10px;}
+.page-title .pull-left {margin-left:10px;}
+.search-button {background-color:#1280e9;padding:5px;border-radius:3px;}
+.navbar-default .navbar-nav>li>a{ color:#fff; font-family: 'latoregular'; font-size:14px; text-transform:uppercase; letter-spacing:1px;}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{ background:none !important;}
+.navbar-nav > li > a{padding: 9px 12px !important;  margin-top:12px; margin-bottom:12px;}
+.navbar-default .navbar-nav > li > a{ border: 1px solid #f73555;background-image: linear-gradient(to right, #e32232 0%, #b31217 100%, #e32232 100%); border-radius:3px; margin-left:13px; }
+.deskLogo {margin-top: 6px !important;}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{color:#f73555;}
+.navbar-default .navbar-nav > li.holyday > a { cursor:pointer; background:#f73555; color:#fff; font-weight:bold; border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius:7px; padding-top: 11px; padding-bottom: 11px; margin-top:5px;  text-transform:none !important;} 
+.navbar-default .navbar-nav > li.holyday > a:hover{ border-bottom:0px !important; background:#f73555 !important; color:#fff; }
+.wallet-balance {float:right;text-align:right;padding-right:20px;}
+.profile-image i.fa {font-size:156px;color:white;}
+.my-header-text {padding:10px 0px;font-family:cambria;font-size:20px;margin:5px 0px 0px 0px;width:75%;border-top:1px solid;border-bottom:1px solid;border-radius:20px;}
+#membership-table {width:100%;}
+#membership-table th {color:#000099;font-size:140%;}
+#membership-table td {padding:5px 3px;width:49%;}
+#membership-table .td-left  {text-align:left;}
+#membership-table .td-right {text-align:right;}
+#membership-table .td-color {background-color:#efefef;box-shadow:0px 2px 7px #efefef;}
+.join-us {padding:5px 0px;font-family:cambria;font-size:17px;margin:0px 0px 5px 0px;width:96%;}
+.join-us a {color:#121212;}
+.join-us.white a {color:#ffffff;}
+.join-us .alignright {text-align:right;float:right;}
+.silver {background-color:#45cc45;color:white;}  .gold {background-color:gold;}  .platinum {background-color:#464b78;color:white;}  .custom {background-color:lightblue;}
+.box-bottom {margin-bottom:20px;border-radius:10px;padding:10px;font-size:17px;font-family:Bookman Old Style;}
+.footer-menu ul li {display:block; line-height:24px;}
+.footer-menu ul li a{font-family: 'latoregular'; padding-left:13px;  background:url(../images/miniBullet.png) no-repeat left 11px;color: hsla(0,0%,100%,.8);}
+.footer-menu ul li a:hover{color:#fff;}
+.footer-menu ul li a:hover:before {
+    margin-left: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+.footer-menu ul li a:before {
+    content:"";
+    background: url(../images/miniBullet.png) no-repeat left 11px;
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 0px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+.footer-bottom {background-image: linear-gradient(to left, #df0528 0%, #040001 100%, #df0528 100%);color: #fff;font-size: 13px;padding: 15px 0;}
+.secure-div {border-top:1px solid #252525; padding:25px 0 5px; margin-top:20px; clear:both; font-size:12px; color:#333; float:left; width:100%; }
+.secure-div .col-lg-10.col-md-9{ padding-left:0px;}
+.secure-div ul {margin:0px 19%;}
+.secure-div ul li {list-style-type:none; float:left; padding:0px 22px;}
+.secure-div ul li span {display:block; padding-right:7px;}
+.secure-div ul li span img{height: 27px; width:auto;}
+.secure-div ul li.first {padding-left:0px;}
+.secure-div ul li .card a { width:38px; height:24px; margin-right:3px; white-space: nowrap;
+ text-indent: 100%;
+-webkit-transition: background 300ms ease-in-out;
+-moz-transition: background 300ms ease-in-out;
+-ms-transition: background 300ms ease-in-out;
+-o-transition: background 300ms ease-in-out;
+transition: background 300ms ease-in-out;}
+.secure-div ul li .card a.visa {   background-position:  0px -24px; display:block;}
+.secure-div ul li .card a.visa:hover {background-position:0px 0px}
+.secure-div ul li .card a.master { background-position:-38px -24px; display:block;}
+.secure-div ul li .card a.master:hover {background-position: -38px 0px;}
+.secure-div ul li .card a.amer { background-position: -79px -24px; display:block;}
+.secure-div ul li .card a.amer:hover {background-position:-79px 0px;}
+.secure-div ul li .card a.rupay { background-position: -120px -24px; display:block; width:52px;}
+.secure-div ul li .card a.rupay:hover {background-position:-120px 0px;}
+.secure-div ul li .card a.payu { background-position: -175px -24px; display:block;}
+.secure-div ul li .card a.payu:hover {background-position:-175px 0px;}
+.secure-div ul li .card a.paypal { background-position: -213px -24px; display:block; width:33px;}
+.secure-div ul li .card a.paypal:hover {background-position:-213px 0px;}
+
+
+@media only screen and (max-width : 767px) {
+.newView .card .nav-tabs li a { height: 39px !important; padding: 7px 23px 4px !important;}
+.newView .nav-tabs > li > a { background:#fff; color:#f73555 !important;}
+.newView .nav-tabs > li.active > a { background:#f73555; color:#fff !important;}
+.newView .heading2 {
+font-size: 25px !important;
+margin-top: 100px;
+letter-spacing: 1px;
+margin-bottom: 22px !important;
+}
+
+#slider-thumbs.newView{height:auto !important}
+.newView .nav-tabs { margin-bottom: 11px !important;}
+.newView .uploadProp{margin-top: 12px !important;
+font-size: 15px !important;
+letter-spacing: 0.7px;
+margin-bottom: 15px;}
+.contentTop{background:#f4f4f4 !important; }
+.navbar-default .navbar-nav > li > a{margin-left: 0; padding-top: 9px !important;  padding-bottom: 9px !important;}
+.navbar-default .navbar-nav > li{padding: 0 20px;}
+}
+
+@media only screen and (max-width : 400px) {
+.newView .nav-tabs .fa { font-size: 17px !important; }
+.newView .heading2 {font-size: 24px !important;margin-top: 92px;margin-bottom: 20px !important;}
+.newView .card .nav-tabs li a {height: 38px !important;padding: 8px 19px 4px !important;}
+}
+

@@ -1,0 +1,317 @@
+@media screen and ( max-width:767px) {
+    .flighthub-flt ul{display:unset;}
+    .spacer{margin:0;}
+    .flighthub-flt li{margin:0 0 19px;}
+    .component-citypages .deal-section .text span{    font-size: 11px;}
+    .component-citypages .deal-section .head12{    font-size: 14px;line-height: 25px;}
+    .component-citypages .head13{    font-size: 12px;}
+    .component-citypages .deal-section{padding: 5px;}
+    .homedealBlock ul li .airline-code,.homedealBlock ul li .date,.homedealBlock ul li .deal-price{    font-size: 13px;text-align: center;    padding: 0;}
+    .homedealBlock img{    height: 20px;}
+    .homedealBlock ul li .date{    white-space: inherit;    font-size: 10px;}
+    .homedealBlock figure img{height:auto;}
+    .best_deal .package_con{height:auto;}
+    .hot_deal button{    top: 150px;}
+    .hot_deal p{    font-size: 17px;    line-height: 20px;}
+    .deal_container h1{    font-size: 18px;}
+        .deal_container p{    font-size: 13px;}
+        .update_fare p,.dest_heading p{    font-size: 11px;line-height: 18px;}
+        .desti_head h2,.dest_heading h4,.dest_heading h5{font-size:15px;}
+.seach_con h1{margin-top: 11px;}
+.seach_div ul{display:block;}
+.seach_con h1{font-size: 15px;}
+.pass-main{float:left; width:100%; margin-top:8px;}
+.pass-name{width: 98.3%;top: 220px;z-index: 9;}
+.search_con{width: 100%;margin-top: 17px;}
+.date_con{width:48.8%; margin-right: 7px;}
+.seach_div ul li:nth-child(4) .date_con{margin-right: 0;}
+.frm_con{width:100%}
+.pass-main i{position:unset;float: right;    margin-top: 4px;}
+ .commoncontainer {width: 100%; padding: 0 15px;} .headertop_left img, .main_nav ul li, .why_choose ul li {width: 100%;} .searchcon_text h1, .contact_con, .booked_line {display: none;}
+ .book_icon img{width:100%;} .main_nav { position: relative;} #mainnav #menu {display: block;} .header_mid {float: left; width: 60%; text-align: right; padding: 0;}
+ .headertop_left {width: 40%; float: left;} .mobile_header {display: block;} .best_deal .owl-prev, .best_deal .owl-next {display: none;} .payment_div img {width: 100%;}
+ .seach_bg {width: 100%; margin:20px 0;} .date_con span:first-child {margin-right: 8px;} .passen_left span {width: 33.3%;} .passen_left span:nth-child(2n+2) {margin: 0px;}
+ .checkmark {border: 1px solid#fff;} .searchcon_text, .coupen_con {width: 100%;} .coupon_left {width: 15%;} 
+ .coupon_right {width: 85%;} .coupon_top p {font-size: 13px;} .coupon_botom span {font-size: 14px;} .coupen_con {
+        border: 1px solid #333;
+        box-shadow: 2px 2px 2px #333;
+        margin: 0px;
+    }
+
+    .why_choose {
+        padding: 0px;
+    }
+
+        .why_choose ul li {
+            width: 100%;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed #fff;
+            padding-bottom: 9px;
+        }
+
+    .coupon_left img, .colunm1 img {
+        width: 100%;
+    }
+
+    .colunm1 {
+        width: 10%;
+    }
+.footer_div, .company_con ul{width:100%;}
+.company_con h2{text-align:left!important;}
+.company_con ul{padding-left:0px!important;
+    padding-right: 0;}
+    .colunm3 {
+        float: left;
+        width: 40%;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 3px;
+    }
+
+    .colunm4 {
+        width: 30%;
+    }
+
+    .colunm5 {
+        width: 20%;
+    }
+
+    .colunm2 {
+        display: none;
+    }
+
+    .modfrm_con span, .seach_div, .modfrm_con, .filter_main {
+        width: 100%;
+    }
+
+    .moddate_con, .modpassenger_con, .result_middle, .payment-page .middle-search {
+        width: 100%;
+        margin: 0;
+    }
+
+    .pay_pax_detail {
+        width: 32%;
+    }
+
+    .pay_pax_gender {
+        width: 33%;
+        padding-left: 0;
+    }
+
+    .pay_pax_birth {
+        width: 65%;
+        padding-left: 0;
+    }
+
+    .pay_page_card {
+        width: 51%;
+    }
+
+    .card_expire_date {
+        width: 45%;
+    }
+
+    .pay_page_cvv {
+        width: 45%;
+    }
+
+    .pay_page_name {
+        width: 51%;
+    }
+
+    .contact-information {
+        text-align: left;
+    }
+
+    .right-section {
+        width: 100%;
+        margin: 0;
+    }
+    .flight_menu ul li { float: left; padding: 0 10px;}
+    .book_con_time{width: 24%; padding:0;}
+    .confirmpage_left, .confirmpage_right{width:100%; border: 0; padding: 5px 0; border-bottom: 1px solid #ddd;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .commoncontainer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .payment_div img {
+        width: 100%;
+    }
+
+    .seach_bg, .searchcon_text {
+        width: 100%;
+    }
+
+    .coupen_con {
+        margin: 0;
+    }
+
+    .why_choose ul li {
+        width: calc(100% / 2);
+        margin-bottom: 15px;
+    }
+
+    /*.header_mid {
+        display: none;
+    }*/
+
+    .contact_con {
+        width: 40%;
+    }
+    .seach_con h1{margin-top: 11px;}
+.seach_div ul{display:block;}
+.seach_con h1{font-size: 15px;}
+.pass-main{float:left; width:100%; margin-top:8px;}
+.pass-name{    width: 98.3%;top: 220px;z-index: 9;}
+.search_con{    width: 100%;margin-top: 17px;}
+.date_con{width:49%;    margin-right: 7px;}
+.seach_div ul li:nth-child(4) .date_con{margin-right: 0;}
+.frm_con{width:100%}
+.pass-main i{position:unset;float: right;    margin-top: 4px;}
+.contact_con a{    font-size: 16px;}
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .commoncontainer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .payment_div img, .headertop_left img, .coupon_left img {
+        width: 100%;
+    }
+
+    .main_nav ul li a {
+        padding: 10px 11px;
+    }
+
+    .contact_con a {
+        font-size: 20px;
+    }
+
+    .seach_bg {
+        width: 48%;
+    }
+
+    .searchcon_text h1 {
+        font-size: 60px;
+    }
+
+    .coupon_top p {
+        font-size: 14px;
+    }
+
+    .coupon_botom span {
+        font-size: 15px;
+    }
+
+    .why_choose {
+        padding: 10px 0px;
+    }
+
+    .benefit {
+        width: 30%;
+    }
+
+    .coupon_right {
+        width: 75%;
+    }
+.seach_con h1{margin-top: 11px;}
+.seach_div ul{display:block;}
+.seach_con h1{font-size: 15px;}
+.pass-main{float:left; width:100%; margin-top:8px;}
+.pass-name{    width: 98.3%;top: 220px;z-index: 9;}
+.search_con{    width: 100%;margin-top: 17px;}
+.date_con{width:49%;    margin-right: 7px;}
+.seach_div ul li:nth-child(4) .date_con{margin-right: 0;}
+.frm_con{width:100%}
+.pass-main i{position:unset;float: right;    margin-top: 4px;}
+    
+}
+@media (min-width: 1024px) and (max-width:1350px) {
+ .commoncontainer {
+        width: 100%;
+        padding: 0 15px;
+    }
+ .best_deal .owl-next, .best_deal .owl-prev{display:none;}
+ .payment_div img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1280px){.header_mid{padding-left:1%;} .main_nav ul li a{padding:10px 10px; font-size:13px;} .contact_con a{font-size:25px;}}
+@media screen and (max-width:1130px){.main_nav ul li a{padding:10px 6px;} .contact_text {padding-top: 185px;} .coupen_con{width:100%;}
+}
+@media screen and (max-width:1050px){.headertop_left {width: 20%;} .flight_four h6{font-size:14px;} .header_mid{width:55%;} .contact_con a{font-size:22px;}
+}
+@media screen and (max-width:1024px){#mainnav #menu{display:block; padding:0; float:right; font-size:30px; color:#fff;    margin-top: -13px;} .header_mid {width: 70px; float: right; padding:7px 0;} 
+.headertop_left img{margin:0;} .contact_con{width:250px; margin:0 2% 0 0;} .falg_div{padding-top:8px;} .main_nav ul li a{padding:.4em 0px; display:block; font-size:15px; color:#fff; } 
+.headertop_left {width: 25%;} .main_nav ul{display:none; position:absolute; right:5px; top:45px; width:295px; padding:1em; background:rgb(220 174 29); box-shadow:0 0 5px #000; z-index:2;} 
+.main_nav ul li{width:100%; float:left; text-align:center; border-bottom:1px solid #fff;} .commoncontainer {width: 100%; padding: 10px; float:left;} header .commoncontainer{padding:5px 8px;}
+.deal_container{width:95%; margin:0 auto;} .coupen_con{margin-top:30px; width:100%;} .container, .container-md, .container-sm{width:97%; max-width:97%;}
+.res-header{padding:0;} .reult_main{padding:10px 0;} .filter_main, .result_con, .result_right_con{display:none;} .result_middle{padding:0; width:100%;} .res-result_con_mob{display:block;}
+.fil-res-cl {display: block; left: 280px; top: 12px; line-height: 1;} #mod-res-cl.fil-res-cl {display: block; left: auto; top: 26%; line-height: 1; right: 2%;}
+.result_con{position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 99; background:rgba(0,0,0,.5);}
+.result_con #My_FlightSearch{position:absolute; left:50%; top:40%; transform:translate(-50%,-50%); width:95%; padding: 0px; border-radius: 5px; background: #480089;
+    background-image: linear-gradient(to right, #370258,#6605a1,#2e0348);} .best_deal{margin:0;} .best_deal_con{margin:0;}
+.filter_main{position: fixed; top: 0; left: 0; background-color: rgba(0,0,0,.5); height:100%; width: 100%; z-index:99;}
+.filter_main_cont{position:absolute; padding: 15px;  left:0; top:0; width:270px; overflow-y:auto; height:100%; background-color:#fff;}
+.passenger-div-content{padding-top:10px;} .passenger_select{margin:0;} .passnger_detail{top:35px;} .payment-page .middle-search{width:100%; padding:0;}
+.right-section{width:100%; padding:0; display:none;} .pyt-price-det-l{display:block;} .contact_text {padding-top: 170px;}
+.searchcon_text{width:50%;} .searchcon_text h1{font-size:48px; padding-right:20px; padding-bottom:20px;}
+}
+
+@media screen and (max-width:991px){.searchcon_text {width: 100%; padding:0;} .searchcon_text h1{padding:0; text-align:center;} .coupen_con {margin-top: 10px;}
+.coupon_left{width:17%; padding:10px 8px 0; } .coupon_right{width:82%;} .coupon_top{padding:2px 5px 5px;} .coupon_top p img {width: 18%;}
+}
+
+@media screen and (max-width:892px){.modfrm_con{width:100%; margin-bottom:10px;} .modfrm_con span{width:49.5%;} .moddate_con {width: 49.5%; margin-left: 0;}
+.modpassenger_con {width: 49.5%; margin-left: 1%;} #mod-res-cl.fil-res-cl{top:24%;} .pay_pax_detail {width: 32.8%;} .pay_pax_gender {width: 33%; padding-left: 0;}
+.pay_pax_birth {width: 66.3%; padding-left: 6px;} .pay_pax_birth span {width: 32.5%;} .payment-page .form-control{margin-bottom:10px;} .card_expire_date {width: 21%;}
+.pay_page_cvv {width: 19%; margin-right: 5px;} .pay_page_card{margin-right:5px;} .payment-page label{font-size:12.7px;} .contact_text {padding-top: 120px;}
+.contact_bg{background-size:contain;}
+}
+@media screen and (max-width:767px){.header_mid{padding:0;} .top_headerleft {width: 40%;font-size: 18px;} .top_headerright {width: 60%; text-align: right;}
+.top_headerright a{font-size:20px;} .mobile_header .commoncontainer{padding:0;} .headertop_left {width: 200px;} 
+.mobile_header .commoncontainer{padding:0;}  .deal_container {margin: 0; width:100%;}
+.update_fare{padding:0;} .update_con{margin:0;} .payment_div{margin:0;} .testimonial_con{padding:10px 20px;}
+.disclaimer_container{margin-top:10px;} .discalmer_con p{width:100%;} .discalmer_con{margin-bottom:0; padding: 10px;} .footer_con{margin-top:10px; padding:10px 0;} .footer_div{padding:0;} 
+.fil-mob, .mod-se-mob{padding:3px 7px; font-size:.8rem; margin:0;} .mod-se-mob span{display:none;} .sea-res-mob{width: calc(100% - 147px); width: -webkit-calc(100% - 147px); padding:0 5px; font-size:14px;}
+.result_con #My_FlightSearch{width:100%; height:100%; overflow-y:auto; top: 0; left: 0; transform: none;} #mod-res-cl.fil-res-cl {top: 10px;} .modfrm_con span {width: 100%; margin: 0 0 12px 0;} .modfrm_con {margin-bottom: 0px; width:100%;}
+.moddate_con{width:100%;} .modpassenger_con {width: 100%; margin-left: 0; margin-top: 5px;} .modpassenger_div{width:100%; margin-bottom:10px;} .modsearch_con{width:100%;}
+.flight-description-class-detail{width:100%; float:left; margin-bottom:5px;} .flight-des-logo{float:left;} .flight-des-det{float:left; padding-left:8px; width:calc(100% - 70px); width:-webkit-calc(100% - 70px);} 
+.flight-name-detail{display:none;} .flight-description-timimg{width:42%;} .pay_page_cvv {width: 27%; margin-right: 0;} .psng_det_cont .passen_ser:first-of-type{display:none;}
+.psng_det_cont .passen_ser{display:block;} .psng_det_cont .passen_ser div{width:100%; float:left; position:relative; padding-left:48%;} .psng_det_cont .passen_ser div:before{content:''; position:absolute; left:5px; width:40%; text-align:left;} 
+.psng_det_cont .passen_ser div:after{content:':'; position:absolute; left:42%; text-align:left;} .psng_det_cont .passen_ser .col-md-1:before{content:'Sr.No.'} 
+.psng_det_cont .passen_ser .col-md-2:before{content:'Passenger Type'} .psng_det_cont .passen_ser .col-md-3:before{content:'Name'} .psng_det_cont .passen_ser .col-gender:before{content:'Gender'} 
+.psng_det_cont .passen_ser .col-dob:before{content:'Date of Birth'} .psng_det_cont .passen_ser .col-contact:before{content:'Contact'} .confirm_left{padding:0;}
+.contact-det-l,.contact-det-r {width: 100%;} .contact_text {padding-top: 38%;} .flight-detail-name font img{max-width:26px;} .res-result_con_mob{padding:5px 5px;}
+.bok-conf-page{padding:15px 0 0;}
+}
+@media screen and (max-width:640px){.resulthead_right .left_seat{display:none;} .resulthead_left .left_seat{display:block;}
+.flight_two{display:none;} .flight_one{width:11%;} .flight_third{width:19%;} .flight_four{width:16%; text-align:right; padding:6px 0;} .flight_arrow_con+.flight_four{text-align:left;} 
+.flight_arrow_con{width:17%; margin:0; padding:0 2%;} .flight_third:last-of-type{text-align:right;} 
+}
+@media screen and (max-width:580px){.headertop_left {width: 155px;} .popular_two i, .popular_third i{padding:5px;} .popular_third span, .popular_two span {font-size: 11px;}
+.best_deal_con{margin-bottom:0;} .scroll_div{width:25%;} .scroll_arlines{width:75%;} .airines_content{width:33%;} .sea-res-mob {font-size: 11px; line-height:1.4;}
+.pay_pax_detail, .pay_pax_gender {width: 49.4%;} .pay_pax_birth {width: 100%; padding-left: 0;} .pay_page_card {width: 100%; margin-right:0;} .card_expire_date {width: 49.5%;}
+.pay_page_cvv {width: 49.5%; margin-right: 0;} .pay_page_name {width: 100%; padding-left: 0;} 
+}
+@media screen and (max-width:480px){.whychoose_con{margin-top:0;} .deal_container {margin: 0 0 -50px 0px;} .seach_bg{margin-bottom:20px;} .moddate_con span{width:100%; margin-bottom:10px; float:left;}
+.modpassenger_con{margin:0;} .flight-description-duration{width:24%; padding:0 5px;} .flight-description-timimg {width: 38%;} .flight-des-logo {max-width: 45px;} 
+.pay_pax_birth span {width: 32.2%;} .coupon_left {width: 20%; padding: 6px 8px 0 0;} .coupon_right {width: 80%;} .coupon_botom{margin-top:6px;} 
+.coupon_left {width: 20%; padding: 4px 8px 0 0;} .coupen_con {margin-top: 0px; padding:2px 8px 8px;} .coupon_botom span a{padding:4px 10px;} .coupon_botom span, .coupon_top p {font-size: 12px;}
+}
+@media screen and (max-width:414px){.flight_one {width: 14%;} .flight_third p{display:none;} .flight_four h6, .flight_four p {font-size: 10.5px;} .layover_time{font-size:10px;}
+.flight_arrow_con .stop{font-size:9px; margin:-17px 0 0 0;} .line_img img{margin:-22px 0 0 0;} .flight_third{width:16%;} .flight_arrow_con{width:20%; margin:-7px 0 0 0;}
+.scroll_div{width:30%;} .scroll_arlines{width:70%;} .airines_content{width:50%;} .scroll_div h4{font-size:14px;} .scroll_div h5{font-size:13px;}
+div.scrollmenu .airines_content{padding:4.5px 8px;} .pay_pax_detail, .pay_pax_gender {width: 100%;}
+}
+@media screen and (max-width:380px){.seach_bg {padding: 10px;} .coupen_con{padding:10px 5px;} .coupon_top{padding:5px 0;} .coupon_botom span:last-child {margin-left: 5px;}
+.contact_text {padding-top: 35%;} .adult-minus, .adult-plus{width:25px; height:28px;} .qtynumber{height:28px; width:26px;}
+}

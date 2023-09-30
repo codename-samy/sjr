@@ -1,0 +1,19 @@
+a.dssuryawanshi-mob {
+    font-size: 21px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-weight: 900;
+    display: none;
+    font-family: rulAustraliao;
+}
+
+@media(min-width: 320px) and (max-width: 767px)
+{
+a.dssuryawanshi-mob {display: block;}
+nav.navbar {padding-bottom: 0px;position: fixed;top: 0px;z-index: 99999;width: 100%; background: #fff;}
+.banner {padding-top: 54px;height: 501px!important;}
+.footer_btm {margin-bottom: 14px;}
+
+}

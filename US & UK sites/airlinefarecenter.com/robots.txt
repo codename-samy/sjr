@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+sitemap: https://www.airlinefarecenter.com/sitemap.xml

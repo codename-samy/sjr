@@ -78,6 +78,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "airline-flight-image-3"
     ).innerHTML = `<img src="${imageSrc12}" alt="${airlineName}">`;
 
+    const imageSrc13 = getImageSource1(airlineName);
+    document.getElementById(
+      "airline-flight-image-4"
+    ).innerHTML = `<img src="${imageSrc13}" alt="${airlineName}">`;
+
     const aboutUsDescription = getAboutUsDescription(airlineName);
     document.getElementById("about-us-description").textContent =
       aboutUsDescription;

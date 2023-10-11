@@ -15,9 +15,9 @@
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-    <title>airlinefarecenter Baggage Policy</title>
+    <title>FareObuddy Baggage Policy</title>
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
-    <link rel="canonical" href='https://www.airlinefarecenter.com/baggage-policy'>
+    <link rel="canonical" href='https://www.fareobuddy.com/baggage-policy'>
     <!-- CSS File -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap">
     <link href="/bundles/jquerybootstrapcss?v=31Fqro3sJ_xXelxt31PQnRFelMbc7-OOXx8Y-D5TOiU1" rel="stylesheet"/>
@@ -32,7 +32,7 @@
 
     
     
-    <meta name="description" content="All the hotels and flights enlisted under one roof that are airlinefarecenter service partners." />
+    <meta name="description" content="All the hotels and flights enlisted under one roof that are FareObuddy service partners." />
     <!-- ! search tours form-->
 
     <!-- Facebook Pixel Code -->
@@ -2167,7 +2167,7 @@ color: #fff;
         <div class="noteinfos">
             <p><strong>*Special Note</strong></p>
             <ul>
-                <li>If you don't find the baggage details of your preferred airline or need baggage assistance, reach out to us at <a href="tel:1-631-309-0576">1-631-309-0576</a> or email us at <a href="mailto:support@airlinefarecenter.com">support@airlinefarecenter.com</a></li>
+                <li>If you don't find the baggage details of your preferred airline or need baggage assistance, reach out to us at <a href="tel:1-631-309-0576">1-631-309-0576</a> or email us at <a href="mailto:support@fareobuddy.com">support@fareobuddy.com</a></li>
                 <li>If your itinerary has more than one airline, please re-verify the baggage allowance for all the airlines of your itinerary. They may change based on the airline you fly with.</li>
             </ul>
         </div>
@@ -2225,7 +2225,7 @@ color: #fff;
     <p>Get exclusive discounts on flights & hotels.</p>
     <form id="frmNewsletter" action="/FooterLinks/ContactUs" method="post">
         <input type="hidden" id="hdnSubscribe" name="FormType" value="Subscribe" />
-        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to airlinefarecenter!</span>
+        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to FareObuddy!</span>
         <input class="form-control" id="txtNewsletterMail" type="text" maxlength="55" placeholder="Your email ID" name="Email" />
         <button type="submit" class="g-orange" onclick="return subscribeEmail()" id="btnNewsletterSubmit">Subscribe</button>
         <span id="spnAlreadyExist" class="spnAlreadyExist"></span>
@@ -2236,13 +2236,13 @@ color: #fff;
             <div class="col-sm-7">
                 <div class="row">
                     <div class="col-sm-4 contact-btm">
-                        <p><a href="https://www.airlinefarecenter.com/">airlinefarecenter LLC</a></p>
+                        <p><a href="https://www.fareobuddy.com/">FAREOBUDDY LLC</a></p>
                         <p>371 HOES LANE SUITE 200, PISCATAWAY, NEW JERSEY 08854</p>
-                        <p><a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a></p>
+                        <p><a href="mailto:sales@fareobuddy.com">sales@fareobuddy.com</a></p>
                         <div class="social-media">
-                            <a href="https://www.instagram.com/airlinefarecenter/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/airlinefarecenter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/airlinefarecenter/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fareobuddy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/fareobuddy" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/fareobuddy/" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -2258,9 +2258,9 @@ color: #fff;
         <img src="/Content/images/m.card-icon.png">
         <p>
             <span itemtype="https://schema.org/TravelAgency" itemscope="">
-                <span itemprop="name">airlinefarecenter LLC</span>
-                <meta content="https://www.airlinefarecenter.com/Content/images/logo.png" itemprop="image">
-                <meta content="https://www.airlinefarecenter.com/" itemprop="url">
+                <span itemprop="name">FAREOBUDDY LLC</span>
+                <meta content="https://www.fareobuddy.com/Content/images/logo.png" itemprop="image">
+                <meta content="https://www.fareobuddy.com/" itemprop="url">
                 its registered office located at
                 <span itemtype="https://schema.org/PostalAddress" itemscope="" itemprop="address">
                     <span itemprop="streetAddress">371 HOES LANE SUITE 200,</span> in the city of
@@ -2271,9 +2271,9 @@ color: #fff;
                     <span itemprop="addressRegion"> NEW JERSEY, USA</span>
 
                 </span> is authorized to use the ARC No. 33 54290-2 of Travel Unravel Holidays Ltd. We have met and we continue to maintain the operational standards as described in ARC's Verified Travel Consultant Agreement.
-                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@airlinefarecenter.com </span>
+                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@fareobuddy.com </span>
             </span>
-            <span class="cpr">©Copyright 2013-2023 airlinefarecenter.com</span>
+            <span class="cpr">©Copyright 2013-2023 FareObuddy.com</span>
         </p>
   
      </div>

@@ -67,7 +67,7 @@ header{height:80px!important;z-index:999;}
 .bannerContent{position:absolute;left:0px;right:0px;margin:auto;width:400px;font-size:30px;text-align:center;color:#000;top:100px;text-shadow:1px 2px 9px #000;}
 .classContentHolder{float:left;width:100%;color:#333;font-size:16px;line-height:28px;}
 .classContentHolder li{color:#333;font-size:14px;line-height:24px;margin:0px;padding:0px;padding-bottom:5px;}
-.businessSearchWidget{width: 100%;position:relative;}
+.businessSearchWidget{width: auto;position:relative;}
 .search-index-page .input-group-circle{top:35px;}
 .showHideContentHolder{display:none;}
 .subscribeHolder{width:100%;float:left;}

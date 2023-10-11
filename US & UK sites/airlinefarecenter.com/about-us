@@ -15,9 +15,9 @@
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-    <title>About airlinefarecenter.com, your travel buddy </title>
+    <title>About Fareobuddy.com, your travel buddy </title>
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
-    <link rel="canonical" href='https://www.airlinefarecenter.com/about-us'>
+    <link rel="canonical" href='https://www.fareobuddy.com/about-us'>
     <!-- CSS File -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap">
     <link href="/bundles/jquerybootstrapcss?v=31Fqro3sJ_xXelxt31PQnRFelMbc7-OOXx8Y-D5TOiU1" rel="stylesheet"/>
@@ -32,7 +32,7 @@
 
     
     
-    <meta name="description" content="airlinefarecenter | find flight tickets and hotel deals around the world. Book online or Call now." />
+    <meta name="description" content="FareObuddy | find flight tickets and hotel deals around the world. Book online or Call now." />
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -200,18 +200,18 @@ fbq('track', 'PageView');
     </div>
     <div class="container">
         <div class="header-heading text-center">
-            <h1>About airlinefarecenter</h1>
+            <h1>About FareObuddy</h1>
         </div>
-        <p>airlinefarecenter, your buddy in a 'Happy Journey' is a US-based travel company that comes intending to give its customers a seamless booking experience. We stepped into the travel industry to make your travels, if not life, a happy and well-cherished pleasure. airlinefarecenter is a leading flight booking platform where we work in liaison with the leading airlines around the world to bring you the holidays of your dreams. We are a team of dedicated travel professionals who work round-the-clock to give you expert assistance at minimum charges.</p>
+        <p>FareObuddy, your buddy in a 'Happy Journey' is a US-based travel company that comes intending to give its customers a seamless booking experience. We stepped into the travel industry to make your travels, if not life, a happy and well-cherished pleasure. FareObuddy is a leading flight booking platform where we work in liaison with the leading airlines around the world to bring you the holidays of your dreams. We are a team of dedicated travel professionals who work round-the-clock to give you expert assistance at minimum charges.</p>
 
-        <p><strong>Team airlinefarecenter</strong></p>
-        <p>airlinefarecenter started out of our desire to deliver the best in quality service in travel bookings. Our travel experts not only efficiently ensure a seamless booking process but also guide you through your travels with their in-depth knowledge. With that, the airlinefarecenter team is available 24*7 to assist you with all your queries or concerns. Our pride lies in the fact that we strive to deliver the best experience from the first step till the very last.</p>
+        <p><strong>Team FareObuddy</strong></p>
+        <p>FareObuddy started out of our desire to deliver the best in quality service in travel bookings. Our travel experts not only efficiently ensure a seamless booking process but also guide you through your travels with their in-depth knowledge. With that, the FareObuddy team is available 24*7 to assist you with all your queries or concerns. Our pride lies in the fact that we strive to deliver the best experience from the first step till the very last.</p>
 
-        <p><strong>airlinefarecenter’s Vision</strong></p>
-        <p>airlinefarecenter aims to create a platform that is your go-to choice every time you decide on taking a trip to anywhere around the world. With our quality assurance, affordable prices, and an incredible support team, we make sure that you always come back to us. Team airlinefarecenter pays close attention to detail depends on the travel trends to bring outstanding trips for you.</p>
+        <p><strong>FareObuddy’s Vision</strong></p>
+        <p>FareObuddy aims to create a platform that is your go-to choice every time you decide on taking a trip to anywhere around the world. With our quality assurance, affordable prices, and an incredible support team, we make sure that you always come back to us. Team FareObuddy pays close attention to detail depends on the travel trends to bring outstanding trips for you.</p>
 
-        <p><strong>What makes airlinefarecenter stand out?</strong></p>
-        <p>airlinefarecenter is known for its unbeatable service and we proudly boast of it. Our unmatched ticket prices along with our team take the headache of planning on themselves and give you the best experience to cherish for a lifetime. Remember, if not life, a 'Happy Journey' is guaranteed.</p>
+        <p><strong>What makes FareObuddy stand out?</strong></p>
+        <p>FareObuddy is known for its unbeatable service and we proudly boast of it. Our unmatched ticket prices along with our team take the headache of planning on themselves and give you the best experience to cherish for a lifetime. Remember, if not life, a 'Happy Journey' is guaranteed.</p>
 
 
 
@@ -250,7 +250,7 @@ fbq('track', 'PageView');
     <p>Get exclusive discounts on flights & hotels.</p>
     <form id="frmNewsletter" action="/FooterLinks/ContactUs" method="post">
         <input type="hidden" id="hdnSubscribe" name="FormType" value="Subscribe" />
-        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to airlinefarecenter!</span>
+        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to FareObuddy!</span>
         <input class="form-control" id="txtNewsletterMail" type="text" maxlength="55" placeholder="Your email ID" name="Email" />
         <button type="submit" class="g-orange" onclick="return subscribeEmail()" id="btnNewsletterSubmit">Subscribe</button>
         <span id="spnAlreadyExist" class="spnAlreadyExist"></span>
@@ -261,13 +261,13 @@ fbq('track', 'PageView');
             <div class="col-sm-7">
                 <div class="row">
                     <div class="col-sm-4 contact-btm">
-                        <p><a href="https://www.airlinefarecenter.com/">airlinefarecenter LLC</a></p>
+                        <p><a href="https://www.fareobuddy.com/">FAREOBUDDY LLC</a></p>
                         <p>371 HOES LANE SUITE 200, PISCATAWAY, NEW JERSEY 08854</p>
-                        <p><a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a></p>
+                        <p><a href="mailto:sales@fareobuddy.com">sales@fareobuddy.com</a></p>
                         <div class="social-media">
-                            <a href="https://www.instagram.com/airlinefarecenter/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/airlinefarecenter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/airlinefarecenter/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fareobuddy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/fareobuddy" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/fareobuddy/" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -283,9 +283,9 @@ fbq('track', 'PageView');
         <img src="/Content/images/m.card-icon.png">
         <p>
             <span itemtype="https://schema.org/TravelAgency" itemscope="">
-                <span itemprop="name">airlinefarecenter LLC</span>
-                <meta content="https://www.airlinefarecenter.com/Content/images/logo.png" itemprop="image">
-                <meta content="https://www.airlinefarecenter.com/" itemprop="url">
+                <span itemprop="name">FAREOBUDDY LLC</span>
+                <meta content="https://www.fareobuddy.com/Content/images/logo.png" itemprop="image">
+                <meta content="https://www.fareobuddy.com/" itemprop="url">
                 its registered office located at
                 <span itemtype="https://schema.org/PostalAddress" itemscope="" itemprop="address">
                     <span itemprop="streetAddress">371 HOES LANE SUITE 200,</span> in the city of
@@ -296,9 +296,9 @@ fbq('track', 'PageView');
                     <span itemprop="addressRegion"> NEW JERSEY, USA</span>
 
                 </span> is authorized to use the ARC No. 33 54290-2 of Travel Unravel Holidays Ltd. We have met and we continue to maintain the operational standards as described in ARC's Verified Travel Consultant Agreement.
-                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@airlinefarecenter.com </span>
+                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@fareobuddy.com </span>
             </span>
-            <span class="cpr">©Copyright 2013-2023 airlinefarecenter.com</span>
+            <span class="cpr">©Copyright 2013-2023 FareObuddy.com</span>
         </p>
   
      </div>

@@ -738,7 +738,7 @@
                 <a href="/" id="home" class="mn-has-sub active flightMenu"
                   >Flight</a
                 >
-                <a href="./hotels.html" id="home" class="mn-has-sub active flightMenu"
+                <a href="/hotels.html" id="home" class="mn-has-sub active flightMenu"
                   >Hotels</a
                 >
               </li>
@@ -1203,21 +1203,21 @@
 
 <div class="whychooseus">
     <div class="container">
-        <div class="whyheading"><span class="line"></span><span class="line-heading">Why fly with airlines booking</span><span class="line"></span></div>
+        <div class="whyheading"><span class="line"></span><span class="line-heading">What Makes Airlines Booking Your Best Choice for Flying</span><span class="line"></span></div>
         <ul>
             <li><h2><img src="/content/images/secure-icon1.png"></h2>
-                <h3>100% Secure Payment</h3>
-                <p>All the bookings made on airlines booking are 100% encrypted. We’re affiliated with WorldPay and your payments made for booking the flights are protected and ensure that your data is in safe hands. Now, book your holidays with complete trust.</p>
+                <h3>Total Payment Security</h3>
+                <p>At Airlines Booking, your peace of mind is our priority. We employ state-of-the-art encryption technology to safeguard every booking you make. Our partnership with WorldPay guarantees the utmost protection for your flight reservations and ensures that your sensitive information remains secure. With us, you can confidently plan your vacations, knowing that your data is in trusted hands. Book your holiday with unwavering confidence today.</p>
             </li>
             <li>
                 <h2><img src="/content/images/exclusive-deals-w.png"></h2>
-                <h3>Exclusive Deals</h3>
-                <p>We offer you the best deals to hundreds of destinations around the globe. Just let our travel experts know where you want to travel and we will bring the top offers for you.</p>
+                <h3>Exclusive Offers</h3>
+                <p>At Airlines Booking, our unwavering commitment is to offer you unparalleled deals to a wide variety of captivating global destinations. You can entrust your travel desires to our team of seasoned experts - just inform us of your preferred destination, and we will meticulously craft exclusive offers designed specifically for your preferences and requirements. Embark on the journey of a lifetime, and let your dream vacation commence right here with us.</p>
             </li>
             <li>
                 <h2><img src="/content/images/personalized-icon.png"></h2>
-                <h3>Personalized Service</h3>
-                <p>Our travel consultants help you at every point in the booking process with their personalized touch. They fine-tune the procedure and your journey, refining it completely according to your requirements.</p>
+                <h3>Tailored Travel Experience</h3>
+                <p>At Airlines Booking, we take pride in our devoted team of travel consultants who are committed to delivering an exceptionally personalized service, guiding you through each facet of the booking process. Their expertise goes above and beyond the conventional, as they intricately tailor the entire journey to impeccably align with your one-of-a-kind preferences, ensuring that every aspect of your travel experience is perfectly attuned to your distinct needs and desires.</p>
             </li>
         </ul>
     </div>

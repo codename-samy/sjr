@@ -15,9 +15,9 @@
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-    <title>airlinefarecenter Post Ticketing Fee</title>
+    <title>FareObuddy Post Ticketing Fee</title>
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
-    <link rel="canonical" href='https://www.airlinefarecenter.com/post-ticketing-fees'>
+    <link rel="canonical" href='https://www.fareobuddy.com/post-ticketing-fees'>
     <!-- CSS File -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap">
     <link href="/bundles/jquerybootstrapcss?v=31Fqro3sJ_xXelxt31PQnRFelMbc7-OOXx8Y-D5TOiU1" rel="stylesheet"/>
@@ -32,7 +32,7 @@
 
     
     
-    <meta name="description" content="airlinefarecenter charges service fee, government applicable taxes on refunds, cancellation or change of bookings. Please check the details carefully." />
+    <meta name="description" content="FareObuddy charges service fee, government applicable taxes on refunds, cancellation or change of bookings. Please check the details carefully." />
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -345,7 +345,7 @@ fbq('track', 'PageView');
         <div class="tablsscrol">
             <table border="1" cellpadding="0" cellspacing="0" class="table table-bordered tax-table">
                 <tr>
-                    <td colspan="5">(1) Our airline tickets are non-refundable unless we specify it otherwise. Refund option is available only if the travel supplier's policies and rules let you be eligible to seek a refund or if airlinefarecenter accepts your refund request. This means, you are not a 'no show' case and if we can secure any kind of waivers from the supplier then only we process a cancellation or refund request only. </td>
+                    <td colspan="5">(1) Our airline tickets are non-refundable unless we specify it otherwise. Refund option is available only if the travel supplier's policies and rules let you be eligible to seek a refund or if FareObuddy accepts your refund request. This means, you are not a 'no show' case and if we can secure any kind of waivers from the supplier then only we process a cancellation or refund request only. </td>
                 </tr>
                 <tr>
                     <td colspan="5">(2) All Airline Refunds/Future Credits are subject to the airline's fare rules, procedures & policies</td>
@@ -420,7 +420,7 @@ fbq('track', 'PageView');
     <p>Get exclusive discounts on flights & hotels.</p>
     <form id="frmNewsletter" action="/FooterLinks/ContactUs" method="post">
         <input type="hidden" id="hdnSubscribe" name="FormType" value="Subscribe" />
-        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to airlinefarecenter!</span>
+        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to FareObuddy!</span>
         <input class="form-control" id="txtNewsletterMail" type="text" maxlength="55" placeholder="Your email ID" name="Email" />
         <button type="submit" class="g-orange" onclick="return subscribeEmail()" id="btnNewsletterSubmit">Subscribe</button>
         <span id="spnAlreadyExist" class="spnAlreadyExist"></span>
@@ -431,13 +431,13 @@ fbq('track', 'PageView');
             <div class="col-sm-7">
                 <div class="row">
                     <div class="col-sm-4 contact-btm">
-                        <p><a href="https://www.airlinefarecenter.com/">airlinefarecenter LLC</a></p>
+                        <p><a href="https://www.fareobuddy.com/">FAREOBUDDY LLC</a></p>
                         <p>371 HOES LANE SUITE 200, PISCATAWAY, NEW JERSEY 08854</p>
-                        <p><a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a></p>
+                        <p><a href="mailto:sales@fareobuddy.com">sales@fareobuddy.com</a></p>
                         <div class="social-media">
-                            <a href="https://www.instagram.com/airlinefarecenter/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/airlinefarecenter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/airlinefarecenter/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fareobuddy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/fareobuddy" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/fareobuddy/" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -453,9 +453,9 @@ fbq('track', 'PageView');
         <img src="/Content/images/m.card-icon.png">
         <p>
             <span itemtype="https://schema.org/TravelAgency" itemscope="">
-                <span itemprop="name">airlinefarecenter LLC</span>
-                <meta content="https://www.airlinefarecenter.com/Content/images/logo.png" itemprop="image">
-                <meta content="https://www.airlinefarecenter.com/" itemprop="url">
+                <span itemprop="name">FAREOBUDDY LLC</span>
+                <meta content="https://www.fareobuddy.com/Content/images/logo.png" itemprop="image">
+                <meta content="https://www.fareobuddy.com/" itemprop="url">
                 its registered office located at
                 <span itemtype="https://schema.org/PostalAddress" itemscope="" itemprop="address">
                     <span itemprop="streetAddress">371 HOES LANE SUITE 200,</span> in the city of
@@ -466,9 +466,9 @@ fbq('track', 'PageView');
                     <span itemprop="addressRegion"> NEW JERSEY, USA</span>
 
                 </span> is authorized to use the ARC No. 33 54290-2 of Travel Unravel Holidays Ltd. We have met and we continue to maintain the operational standards as described in ARC's Verified Travel Consultant Agreement.
-                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@airlinefarecenter.com </span>
+                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@fareobuddy.com </span>
             </span>
-            <span class="cpr">©Copyright 2013-2023 airlinefarecenter.com</span>
+            <span class="cpr">©Copyright 2013-2023 FareObuddy.com</span>
         </p>
   
      </div>

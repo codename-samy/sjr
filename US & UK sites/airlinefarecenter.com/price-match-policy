@@ -15,9 +15,9 @@
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-    <title>airlinefarecenter Price Match Promise</title>
+    <title>FareObuddy Price Match Promise</title>
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
-    <link rel="canonical" href='https://www.airlinefarecenter.com/price-match-policy'>
+    <link rel="canonical" href='https://www.fareobuddy.com/price-match-policy'>
     <!-- CSS File -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap">
     <link href="/bundles/jquerybootstrapcss?v=31Fqro3sJ_xXelxt31PQnRFelMbc7-OOXx8Y-D5TOiU1" rel="stylesheet"/>
@@ -32,7 +32,7 @@
 
     
     
-   <meta name="description" content="airlinefarecenter has set of rules under which Price Match Promise should be followed. Please read them carefully." />
+   <meta name="description" content="FareObuddy has set of rules under which Price Match Promise should be followed. Please read them carefully." />
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -199,7 +199,7 @@ fbq('track', 'PageView');
     </div>
     <div class="container">
 
-        <p><strong>When you book with airlinefarecenter, we ensure that you have found the best price offered.</strong></p>
+        <p><strong>When you book with FareObuddy, we ensure that you have found the best price offered.</strong></p>
         <p>To ensure the same, we use Price Match Promise. Under this, if you find an all-inclusive price lower than our offered price with all the details as mentioned in our booking (same itinerary) on a Major OTA within 24-hours of booking, we will match the price and refund the difference. </p>
 
         <p><strong>What do we mean by 'same itinerary' mean?</strong></p>
@@ -209,7 +209,7 @@ fbq('track', 'PageView');
         <p>You must ensure that the itinerary you find that beats our rate is live on a competitor's site and is available to be booked at the time of contact and should be determined by our customer care representatives.</p>
 
         <p><strong>How can you notify us that you want to invoke PMP?</strong></p>
-        <p>If you want to invoke PMP, you have to contact us <a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a> or call us on <a class="call-phone-number" href="tel:1-631-309-0576">1-631-309-0576</a> and share your airlinefarecenter booking reference number and all the details of the lower priced itinerary including the name of the airline, flight, itinerary, date, number of customers and seat type. Additionally, share the URL/ screenshot to enable our customer service representatives the steps of verification for itinerary. Customer service executive should be able to locate the lower fare from the information you provide. We reserve the right to deny the claims if the request is not verified, or for which you're unable to provide complete information. After verification, you will be given the choice to retain your itinerary or get a refund of the difference. </p>
+        <p>If you want to invoke PMP, you have to contact us <a href="mailto:sales@FareObuddy.com">sales@fareobuddy.com</a> or call us on <a class="call-phone-number" href="tel:1-631-309-0576">1-631-309-0576</a> and share your FareObuddy booking reference number and all the details of the lower priced itinerary including the name of the airline, flight, itinerary, date, number of customers and seat type. Additionally, share the URL/ screenshot to enable our customer service representatives the steps of verification for itinerary. Customer service executive should be able to locate the lower fare from the information you provide. We reserve the right to deny the claims if the request is not verified, or for which you're unable to provide complete information. After verification, you will be given the choice to retain your itinerary or get a refund of the difference. </p>
 
         <p><strong>Is there an exception applicable to PMP?</strong></p>
         <p>
@@ -251,7 +251,7 @@ fbq('track', 'PageView');
     <p>Get exclusive discounts on flights & hotels.</p>
     <form id="frmNewsletter" action="/FooterLinks/ContactUs" method="post">
         <input type="hidden" id="hdnSubscribe" name="FormType" value="Subscribe" />
-        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to airlinefarecenter!</span>
+        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to FareObuddy!</span>
         <input class="form-control" id="txtNewsletterMail" type="text" maxlength="55" placeholder="Your email ID" name="Email" />
         <button type="submit" class="g-orange" onclick="return subscribeEmail()" id="btnNewsletterSubmit">Subscribe</button>
         <span id="spnAlreadyExist" class="spnAlreadyExist"></span>
@@ -262,13 +262,13 @@ fbq('track', 'PageView');
             <div class="col-sm-7">
                 <div class="row">
                     <div class="col-sm-4 contact-btm">
-                        <p><a href="https://www.airlinefarecenter.com/">airlinefarecenter LLC</a></p>
+                        <p><a href="https://www.fareobuddy.com/">FAREOBUDDY LLC</a></p>
                         <p>371 HOES LANE SUITE 200, PISCATAWAY, NEW JERSEY 08854</p>
-                        <p><a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a></p>
+                        <p><a href="mailto:sales@fareobuddy.com">sales@fareobuddy.com</a></p>
                         <div class="social-media">
-                            <a href="https://www.instagram.com/airlinefarecenter/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/airlinefarecenter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/airlinefarecenter/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fareobuddy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/fareobuddy" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/fareobuddy/" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -284,9 +284,9 @@ fbq('track', 'PageView');
         <img src="/Content/images/m.card-icon.png">
         <p>
             <span itemtype="https://schema.org/TravelAgency" itemscope="">
-                <span itemprop="name">airlinefarecenter LLC</span>
-                <meta content="https://www.airlinefarecenter.com/Content/images/logo.png" itemprop="image">
-                <meta content="https://www.airlinefarecenter.com/" itemprop="url">
+                <span itemprop="name">FAREOBUDDY LLC</span>
+                <meta content="https://www.fareobuddy.com/Content/images/logo.png" itemprop="image">
+                <meta content="https://www.fareobuddy.com/" itemprop="url">
                 its registered office located at
                 <span itemtype="https://schema.org/PostalAddress" itemscope="" itemprop="address">
                     <span itemprop="streetAddress">371 HOES LANE SUITE 200,</span> in the city of
@@ -297,9 +297,9 @@ fbq('track', 'PageView');
                     <span itemprop="addressRegion"> NEW JERSEY, USA</span>
 
                 </span> is authorized to use the ARC No. 33 54290-2 of Travel Unravel Holidays Ltd. We have met and we continue to maintain the operational standards as described in ARC's Verified Travel Consultant Agreement.
-                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@airlinefarecenter.com </span>
+                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@fareobuddy.com </span>
             </span>
-            <span class="cpr">©Copyright 2013-2023 airlinefarecenter.com</span>
+            <span class="cpr">©Copyright 2013-2023 FareObuddy.com</span>
         </p>
   
      </div>

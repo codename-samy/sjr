@@ -407,7 +407,7 @@
                 <a href="/" id="home" class="mn-has-sub active flightMenu"
                   >Flight</a
                 >
-                <a href="./hotels.html" id="home" class="mn-has-sub active flightMenu"
+                <a href="/hotels.html" id="home" class="mn-has-sub active flightMenu"
                   >Hotels</a
                 >
               </li>
@@ -809,145 +809,13 @@
 
     <input name="hvIsBusinessClassDeal" type="hidden" id="hvIsBusinessClassDeal" value="false" /> 
     <div class="search-visit">
-        <div class="formTab">
-           <h2 class="book-cheap">Book Cheap Flight Tickets Now!</h2>
-            <ul class="list-inline list-two">
-                <li class="cff-list-tab actDesign oneD">
-                    <div class="inputSet2 radio">
-                        <label>
-                            <input type="radio" id="rt" name="ddlTypejourney" value="1" checked="checked" />
-                            <span>Round Trip</span>
-                        </label>
-                    </div>
-                </li>
-                <li class="cff-list-tab twoD">
-                    <div class="inputSet2 radio">
-                        <label>
-                            <input type="radio" id="ow" name="ddlTypejourney" value="2" />
-                            <span>One Way</span>
-                        </label>
-                    </div>
-                </li>             
-            </ul>
-        </div>
-        <ul class="widgetTxtFieldHolder">           
-            <li class="formSec-a">
-                <div class="ausu-suggest 1">
-                    <label>Origin</label>
-
-                    <input id="tbFrom" type="text" class="form-control" autocomplete="off" onkeypress="return isCharKey(event)" required placeholder="Enter a city or airport" />
-                    <input name="hvFrom" type="hidden" id="hvFrom" />
-
-                    <span class="input-group-circle one" style="display: none;"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-                    <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
-                    <span class="please-s-or" style="display: none">Please select origin</span>
-                </div>
-                <div class="ausu-suggest 1 allRightalign">
-                    <label>Destination</label>
-
-                    <input id="tbTo" type="text" class="form-control" autocomplete="off" onkeypress="return isCharKey(event)" required placeholder="Enter a city or airport" />
-                    <input name="hvTo" type="hidden" id="hvTo" />
-
-                    <span class="input-group-circle two" style="display: none;"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-                    <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
-                    <span class="please-s-dest" style="display: none">Please select destination</span>
-                </div>
-            </li>
-            <li class="formSec-b">
-                <div id="departDateDiv" class="datepickerholder">
-
-                    <label>Depart</label>
-                    <input type="text" id="tbDepart" name="tbDepart" class="date form-control" placeholder="Pick Date" readonly />
-                    <span class="calIcon"><i class="fa fa-calendar fa-fw"></i></span>
-
-                    <span class="please-f-dtDep" style="display: none">Select depart date</span>
-                </div>
-                <div id="returnDateDiv" class="datepickerholder">
-
-                    <label>Return</label>
-                    <input type="text" id="tbReturn" class="date form-control" name="tbReturn" placeholder="Pick Date" readonly />
-                    <span class="calIcon"><i class="fa fa-calendar fa-fw"></i></span>
-
-                    <span class="please-f-dtRet" style="display: none">Select return date</span>
-                </div>
-            </li>
-            <li class="formSec-c">
-                <div class="src-input">
-                    <label>Adults</label>
-                    <span class="drop-errow">
-                        <select name="ddlAdults" class="selectpicker" id="ddlAdultCount">
-
-                            <option value="1" selected="selected">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select>
-                    </span>
-                </div>
-                <div class="src-input">
-                    <label>Childrens</label>
-                    <span class="drop-errow">
-                        <select name="ddlChildren" class="selectpicker" id="ddlChildCount">
-                            <option value="0" selected="selected">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select>
-                    </span>
-                    <span class="pax-ratio" style="display: none">Total pax count (adult+child) should not exceed 9 </span>
-                </div>
-                <div class="src-input">
-                    <label>Infants</label>
-                    <span class="drop-errow">
-                        <select name="ddlInfants" class="selectpicker" id="ddlInfantOnLap">
-                            <option value="0" selected="selected">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select>
-                    </span>
-                </div>
-                <div class="src-input cabinclass">
-                    <label>Class</label>
-                    <span class="drop-errow">
-                        <select name="ddlCabinClass" class="selectpicker" id="mCabinClass">
-                            <option value="Economy">Economy</option>
-                            <option value="PremiumEconomy">Premium Economy</option>
-                            <option value="Business">Business</option>
-                            <option value="First">First</option>
-                            <option value="All">All</option>
-                        </select>
-                    </span>
-                </div>
-
-                <span class="adult-infant" style="display: none">Infants count should be less than or equal to adults count</span>
-            </li>
-            <li class="formSec-d">
-                <div class="searchbtnhome">
-                    <button type="button" class="cta-1st clrboth primary search-button" id="btnSearchFlights" value="Search Flights">Search Now</button>
-                </div>
-            </li>  
-          
-       
-        </ul>
-    </div>
+                <h2 class="book-cheap">Book Cheap Flight Tickets Now!</h2>
+                <script
+                  async
+                  src="https://tp.media/content?currency=gbp&trs=267581&shmarker=484323&show_hotels=false&powered_by=false&locale=en&searchUrl=www.aviasales.com%2Fsearch&color_button=%23003a0f&color_icons=%23003a0f&dark=%23FFFFFFff&light=%23FFFFFF&secondary=%23FF575700&special=%23C4C4C400&color_focused=%23FFFFFFff&border_radius=0&no_labels=&plain=true&promo_id=7879&campaign_id=100"
+                  charset="utf-8"
+                ></script>
+              </div>
 </form>
 <div class="advanceSearch">+ Advance Search</div>
 <a href="#" class="closeSearchpanel">X</a>
@@ -996,7 +864,26 @@
     <div class="tab-content">
         <!-- BEGIN: FLIGHT SEARCH -->
         <div role="tabpanel" class="tab-pane active" id="flight">
-            <form id="formAirSearch1">
+            <div
+                  class="col-md-12 product-search-title"
+                  id="divShortWidgetTitle"
+                >
+                  Book Flights Tickets @Cheapest Price
+                  <hr>
+                  <center>
+                    <div>
+                      <img src="/Content/images/customer-toll.jpg" />
+                    </div>
+                  <span style="font-size: 12px; color: black; background-color: white; border-radius: 500px; padding: 10px;">No Hold, All Call Answered in 5sec</span>
+                  <br> Call Us NOW! <br>
+                  <a href="tel:+44-800-524-4288" style="background-color: white; width: 100%; padding: 10px; border-radius: 500px;">
+                    <span class="callnonmob"
+                      ><i class="fa fa-phone"></i>+44-800-524-4288</span
+                    ></a
+                  >
+                </center>
+                </div>
+              <form id="formAirSearch1" style="display: none;">
                 <input name="hvDirect" type="hidden" id="hvDirect1" value="off" />
                 <input name="ddlAirline" type="hidden" id="ddlAirline1" value="All" />
                 <input name="ddlTypejourney" type="hidden" id="ddlTypejourney1" value="1" />
@@ -1607,21 +1494,21 @@
 
 <div class="whychooseus">
     <div class="container">
-        <div class="whyheading"><span class="line"></span><span class="line-heading">Why fly with airlines booking</span><span class="line"></span></div>
+        <div class="whyheading"><span class="line"></span><span class="line-heading">What Makes Airlines Booking Your Best Choice for Flying</span><span class="line"></span></div>
         <ul>
             <li><h2><img src="/content/images/secure-icon1.png"></h2>
-                <h3>100% Secure Payment</h3>
-                <p>All the bookings made on airlines booking are 100% encrypted. We’re affiliated with WorldPay and your payments made for booking the flights are protected and ensure that your data is in safe hands. Now, book your holidays with complete trust.</p>
+                <h3>Total Payment Security</h3>
+                <p>At Airlines Booking, your peace of mind is our priority. We employ state-of-the-art encryption technology to safeguard every booking you make. Our partnership with WorldPay guarantees the utmost protection for your flight reservations and ensures that your sensitive information remains secure. With us, you can confidently plan your vacations, knowing that your data is in trusted hands. Book your holiday with unwavering confidence today.</p>
             </li>
             <li>
                 <h2><img src="/content/images/exclusive-deals-w.png"></h2>
-                <h3>Exclusive Deals</h3>
-                <p>We offer you the best deals to hundreds of destinations around the globe. Just let our travel experts know where you want to travel and we will bring the top offers for you.</p>
+                <h3>Exclusive Offers</h3>
+                <p>At Airlines Booking, our unwavering commitment is to offer you unparalleled deals to a wide variety of captivating global destinations. You can entrust your travel desires to our team of seasoned experts - just inform us of your preferred destination, and we will meticulously craft exclusive offers designed specifically for your preferences and requirements. Embark on the journey of a lifetime, and let your dream vacation commence right here with us.</p>
             </li>
             <li>
                 <h2><img src="/content/images/personalized-icon.png"></h2>
-                <h3>Personalized Service</h3>
-                <p>Our travel consultants help you at every point in the booking process with their personalized touch. They fine-tune the procedure and your journey, refining it completely according to your requirements.</p>
+                <h3>Tailored Travel Experience</h3>
+                <p>At Airlines Booking, we take pride in our devoted team of travel consultants who are committed to delivering an exceptionally personalized service, guiding you through each facet of the booking process. Their expertise goes above and beyond the conventional, as they intricately tailor the entire journey to impeccably align with your one-of-a-kind preferences, ensuring that every aspect of your travel experience is perfectly attuned to your distinct needs and desires.</p>
             </li>
         </ul>
     </div>

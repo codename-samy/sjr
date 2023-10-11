@@ -15,9 +15,9 @@
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-    <title>Christmas Flights Reservation - Book Cheap Tickets On airlinefarecenter.com Today! </title>
+    <title>Christmas Flights Reservation - Book Cheap Tickets On FareObuddy.com Today! </title>
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
-    <link rel="canonical" href='https://www.airlinefarecenter.com/holiday-flights-sale/christmas-flights'>
+    <link rel="canonical" href='https://www.fareobuddy.com/holiday-flights-sale/christmas-flights'>
     <!-- CSS File -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap">
     <link href="/bundles/jquerybootstrapcss?v=31Fqro3sJ_xXelxt31PQnRFelMbc7-OOXx8Y-D5TOiU1" rel="stylesheet"/>
@@ -32,7 +32,7 @@
 
     
     
-    <meta name="description" content="Looking for Flight Deals on this Christmas?  You are at the right place. airlinefarecenter.com offers unbelievable discounts on all-inclusive flights Booking." />
+    <meta name="description" content="Looking for Flight Deals on this Christmas?  You are at the right place. FareObuddy.com offers unbelievable discounts on all-inclusive flights Booking." />
 
 
     <!-- Facebook Pixel Code -->
@@ -192,7 +192,7 @@ fbq('track', 'PageView');
     <div class="render-body-section">
         
 
-<link rel="stylesheet" href="/Content/cssm.destination-and-airline.css">
+<link rel="stylesheet" href="/Content/css/m.destination-and-airline.css?v=10_10_2020_1">
 <link rel="stylesheet" href="/Content/css/m.destinationSearchWidget.css?v=10_10_2020_1">
 <style>
     p:empty {
@@ -1007,10 +1007,10 @@ To book flight tickets for unaccompanied minors, speak to our travel experts on 
 
                                 <div class="hdng airline-hdng ">
 
-                                    <h3 class=" dynamic-hide-theme-page  ">Christmas Travels Tickets with airlinefarecenter</h3>
+                                    <h3 class=" dynamic-hide-theme-page  ">Christmas Travels Tickets with FareObuddy</h3>
                                         <p class=" dynamic-hide-theme-page  "><p>The season of Jingle Bells and Santa is HERE!</p><br/>
-<p>It's Christmas Time, so sleigh through the BIG travel discounts this season and enjoy up to 20% OFF on booking your flight tickets with us. We at airlinefarecenter decided to make your Christmas merrier with our holiday sale. Travelers around the world can enjoy an additional discount of 20% on our service fee on booking flights. To get this offer, all you have to do is use our promo code <b>SANTA20</b> at the time of checkout to enjoy up to <b>20%</b> OFF.</p><br/>
-<strong>Why Book Christmas Holiday Flight Tickets with airlinefarecenter?</strong><br/>
+<p>It's Christmas Time, so sleigh through the BIG travel discounts this season and enjoy up to 20% OFF on booking your flight tickets with us. We at FareObuddy decided to make your Christmas merrier with our holiday sale. Travelers around the world can enjoy an additional discount of 20% on our service fee on booking flights. To get this offer, all you have to do is use our promo code <b>SANTA20</b> at the time of checkout to enjoy up to <b>20%</b> OFF.</p><br/>
+<strong>Why Book Christmas Holiday Flight Tickets with FareObuddy?</strong><br/>
 <ul>
 <li>Our travel experts have a nose for irresistible travel deals.</li>
 <li>Our booking agents have the consider-it-done attitude.</li>
@@ -1020,7 +1020,7 @@ To book flight tickets for unaccompanied minors, speak to our travel experts on 
 <li>Low-cost carriers like Frontier Airlines, Spirit Airlines, etc., have great offers around Christmas.</li>
 <li>Subscribe to our newsletter and stay in touch with our best-offered discounts.</li>
 </ul>
-<strong>What are the Best Destinations to go to on Christmas Holidays via airlinefarecenter?</strong><br/>
+<strong>What are the Best Destinations to go to on Christmas Holidays via FareObuddy?</strong><br/>
 <ul>
 <li><a href="/book-flights/orlando-orl" target="_blank">Orlando</a></li>
 <li><a href="/book-flights/new-york-nyc" target="_blank">New York</a></li>
@@ -1028,7 +1028,7 @@ To book flight tickets for unaccompanied minors, speak to our travel experts on 
 <li><a href="/book-flights/toronto-yto" target="_blank">Toronto</a></li>
 <li><a href="/book-flights/denver-den" target="_blank">Denver</a></li>
 </ul>
-<strong>Which Airlines offer the best discounts on airlinefarecenter to book Christmas Holiday Flight Tickets?</strong><br/>
+<strong>Which Airlines offer the best discounts on FareObuddy to book Christmas Holiday Flight Tickets?</strong><br/>
 <ul>
 <li><a href="/book-airlines-flights/westjet-airlines-reservations" target="_blank">Westjet Airlines</a></li>
 <li><a href="/book-airlines-flights/frontier-airlines-reservations" target="_blank">Frontier Airlines</a></li>
@@ -1059,7 +1059,7 @@ To book flight tickets for unaccompanied minors, speak to our travel experts on 
 <!-- TrustBox widget - Carousel -->
 
 
-<div class="trustpilot-widget" data-locale="en-US" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="5ad0cb154848ce0001ded7a4" data-style-height="140px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-review-languages="en"> <a href="https://www.trustpilot.com/review/airlinefarecenter.com" target="_blank" rel="noopener">Trustpilot</a> </div>
+<div class="trustpilot-widget" data-locale="en-US" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="5ad0cb154848ce0001ded7a4" data-style-height="140px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-review-languages="en"> <a href="https://www.trustpilot.com/review/fareobuddy.com" target="_blank" rel="noopener">Trustpilot</a> </div>
 <!-- End TrustBox widget -->
 <style>
     .footerCallSection {
@@ -1550,7 +1550,7 @@ $(function () {
     <p>Get exclusive discounts on flights & hotels.</p>
     <form id="frmNewsletter" action="/FooterLinks/ContactUs" method="post">
         <input type="hidden" id="hdnSubscribe" name="FormType" value="Subscribe" />
-        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to airlinefarecenter!</span>
+        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to FareObuddy!</span>
         <input class="form-control" id="txtNewsletterMail" type="text" maxlength="55" placeholder="Your email ID" name="Email" />
         <button type="submit" class="g-orange" onclick="return subscribeEmail()" id="btnNewsletterSubmit">Subscribe</button>
         <span id="spnAlreadyExist" class="spnAlreadyExist"></span>
@@ -1561,13 +1561,13 @@ $(function () {
             <div class="col-sm-7">
                 <div class="row">
                     <div class="col-sm-4 contact-btm">
-                        <p><a href="https://www.airlinefarecenter.com/">airlinefarecenter LLC</a></p>
+                        <p><a href="https://www.fareobuddy.com/">FAREOBUDDY LLC</a></p>
                         <p>371 HOES LANE SUITE 200, PISCATAWAY, NEW JERSEY 08854</p>
-                        <p><a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a></p>
+                        <p><a href="mailto:sales@fareobuddy.com">sales@fareobuddy.com</a></p>
                         <div class="social-media">
-                            <a href="https://www.instagram.com/airlinefarecenter/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/airlinefarecenter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/airlinefarecenter/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fareobuddy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/fareobuddy" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/fareobuddy/" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1583,9 +1583,9 @@ $(function () {
         <img src="/Content/images/m.card-icon.png">
         <p>
             <span itemtype="https://schema.org/TravelAgency" itemscope="">
-                <span itemprop="name">airlinefarecenter LLC</span>
-                <meta content="https://www.airlinefarecenter.com/Content/images/logo.png" itemprop="image">
-                <meta content="https://www.airlinefarecenter.com/" itemprop="url">
+                <span itemprop="name">FAREOBUDDY LLC</span>
+                <meta content="https://www.fareobuddy.com/Content/images/logo.png" itemprop="image">
+                <meta content="https://www.fareobuddy.com/" itemprop="url">
                 its registered office located at
                 <span itemtype="https://schema.org/PostalAddress" itemscope="" itemprop="address">
                     <span itemprop="streetAddress">371 HOES LANE SUITE 200,</span> in the city of
@@ -1596,9 +1596,9 @@ $(function () {
                     <span itemprop="addressRegion"> NEW JERSEY, USA</span>
 
                 </span> is authorized to use the ARC No. 33 54290-2 of Travel Unravel Holidays Ltd. We have met and we continue to maintain the operational standards as described in ARC's Verified Travel Consultant Agreement.
-                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@airlinefarecenter.com </span>
+                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@fareobuddy.com </span>
             </span>
-            <span class="cpr">©Copyright 2013-2023 airlinefarecenter.com</span>
+            <span class="cpr">©Copyright 2013-2023 FareObuddy.com</span>
         </p>
   
      </div>

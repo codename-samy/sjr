@@ -15,9 +15,9 @@
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-    <title>Cookie Policy - airlinefarecenter.com, your travel buddy </title>
+    <title>Cookie Policy - Fareobuddy.com, your travel buddy </title>
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
-    <link rel="canonical" href='https://www.airlinefarecenter.com/cookies'>
+    <link rel="canonical" href='https://www.fareobuddy.com/cookies'>
     <!-- CSS File -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap">
     <link href="/bundles/jquerybootstrapcss?v=31Fqro3sJ_xXelxt31PQnRFelMbc7-OOXx8Y-D5TOiU1" rel="stylesheet"/>
@@ -32,7 +32,7 @@
 
     
     
-<meta name="description" content="airlinefarecenter | find flight tickets and hotel deals around the world. Book online or Call now." />
+<meta name="description" content="FareObuddy | find flight tickets and hotel deals around the world. Book online or Call now." />
 <style>
     .header-heading.text-center h1 {
         margin: 0;
@@ -212,29 +212,29 @@ fbq('track', 'PageView');
         <p><strong>Types of cookies and how we use them:</strong></p>
 
 
-        On airlinefarecenter, we may use the following types of cookies:<br><br>
+        On FareoBuddy, we may use the following types of cookies:<br><br>
 
         <strong>1st Party Cookies:</strong><br>
 
-        First-party cookies are set by airlinefarecenter for users on its website.<br><br>
+        First-party cookies are set by FareoBuddy for users on its website.<br><br>
 
         <strong>3rd Party Cookies:</strong><br>
 
-        Third-party cookies are set by airlinefarecenter’s third-party partners.<br><br>
+        Third-party cookies are set by FareoBuddy’s third-party partners.<br><br>
 
         <strong>
             Session Cookies:
         </strong><br>
 
-        Session cookies are temporary cookies that remain on your device until you close your web browser. Many session cookies are essential to make airlinefarecenter function correctly. These cookies enable you to browse all our web pages, use its search and booking facilities, and more.<br><br>
+        Session cookies are temporary cookies that remain on your device until you close your web browser. Many session cookies are essential to make FareoBuddy function correctly. These cookies enable you to browse all our web pages, use its search and booking facilities, and more.<br><br>
 
         <strong>Persistent Cookies:</strong><br>
 
-        Persistent cookies are the ones that remain on your device for much longer or until you manually delete it. This type of cookie usually varies based on your web browser preferences and cookies settings. Persistent cookies help us recognize you as an existing or returning user on the airlinefarecenter website. This makes accessing the website’s functionality smoother and seamless. For instance, you may not have to log in with your details every time you visit the website. Persistent cookies also enable airlinefarecenter to identify a user, track browsing habits and record other information vital for providing its services.<br><br>
+        Persistent cookies are the ones that remain on your device for much longer or until you manually delete it. This type of cookie usually varies based on your web browser preferences and cookies settings. Persistent cookies help us recognize you as an existing or returning user on the FareoBuddy website. This makes accessing the website’s functionality smoother and seamless. For instance, you may not have to log in with your details every time you visit the website. Persistent cookies also enable FareoBuddy to identify a user, track browsing habits and record other information vital for providing its services.<br><br>
 
         <strong>Strictly Necessary Cookies:</strong><br>
 
-        These cookies are strictly necessary for the airlinefarecenter website to function correctly and ensure that all our services are accessible to you at any given instant. This may include information for the website’s login functionality, load balancing, page navigation, and filling in forms, among others.<br><br>
+        These cookies are strictly necessary for the FareoBuddy website to function correctly and ensure that all our services are accessible to you at any given instant. This may include information for the website’s login functionality, load balancing, page navigation, and filling in forms, among others.<br><br>
 
         <strong>Performance Cookies:</strong><br>
 
@@ -248,7 +248,7 @@ fbq('track', 'PageView');
             Advertising Cookies:
         </strong><br>
 
-        Advertising cookies ensure that we only show you advertisements that are relevant to your browsing experience across airlinefarecenter and other related websites. In essence, these cookies help you develop and analyze how our marketing campaigns are performing, limit the number of times you’re seeing an advertisement, and other similar advertising processes.<br><br>
+        Advertising cookies ensure that we only show you advertisements that are relevant to your browsing experience across FareoBuddy and other related websites. In essence, these cookies help you develop and analyze how our marketing campaigns are performing, limit the number of times you’re seeing an advertisement, and other similar advertising processes.<br><br>
 
         <strong> Analytics and Personalization Cookies: </strong><br>
 
@@ -299,7 +299,7 @@ fbq('track', 'PageView');
     <p>Get exclusive discounts on flights & hotels.</p>
     <form id="frmNewsletter" action="/FooterLinks/ContactUs" method="post">
         <input type="hidden" id="hdnSubscribe" name="FormType" value="Subscribe" />
-        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to airlinefarecenter!</span>
+        <span id="spanNewsletterThanks" style="display:none">Thanks for subscribing to FareObuddy!</span>
         <input class="form-control" id="txtNewsletterMail" type="text" maxlength="55" placeholder="Your email ID" name="Email" />
         <button type="submit" class="g-orange" onclick="return subscribeEmail()" id="btnNewsletterSubmit">Subscribe</button>
         <span id="spnAlreadyExist" class="spnAlreadyExist"></span>
@@ -310,13 +310,13 @@ fbq('track', 'PageView');
             <div class="col-sm-7">
                 <div class="row">
                     <div class="col-sm-4 contact-btm">
-                        <p><a href="https://www.airlinefarecenter.com/">airlinefarecenter LLC</a></p>
+                        <p><a href="https://www.fareobuddy.com/">FAREOBUDDY LLC</a></p>
                         <p>371 HOES LANE SUITE 200, PISCATAWAY, NEW JERSEY 08854</p>
-                        <p><a href="mailto:sales@airlinefarecenter.com">sales@airlinefarecenter.com</a></p>
+                        <p><a href="mailto:sales@fareobuddy.com">sales@fareobuddy.com</a></p>
                         <div class="social-media">
-                            <a href="https://www.instagram.com/airlinefarecenter/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/airlinefarecenter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/airlinefarecenter/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fareobuddy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/fareobuddy" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/fareobuddy/" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -332,9 +332,9 @@ fbq('track', 'PageView');
         <img src="/Content/images/m.card-icon.png">
         <p>
             <span itemtype="https://schema.org/TravelAgency" itemscope="">
-                <span itemprop="name">airlinefarecenter LLC</span>
-                <meta content="https://www.airlinefarecenter.com/Content/images/logo.png" itemprop="image">
-                <meta content="https://www.airlinefarecenter.com/" itemprop="url">
+                <span itemprop="name">FAREOBUDDY LLC</span>
+                <meta content="https://www.fareobuddy.com/Content/images/logo.png" itemprop="image">
+                <meta content="https://www.fareobuddy.com/" itemprop="url">
                 its registered office located at
                 <span itemtype="https://schema.org/PostalAddress" itemscope="" itemprop="address">
                     <span itemprop="streetAddress">371 HOES LANE SUITE 200,</span> in the city of
@@ -345,9 +345,9 @@ fbq('track', 'PageView');
                     <span itemprop="addressRegion"> NEW JERSEY, USA</span>
 
                 </span> is authorized to use the ARC No. 33 54290-2 of Travel Unravel Holidays Ltd. We have met and we continue to maintain the operational standards as described in ARC's Verified Travel Consultant Agreement.
-                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@airlinefarecenter.com </span>
+                We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <span itemprop="telephone">1-631-309-0576</span> | Email: <span itemprop="email">support@fareobuddy.com </span>
             </span>
-            <span class="cpr">©Copyright 2013-2023 airlinefarecenter.com</span>
+            <span class="cpr">©Copyright 2013-2023 FareObuddy.com</span>
         </p>
   
      </div>

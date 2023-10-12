@@ -1,0 +1,310 @@
+﻿
+.banner {
+        background-image: url(../images/Advisory/advBanner.jpg);
+        padding: 44px 0 30px 0;
+        background-position: center top;
+        background-size: 100%;
+        min-height: 524px;
+        background-repeat: no-repeat;
+        background-color: #0ac0ca;
+    }
+
+    .cdsSection {
+        padding: 20px 0 30px 0;
+    }
+
+    .cdsCol {
+        border: solid 1px #aefffc;
+        border-radius: 3px;
+        display: flex;
+        padding: 9px 30px;
+    }
+
+        .cdsCol .thumb {
+            width: 30%;
+        }
+
+        .cdsCol .description {
+            font-size: 14px;
+            color: #000016;
+            width: 70%;
+            text-align: justify;
+            padding-top: 20px;
+        }
+
+    .col-2 {
+        width: 49%;
+        float: left;
+    }
+
+    .cdsSection .col-2:nth-child(2) {
+        float: right;
+    }
+
+    .cdsSection h4 {
+        text-align: center;
+        margin-top: 40px;
+        font-weight: 500;
+    }
+
+        .cdsSection h4 a {
+            font-weight: 600;
+            background: -webkit-linear-gradient(45deg, #f4860b, #e8361a 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+        }
+
+            .cdsSection h4 a:after {
+                content: ' ';
+                height: 1px;
+                width: 100%;
+                background: -webkit-linear-gradient(45deg, #f4860b, #e8361a 80%);
+                z-index: 1;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+
+    .intSection.paddTop {
+        padding-top: 50px;
+    }
+
+    .intSection .box {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        border: solid 1px #cccccc;
+        transition: transform .2s;
+    }
+
+        .intSection .box img {
+            transition: transform .3s;
+        }
+
+        .intSection .box:hover img {
+            transform: scale(1.1);
+        }
+
+        .intSection .box:after {
+            content: ' ';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            top: 7.3em;
+            background: linear-gradient( to bottom, rgba(0,0,0,0), rgba(0,0,0,0.60) 50% );
+            z-index: 0;
+        }
+
+    .box .text {
+        position: absolute;
+        z-index: 1;
+        font-size: 26px;
+        font-weight: bold;
+        color: #fff;
+        bottom: 10px;
+        left: 28px;
+        text-transform: uppercase;
+    }
+
+        .box .text span {
+            font-size: 18px;
+            color: #2eeef3;
+            padding-left: 5px;
+        }
+
+    .travelAdvPage .hdng h2 span {
+        font-size: 15px;
+        text-align: center;
+        color: #2e0103;
+        display: block;
+        font-weight: 500;
+        padding-top: 5px;
+    }
+
+    .reqSection {
+        padding-bottom: 20px;
+    }
+
+        .reqSection .listContainer {
+            border: solid 1px #dfdfdf;
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 40px 60px 20px 60px;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 50px;
+            box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.10);
+        }
+
+            .reqSection .listContainer li {
+                background: url(../images/Advisory/tick.png) left top no-repeat;
+                padding-left: 45px;
+                color: #2e0103;
+                font-size: 16px;
+                line-height: 22px;
+                padding-top: 2px;
+                padding-bottom: 20px;
+            }
+
+    .saftry-travel {
+        padding: 50px 20px 30px 20px;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+        .saftry-travel ul {
+            display: flex;
+            width: 100%;
+        }
+
+            .saftry-travel ul li {
+                width: 12.5%;
+                background: #fff;
+                box-shadow: 0 0 3px #999;
+                margin: 0 6px;
+                border-radius: 5px;
+                text-align: center;
+                padding: 0;
+                margin-top: 11px;
+            }
+
+                .saftry-travel ul li span {
+                    display: flex;
+                    width: 100%;
+                    height: 86px;
+                    border-radius: 0 0 80% 80%;
+                    align-items: baseline;
+                    justify-content: center;
+                    background: #ddfeff;
+                    padding-top: 15px;
+                }
+
+                    .saftry-travel ul li span img {
+                        filter: brightness(0.4);
+                        opacity: 0.8;
+                    }
+
+                .saftry-travel ul li p {
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #2f2f2f;
+                    margin-top: 7px;
+                    padding: 13px 3px;
+                }
+
+    .tophdr-info {
+        padding: 7px 35px;
+        background: #0aafb3;
+        position: relative;
+    }
+
+        .tophdr-info p {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            padding-right: 110px;
+            margin: 0;
+        }
+
+        .tophdr-info a.info-close {
+            position: absolute;
+            right: 86px;
+            background: #fff;
+            top: 50%;
+            color: #0aafb3;
+            font-size: 16px;
+            border-radius: 3px;
+            padding: 0px 8px 1px 8px;
+            transform: translate(0, -50%);
+        }
+
+    header {
+        padding-right: 66px;
+        padding-left: 66px;
+    }
+
+        header .contact-heading nav.nav {
+            margin-right: 167px;
+        }
+
+    @media only screen and (max-width: 1024px) {
+        body .banner {
+            min-height: 414px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .saftry-travel ul li {
+            width: 12.5%;
+            margin: 0 4px;
+            padding: 0;
+        }
+
+            .saftry-travel ul li span {
+                height: 57px;
+                padding-top: 9px;
+            }
+
+                .saftry-travel ul li span img {
+                    width: 29px;
+                }
+
+            .saftry-travel ul li p {
+                font-size: 7px;
+                margin-top: 0;
+                padding: 3px;
+                padding-bottom: 0;
+            }
+
+        .saftry-travel {
+            padding: 30px 5px;
+        }
+
+        .tophdr-info {
+            padding: 5px 20px;
+        }
+
+            .tophdr-info p {
+                font-size: 10px;
+                padding-right: 40px;
+            }
+
+            .tophdr-info a.info-close {
+                right: 26px;
+            }
+    }
+
+    @media only screen and (max-width:768px) {
+        body .banner {
+            min-height: 350px;
+        }
+
+        .box .text {
+            font-size: 20px;
+            bottom: 6px;
+            left: 15px;
+        }
+
+            .box .text span {
+                font-size: 15px;
+            }
+
+        .reqSection .listContainer {
+            padding: 30px 20px 15px 20px;
+            grid-gap: 20px;
+        }
+
+            .reqSection .listContainer li {
+                padding-left: 36px;
+                font-size: 14px;
+                line-height: 22px;
+                padding-top: 0;
+                padding-bottom: 14px;
+                background-size: 20px;
+                background-position: 0px 2px;
+            }
+    }

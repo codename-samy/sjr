@@ -1,0 +1,20 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 12 Oct 2023 13:11:34 at https://www.fareobuddy.com/
+(httrack https://www.fareobuddy.com/ -O . -s0 -r2 -F "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Mobile Safari/537.36" -n -N %h%p/%n%q.%t -R3 -%e0 -p3 -%P -A25000 -%c20 -F "Mozilla/5.0 (compatible; HTTrack Website Copier/3.x; +https://www.httrack.com/)" -%s -%u -%k -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:11:34	Warning: 	* security warning: maximum number of connections per second limited to 5.000000 to avoid server overload
+13:11:44	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://www.facebook.com/tr?id=871824557003416&ev=PageView&noscript=1
+13:12:56	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.fareobuddy.com/)
+13:21:29	Error: 	"Not Found" (404) at link https://www.fareobuddy.com/GET (from https://www.fareobuddy.com/)
+13:21:29	Warning: 	Warning: store text/css without scan: ./www.fareobuddy.com/Content/css/m.destination-and-airline68be.css
+13:21:29	Warning: 	Warning: store text/css without scan: ./www.fareobuddy.com/Content/css/m.destinationSearchWidget68be.css
+13:21:29	Warning: 	Warning: store text/css without scan: ./www.fareobuddy.com/Content/css/m.contact68be.css
+13:21:29	Warning: 	Warning: store text/css without scan: ./www.fareobuddy.com/Content/css/listnav.css
+13:21:29	Warning: 	Warning: store text/css without scan: ./www.fareobuddy.com/Content/css/m.travel-advisory.css
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 55 seconds : 593 links scanned, 591 files written (7546532 bytes overall) [4550244 bytes received at 7647 bytes/sec], 4422722 bytes transferred using HTTP compression in 49 files, ratio 20%, 59.4 requests per connection
+(2 errors, 7 warnings, 0 messages)

@@ -1,0 +1,17 @@
+﻿.header{
+    background-color: #fff;
+}
+.header nav ul li a{
+    color:#034053;
+    font-weight: 600;
+}
+
+
+:root{
+    --themecolor : #e8361a;
+}
+
+.pasenger-popup .btsy a, .searchweight .tabs li.active a,  .g-orange, .usbTheme{ background:var(--themecolor)!important;}
+
+
+

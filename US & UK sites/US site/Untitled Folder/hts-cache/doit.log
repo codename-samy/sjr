@@ -1,0 +1,8 @@
+https://www.fareobuddy.com/ -O . -s0 -r2 -F "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Mobile Safari/537.36" -n -N %h%p/%n%q.%t -R3 -%e0 -p3 -%P -A25000 -%c20 -F "Mozilla/5.0 (compatible; HTTrack Website Copier/3.x; +https://www.httrack.com/)" -%s -%u -%k -%v
+File generated automatically on Thu, 12 Oct 2023 13:11:34, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

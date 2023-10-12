@@ -1,3 +1,0 @@
-﻿User-agent: *
-Allow: /
-sitemap: https://www.fareobuddy.com/sitemap.xml

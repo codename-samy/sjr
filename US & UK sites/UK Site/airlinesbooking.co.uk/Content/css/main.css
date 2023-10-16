@@ -1431,9 +1431,10 @@ hr.short {
 }
 
 .nav-logo-wrap .logo img {
-  max-height: 100%;
+  height: 70px;
   display: inline-block;
   margin: 0 auto;
+  margin-top: -10px !important;
 }
 
 .nav-logo-wrap .logo:after,
@@ -20675,7 +20676,8 @@ p.error {
 
 .closeit {
   position: absolute;
-  right: 15px;
+  margin-left: auto;
+  margin-right: -20px;
   color: rgba(212, 69, 27, 0.7) !important;
   font-size: 21px;
   display: block !important;

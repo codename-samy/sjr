@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&amp;display=swap"
     />
 
-    <link href="bundles/jquerybootstrapcssa019.css?v=1.9.1" rel="stylesheet" />
+    <link href="bundles/jquerybootstrapcssa019.css" rel="stylesheet" />
 
     <link href="bundles/customcss437e.css" rel="stylesheet" />
 
@@ -1933,28 +1933,8 @@
         }
       });
     </script>
-    <script>
-      $(document).ready(function () {
-        $(this)
-          .one("click", function () {
-            GetChatOption();
-          })
-          .one("scroll", function () {
-            GetChatOption();
-          });
-      });
-    </script>
-    <script async>
-      $(function () {
-        $.getJSON(
-          "https://api.ipify.org/?format=json&amp;callback=ipAddress",
-          function (data) {
-            UpdateClientIPAddress(data.ip, "Home");
-          }
-        );
-      });
-    </script>
-
+    
+    
     <script>
       //Keep this code for Reloading on Back Button Click//
       //**** For Chrome/Mozilla***
@@ -2216,8 +2196,7 @@
             );
           }
         };
-        xhttp.open("GET.html", "/Flight/SetCookies?Type=SetStatus", true);
-        xhttp.send();
+        
       }
     </script>
   </body>

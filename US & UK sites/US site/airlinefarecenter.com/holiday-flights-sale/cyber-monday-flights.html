@@ -1783,13 +1783,7 @@ $(function () {
             OpenTab('FlightTab');
         });
 </script>
-    <script async>
-        $(function () {
-            $.getJSON('https://api.ipify.org/?format=json&amp;callback=ipAddress', function (data) {
-                UpdateClientIPAddress(data.ip, 'Home')
-            });
-        });
-    </script>
+    
 
 
 
@@ -2011,8 +2005,7 @@ position: fixed;
                 localStorage.setItem("FOB_TnC_CookiesData", "FOB Term And Condition Cookies Data");
             }
         };
-        xhttp.open("GET.html", "/Flight/SetCookies?Type=SetStatus", true);
-        xhttp.send();
+        
     }
     </script>
 </body>

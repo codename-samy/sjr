@@ -657,16 +657,7 @@
             $("#divContactCampaign").hide();
         })
 </script>
-<script>
-        $(document).ready(function(){
-            //$('.callNowpopupBnt').click();
-            $(this).one('click', function() {
-                GetChatOption();
-            }).one('scroll', function(){
-                GetChatOption();
-            });
-        });
-</script>
+
 
 
 
@@ -887,8 +878,7 @@ position: fixed;
                 localStorage.setItem("FOB_TnC_CookiesData", "FOB Term And Condition Cookies Data");
             }
         };
-        xhttp.open("GET.html", "/Flight/SetCookies?Type=SetStatus", true);
-        xhttp.send();
+        
     }
     </script>
 </body>

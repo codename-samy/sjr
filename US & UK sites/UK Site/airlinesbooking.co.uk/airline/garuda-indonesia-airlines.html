@@ -309,10 +309,15 @@
         var isProcessing = false;
     </script>
 
+<script src="/Content/js/airline-modal.js" data-show-modal="true" data-timeout="5000"></script>
+<link rel="stylesheet" href="/Content/css/airline-modal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
 </head>
 
 
 <body onload="CheckCookiesStatus(); StartTimers();" onunload="" onmousemove="" class="   expand-popup" >
+<div id="main-body" class="main-body">
     <div class="blackoverlay">
         <div class="bar"></div>
         Processing Request...
@@ -550,47 +555,46 @@
                
 
                 <li class="search1">
-                    <a href="javascript:void(0);" class="freecallbackBtn">
-                        <span class="callusbtn">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Svg1" x="0px" y="0px" width="32.667px" height="32.667px" viewBox="0 0 32.667 32.667" style="enable-background:new 0 0 32.667 32.667;" xml:space="preserve">
-<g>
-                            <path d="M16.333,0C7.327,0,0,7.327,0,16.334c0,9.006,7.326,16.333,16.333,16.333c0.557,0,1.007-0.451,1.007-1.006   c0-0.556-0.45-1.007-1.007-1.007c-7.896,0-14.318-6.424-14.318-14.319c0-7.896,6.422-14.32,14.318-14.32   c7.896,0,14.317,6.424,14.317,14.32c0,3.299-1.756,6.571-4.269,7.955c-0.913,0.502-1.903,0.751-2.959,0.761   c0.634-0.378,1.183-0.887,1.591-1.531c0.08-0.121,0.186-0.226,0.238-0.359c0.328-0.789,0.357-1.684,0.555-2.516   c0.243-1.066-4.658-3.143-5.084-1.815c-0.154,0.493-0.39,2.048-0.699,2.458c-0.275,0.365-0.953,0.193-1.377-0.168   c-1.117-0.952-2.364-2.352-3.458-3.457l0.002-0.001c-0.028-0.029-0.062-0.062-0.092-0.091c-0.031-0.03-0.062-0.062-0.093-0.092l0,0   c-1.106-1.093-2.506-2.338-3.457-3.458c-0.36-0.424-0.534-1.1-0.168-1.376c0.41-0.31,1.966-0.543,2.458-0.698   c1.326-0.425-0.75-5.329-1.816-5.084c-0.832,0.195-1.727,0.225-2.516,0.552c-0.134,0.056-0.238,0.16-0.359,0.24   c-2.799,1.775-3.16,6.083-0.428,9.292c1.041,1.228,2.127,2.416,3.245,3.576l-0.006,0.004c0.031,0.031,0.063,0.06,0.095,0.09   c0.03,0.031,0.059,0.062,0.088,0.095l0.006-0.006c1.16,1.118,2.535,2.764,4.769,4.255c4.703,3.141,8.312,2.264,10.438,1.098   c3.67-2.021,5.312-6.338,5.312-9.719C32.667,7.327,25.339,0,16.333,0z"></path>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg> Get An Instant Call Back<i class="fa fa-angle-down"></i>
-                        </span>
-                    </a>
-
-                </li>
+                <a href="javascript:void(0);" class="freecallbackBtn">
+                  <span class="callusbtn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      version="1.1"
+                      id="Svg1"
+                      x="0px"
+                      y="0px"
+                      width="32.667px"
+                      height="32.667px"
+                      viewBox="0 0 32.667 32.667"
+                      style="enable-background: new 0 0 32.667 32.667"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <path
+                          d="M16.333,0C7.327,0,0,7.327,0,16.334c0,9.006,7.326,16.333,16.333,16.333c0.557,0,1.007-0.451,1.007-1.006   c0-0.556-0.45-1.007-1.007-1.007c-7.896,0-14.318-6.424-14.318-14.319c0-7.896,6.422-14.32,14.318-14.32   c7.896,0,14.317,6.424,14.317,14.32c0,3.299-1.756,6.571-4.269,7.955c-0.913,0.502-1.903,0.751-2.959,0.761   c0.634-0.378,1.183-0.887,1.591-1.531c0.08-0.121,0.186-0.226,0.238-0.359c0.328-0.789,0.357-1.684,0.555-2.516   c0.243-1.066-4.658-3.143-5.084-1.815c-0.154,0.493-0.39,2.048-0.699,2.458c-0.275,0.365-0.953,0.193-1.377-0.168   c-1.117-0.952-2.364-2.352-3.458-3.457l0.002-0.001c-0.028-0.029-0.062-0.062-0.092-0.091c-0.031-0.03-0.062-0.062-0.093-0.092l0,0   c-1.106-1.093-2.506-2.338-3.457-3.458c-0.36-0.424-0.534-1.1-0.168-1.376c0.41-0.31,1.966-0.543,2.458-0.698   c1.326-0.425-0.75-5.329-1.816-5.084c-0.832,0.195-1.727,0.225-2.516,0.552c-0.134,0.056-0.238,0.16-0.359,0.24   c-2.799,1.775-3.16,6.083-0.428,9.292c1.041,1.228,2.127,2.416,3.245,3.576l-0.006,0.004c0.031,0.031,0.063,0.06,0.095,0.09   c0.03,0.031,0.059,0.062,0.088,0.095l0.006-0.006c1.16,1.118,2.535,2.764,4.769,4.255c4.703,3.141,8.312,2.264,10.438,1.098   c3.67-2.021,5.312-6.338,5.312-9.719C32.667,7.327,25.339,0,16.333,0z"
+                        ></path>
+                      </g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                    </svg>
+                    Contact Us Anytime<i class="fa fa-angle-down"></i>
+                  </span>
+                </a>
+              </li>
             </ul>
         </div>
         <div class="call-icon-wrap"><i class="fa fa-phone" aria-hidden="true"></i><i class="fa fa-times" aria-hidden="true" style="display: none;"></i></div>
@@ -791,7 +795,7 @@
 <div class="callbx-fixedtop  "> <div class="rowbx"> <div class="icon-bx"> <a href="tel:+44-800-524-4288"><span><span class="hidden-box">+44-800-524-4288</span><i class="fa fa-phone" aria-hidden="true"></i></span></a> </div> <div class="rgt-col"> <p><span class="txtsmall">For the best prices call today</span></p> <p> <a href="tel:+44-800-524-4288"><span>+44-800-524-4288</span></a> </p> </div> </div> </div>
 <div class="banner ">
    <div class="bannerTxt">Garuda Indonesia Airlines Flight Deals</div>
-    <img src="/Content/images/StarAirLines/GA.jpg">
+    <img class="air-modal-bg" src="/Content/images/StarAirLines/GA.jpg">
 
     
 </div>
@@ -800,7 +804,7 @@
 
 <section class="search-box search-index-page airline-flight" style="background: url(/Content/images/StarAirLines/GA.jpg);">
     <div class="container">
-        <div class="airline-deals-logo"><i><img src="/Content/images/Airline-logo-cms/GA.png" alt='Garuda Indonesia Airlines' title='Garuda Indonesia Airlines' /></i></div>
+        <div class="airline-deals-logo"><i><img class="air-modal-logo" src="/Content/images/Airline-logo-cms/GA.png" alt='Garuda Indonesia Airlines' title='Garuda Indonesia Airlines' /></i></div>
 <form id="formAirSearch">
     <input name="hvDirect" type="hidden" id="hvDirect" value="off" />
     <input name="ddlAirline" type="hidden" id="ddlAirline" value="All" />
@@ -1324,7 +1328,9 @@
           </div>
 
             <div class="ortext">OR</div>
-            <p>For a free & immediate callback, enter your number below and we will call you in 5 seconds.</p>
+            <p>
+            Please don't hesitate to <a href="/contact.html" style="color: #FF5757; font-weight: bold;">Get in Touch</a> with us at any time for top-notch Reservations and Cancellation Support.
+          </p>
 
             </div>
 
@@ -1338,16 +1344,11 @@
 
                      
                         <span class="font-4">
-                            <b class="call-bycountry">+44</b>
-                            <input class="anodisp" name="countrycode" type="text">
-                            <input type="tel" title="Enter 10-15 digits phone number" onkeyup="return ClearCallBackError('contactuserror1')" pattern="\d*"
-                                   required placeholder="Enter 10-15 digits number" value="" maxlength="15"
-                                   onkeypress="return isNumberKey(event);" minlength="10" name="callusphone" id="callusphone1" />
                             <span id="contactuserror1"></span><button id="Button11" style="display:none;" type="submit" class="fieldButton"></button>
                             <span class="closeinstantcall" style="display: none">X</span>
                         </span>
 
-                        <a id="btnCallmeNow" href="javascript:void(0)" class="fieldButton callmenow active" style="width:100%" onclick="return ProcessFooterCallRequest();">Call Me Now !</a>
+                        <a id="btnCallmeNow" href="tel:+44-800-524-4288" class="fieldButton callmenow active" style="width:100%">Call US Now !</a>
 
                     </div>
                     <a href="javascript:void(0)" class="btn btn-danger" id="btnCloseFooterProgress" onclick="return CloseFooterProgress()" style="float:right; display:none">X</a>
@@ -1402,7 +1403,7 @@
         </div>
     </i>
     <i class="crs" style="display: none;">X</i>
-    <span class="call_txt" style="display: none;">Would you like a free callback in 5 Seconds. <i class="fa fa-times" aria-hidden="true"></i></span>
+    <span class="call_txt" style="display: none;">No Hold, Your Call Answered in 5 Seconds. <i class="fa fa-times" aria-hidden="true"></i></span>
 </div>
 
 
@@ -1610,13 +1611,12 @@
         <div class="footerContiner">
             
 
-            <div class="footerBottom">
+            <div class="footerBottom" style="text-align: center;">
                 <div class="container">
                     <div class="footerWhitesec">
 
                         <div class="website-operated">
-                The website is operated by Airlines Booking Limited,Company Number 14498022 is a company registered in England and Wales,85 Great Portland Street, first floor, London W1W 7LT, United Kingdom
-which is part of Prime Travel,  <a href="https://travelo.live/" style="font-weight: 800; color: #003A0F;">Travelo.live</a> is a part of AIRLINE RESERVATION LIMITED
+                The website is operated by Airlines Reservations Limited,Company Number 14498022 is a company registered in England and Wales,85 Great Portland Street, first floor, London W1W 7LT, United Kingdom
               </div>
                         
                     </div>
@@ -2658,5 +2658,5 @@ which is part of Prime Travel,  <a href="https://travelo.live/" style="font-weig
         }
 
     </script>
-</body>
+</div></body>
 </html>

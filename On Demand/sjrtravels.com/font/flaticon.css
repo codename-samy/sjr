@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-compass:before { content: "\f100"; }
+.flaticon-world:before { content: "\f101"; }
+.flaticon-tent:before { content: "\f102"; }
+.flaticon-travel:before { content: "\f103"; }
+.flaticon-home:before { content: "\f104"; }
+.flaticon-world-1:before { content: "\f105"; }
+.flaticon-location:before { content: "\f106"; }
+.flaticon-smile:before { content: "\f107"; }
+.flaticon-thumb-up:before { content: "\f108"; }
+.flaticon-forum:before { content: "\f109"; }
+.flaticon-beach:before { content: "\f10a"; }
+.flaticon-man:before { content: "\f10b"; }
+.flaticon-woman:before { content: "\f10c"; }
+.flaticon-airplane:before { content: "\f10d"; }
+.flaticon-sun-umbrella:before { content: "\f10e"; }
+.flaticon-right-arrow:before { content: "\f10f"; }
+.flaticon-right-arrow-1:before { content: "\f110"; }
+.flaticon-left-arrow:before { content: "\f111"; }
+.flaticon-left-chevron:before { content: "\f112"; }
+.flaticon-up-chevron:before { content: "\f113"; }
+.flaticon-left-arrow-1:before { content: "\f114"; }
+.flaticon-right-chevron:before { content: "\f115"; }
+.flaticon-left-chevron-1:before { content: "\f116"; }
+.flaticon-exchange:before { content: "\f117"; }
+.flaticon-exchange-1:before { content: "\f118"; }
+.flaticon-right-chevron-1:before { content: "\f119"; }
+.flaticon-brightness:before { content: "\f11a"; }
+.flaticon-photograph:before { content: "\f11b"; }
+.flaticon-route:before { content: "\f11c"; }
+.flaticon-hotel:before { content: "\f11d"; }
+.flaticon-sailboat:before { content: "\f11e"; }
+.flaticon-cable-car-cabin:before { content: "\f11f"; }
+.flaticon-bonfire:before { content: "\f120"; }
+.flaticon-ring:before { content: "\f121"; }
+.flaticon-mountains:before { content: "\f122"; }
+.flaticon-aquarium:before { content: "\f123"; }
+.flaticon-hot-air-balloon:before { content: "\f124"; }
+.flaticon-travel-1:before { content: "\f125"; }
+.flaticon-call:before { content: "\f126"; }
+.flaticon-email:before { content: "\f127"; }
+.flaticon-time:before { content: "\f128"; }
+.flaticon-slumber:before { content: "\f129"; }
+.flaticon-dish:before { content: "\f12a"; }
+.flaticon-fork:before { content: "\f12b"; }
+.flaticon-phone-call:before { content: "\f12c"; }
+.flaticon-envelope:before { content: "\f12d"; }
+.flaticon-moon:before { content: "\f12e"; }
+.flaticon-distance:before { content: "\f12f"; }
+.flaticon-trekking:before { content: "\f130"; }
+.flaticon-elephant:before { content: "\f131"; }
+.flaticon-sun-umbrella-1:before { content: "\f132"; }
+.flaticon-clock:before { content: "\f133"; }
+.flaticon-buddhism:before { content: "\f134"; }
+.flaticon-wedding-couple:before { content: "\f135"; }
+.flaticon-hills:before { content: "\f136"; }
+.flaticon-weather:before { content: "\f137"; }
+.flaticon-luggage:before { content: "\f138"; }
+.flaticon-picture:before { content: "\f139"; }
+.flaticon-tent-1:before { content: "\f13a"; }
+.flaticon-cocktail:before { content: "\f13b"; }
+.flaticon-map:before { content: "\f13c"; }
+.flaticon-bicycle:before { content: "\f13d"; }
+.flaticon-picture-1:before { content: "\f13e"; }
+.flaticon-destination:before { content: "\f13f"; }
+.flaticon-bed:before { content: "\f140"; }
+.flaticon-honeymoon-luggage:before { content: "\f141"; }
+.flaticon-family:before { content: "\f142"; }
+.flaticon-planet-earth:before { content: "\f143"; }
+.flaticon-diwali:before { content: "\f144"; }
+.flaticon-festival:before { content: "\f145"; }
+.flaticon-diamond:before { content: "\f146"; }
+.flaticon-old-man:before { content: "\f147"; }
+.flaticon-couple:before { content: "\f148"; }
+.flaticon-elephant-1:before { content: "\f149"; }
+.flaticon-elephant-head:before { content: "\f14a"; }
+.flaticon-employee:before { content: "\f14b"; }
+.flaticon-hairstyle:before { content: "\f14c"; }
+.flaticon-building:before { content: "\f14d"; }
+.flaticon-placeholder:before { content: "\f14e"; }
+.flaticon-bus-stop:before { content: "\f14f"; }
+.flaticon-chinese:before { content: "\f150"; }
+.flaticon-binoculars:before { content: "\f151"; }
+.flaticon-car:before { content: "\f152"; }

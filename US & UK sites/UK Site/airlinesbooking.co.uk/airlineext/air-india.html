@@ -566,7 +566,7 @@
 </nav>
 <div class="call-to-phone" id="divTopHeaderCallBack" style="display:none;">
     <div id="divCallBackTop">
-        <form id="formCallOus" action="/contact" method="post" autocomplete="off">
+        <form id="formCallOus" action="/contact.html" method="post" autocomplete="off">
             <input type="hidden" id="hdnCallOus" name="FormType" value="CallOus" />
 
         <span class="font-4">
@@ -1139,7 +1139,7 @@
             <div>
                     <h1><span>Air India Flight Deals</span></h1>
                     <div class="search-results-title">
-                        <p>*Fares are based on round-trip charges and are inclusive of all fuel surcharges, service charge and tax. The displayed information is based on historic data and are subjected to a change without any guarantee at the time of making the reservation. To know more, read our booking <a href="/terms" target="_blank">Terms &amp; Conditions</a></p>
+                        <p>*Fares are based on round-trip charges and are inclusive of all fuel surcharges, service charge and tax. The displayed information is based on historic data and are subjected to a change without any guarantee at the time of making the reservation. To know more, read our booking <a href="/terms.html" target="_blank">Terms &amp; Conditions</a></p>
                     </div>
                     <div class="searchResultBox ">
                         <div class="row">
@@ -1615,89 +1615,160 @@
     <div class="footerTop">
         <div class="container">
             <div class="row pb-md-10">
-                <div class="col-md-2 col-sm-6 mb-sm-30 hideformobile">
-                    <div class="widget-footer">
-                        <h4>Destinations </h4>
-                        <div class="widget-tags-wrap">
-                            <a href="/destination/bangkok" rel="tag" class="tag" onclick="return GetDestination('/destination/Bangkok', 'Menu')">Bangkok</a>
-                            <a href="/destination/nadi" rel="tag" class="tag" onclick="return GetDestination('/destination/nadi', 'Menu')">Nadi</a>
-                            <a href="/destination/cape-town" rel="tag" class="tag" onclick="return GetDestination('/destination/cape-town', 'Menu')">Cape Town</a>
-                            <a href="/destination/toronto" rel="tag" class="tag" onclick="return GetDestination('/destination/toronto', 'Menu')">Toronto</a>
-                            <a href="/destination/abu-dhabi" rel="tag" class="tag" onclick="return GetDestination('/destination/abu-dhabi', 'Menu')">Abu Dhabi</a>
-                            
-                        </div>
-
-                    </div>
-                </div>
                 
-                <div class="col-md-2 col-sm-7 fotterLinkforMobile">
-                    <div class="widget-footer impLink">
-                        <h4>Important Links</h4>
-                        <div class="widget-tags-wrap">
-                            <a href="/about" rel="tag" class="tag">About Us</a>
-                            <a href="/contact" rel="tag" class="tag">Contact Us</a>
-                            <a href="/faqs" rel="tag" class="tag">FAQs</a>
-                            <a href="/traveladvice" rel="tag" class="tag">Travel Advice</a>
-                            <a href="/sitemap" rel="tag" class="tag">Site Map</a>                            
-                        </div>
 
+                <div class="col-md-2 col-sm-7 fotterLinkforMobile">
+                  <div class="widget-footer impLink">
+                    <h4>Important Links</h4>
+                    <div class="widget-tags-wrap">
+                      <a href="/about.html" rel="tag" class="tag">About Us</a>
+                      <a href="/contact.html" rel="tag" class="tag"
+                        >Contact Us</a
+                      >
+                      <a href="/faqs.html" rel="tag" class="tag">FAQs</a>
+                      <a href="/traveladvice.html" rel="tag" class="tag"
+                        >Travel Advice</a
+                      >
+                      <a href="/sitemap.html" rel="tag" class="tag">Site Map</a>
                     </div>
+                  </div>
                 </div>
 
                 <div class="col-md-2 col-sm-7 fotterLinkforMobile">
-                    <div class="widget-footer impLink">
-                        <h4>Legal</h4>
-                        <div class="widget-tags-wrap">
-                            <a href="/privacy" rel="tag" class="tag">Privacy</a>
-                            <a href="/terms" rel="tag" class="tag" target="_blank">Terms </a>
-                            <a href="/disclaimer" rel="tag" class="tag">Disclaimer </a>
-                            <a href="/dataprotection" rel="tag" class="tag">Data Protection Policy</a>
-                            <a href="/cookies" rel="tag" class="tag">Cookies Policy</a>
-
-                        </div>
-
+                  <div class="widget-footer impLink">
+                    <h4>Legal</h4>
+                    <div class="widget-tags-wrap">
+                      <a href="/privacy.html" rel="tag" class="tag">Privacy</a>
+                      <a
+                        href="/terms.html"
+                        rel="tag"
+                        class="tag"
+                        target="_blank"
+                        >Terms
+                      </a>
+                      <a href="/disclaimer.html" rel="tag" class="tag"
+                        >Disclaimer
+                      </a>
+                      <a href="/dataprotection.html" rel="tag" class="tag"
+                        >Data Protection Policy</a
+                      >
+                      <a href="/cookies.html" rel="tag" class="tag"
+                        >Cookies Policy</a
+                      >
                     </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mb-sm-30 hideformobile">
+                  <div class="widget-footer">
+                    <h4>Destinations</h4>
+                    <div class="widget-tags-wrap">
+                      <a
+                        href="/destination/brisbane.html"
+                        rel="tag"
+                        class="tag"
+                        onclick="return GetDestination('/destination/Bangkok', 'Menu')"
+                        >Brisbane</a
+                      >
+                      <a
+                        href="/destination/los-angeles.html"
+                        rel="tag"
+                        class="tag"
+                        onclick="return GetDestination('/destination/nadi', 'Menu')"
+                        >Los Angeles</a
+                      >
+                      <a
+                        href="/destination/cape-town.html"
+                        rel="tag"
+                        class="tag"
+                        onclick="return GetDestination('/destination/cape-town', 'Menu')"
+                        >Cape Town</a
+                      >
+                      <a
+                        href="/destination/sydney.html"
+                        rel="tag"
+                        class="tag"
+                        onclick="return GetDestination('/destination/toronto', 'Menu')"
+                        >Sydney</a
+                      >
+                      <a
+                        href="/destination/hong-kong.html"
+                        rel="tag"
+                        class="tag"
+                        onclick="return GetDestination('/destination/abu-dhabi', 'Menu')"
+                        >Hong Kong</a
+                      >
+                    </div>
+                  </div>
                 </div>
 
                 <div class="col-md-2 col-sm-7 hideformobile">
-                    <div class="widget-footer impLink">
-                        <h4>Airlines</h4>
-                        <div class="widget-tags-wrap">
-                            <a href="/airline/british-airways" rel="tag" class="tag">British Airways</a>
-                            <a href="/airline/emirates-airlines" rel="tag" class="tag">Emirates Airlines</a>
-                            <a href="/airline/etihad-airways" rel="tag" class="tag">Etihad Airways</a>
-                            <a href="/airline/turkish-airlines" rel="tag" class="tag">Turkish Airlines</a>
-                            <a href="/airline/virgin-atlantic" rel="tag" class="tag">Virgin Atlantic Airlines</a>
+                  <div class="widget-footer impLink">
+                    <h4>Airlines</h4>
+                    <div class="widget-tags-wrap">
+                      <a
+                        href="/airline/emirates-airlines.html"
+                        rel="tag"
+                        class="tag"
+                        >Emirates Airlines</a
+                      >
+                      <a
+                        href="/airline/british-airways.html"
+                        rel="tag"
+                        class="tag"
+                        >British Airways</a
+                      >
 
-                        </div>
+                      <a
+                        href="/airline/etihad-airways.html"
+                        rel="tag"
+                        class="tag"
+                        >Etihad Airways</a
+                      >
 
+                      <a href="/airline/thai-airways.html" rel="tag" class="tag"
+                        >Thai Airlines</a
+                      >
+                      <a href="/airline/lufthansa.html" rel="tag" class="tag"
+                        >Lufthansa</a
+                      >
                     </div>
+                  </div>
                 </div>
-
 
                 <div class="col-md-4 col-sm-6 mb-sm-30 contactus-footer">
-                    
-                    <div class="socialLinkHolder">
-                        
-                        <h2>Connect with Us</h2>
-                        <div class="social">
-                            <a class="social-icon fb" target="_blank" data-tooltip="Facebook" href="https://www.facebook.com/airlinesbooking-2228853123824929/">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a class="social-icon tw" target="_blank" data-tooltip="Twitter" href="https://twitter.com/airlinesbooking1">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
+                  <div class="socialLinkHolder">
+                    <h2>Connect with Us</h2>
+                    <div class="social">
+                      <a
+                        class="social-icon fb"
+                        target="_blank"
+                        data-tooltip="Facebook"
+                        href="https://www.facebook.com/airlinesbookinguk"
+                      >
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        class="social-icon tw"
+                        target="_blank"
+                        data-tooltip="Twitter"
+                        href="https://twitter.com/airlinesbookinguk"
+                      >
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
 
-                            
-                            <a class="social-icon insta" target="_blank" data-tooltip="Instagram" href="https://www.instagram.com/airlinesbookingco/">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-
-                        </div>
+                      <a
+                        class="social-icon insta"
+                        target="_blank"
+                        data-tooltip="Instagram"
+                        href="https://www.instagram.com/airlinesbookinguk"
+                      >
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
                     </div>
-
+                  </div>
                 </div>
-            </div>
+              </div>
         </div>
     </div>
 </footer>
@@ -2487,18 +2558,29 @@ $(function () {
                      
            <div id="divCallBackTextInfo">
             
-            <div class="footer-telno" style="margin:0px -10px;">
-                <span class="onecalltext">One call. All the answers</span>
-                <a href="tel:+44-800-524-4288"><span><i class="flaticon-suntour-phone"></i>+44-800-524-4288</span></a>
-                <span class="onecalltext">Calls answered in 5 seconds</span>
-            </div>
+            <div class="footer-telno" style="margin: 0px -10px">
+            <a href="tel:+44-800-524-4288"
+            ><span
+              ><i class="flaticon-suntour-phone"></i>A Single Call Solves Everything</span
+            ></a
+          >
+            
+            <a href="tel:+44-800-524-4288"
+              ><span
+                ><i class="flaticon-suntour-phone"></i>+44-800-524-4288</span
+              ></a
+            >
+            <span class="onecalltext">Calls answered in 5 seconds</span>
+          </div>
 
             <div class="ortext">OR</div>
-            <p>For a free & immediate callback, enter your number below and we will call you in 5 seconds.</p>
+            <p>
+            Please don't hesitate to <a href="/contact.html" style="color: #FF5757; font-weight: bold;">Get in Touch</a> with us at any time for top-notch Reservations and Cancellation Support.
+          </p>
 
             </div>
 
-            <form id="form1" action="/contact" method="post" autocomplete="off">
+            <form id="form1" action="/contact.html" method="post" autocomplete="off">
 
                 <input type="hidden" id="hdnCallMeB" name="FormType" value="CallOus" />
 
@@ -2508,16 +2590,11 @@ $(function () {
 
                      
                         <span class="font-4">
-                            <b class="call-bycountry">+44</b>
-                            <input class="anodisp" name="countrycode" type="text">
-                            <input type="tel" title="Enter 10-15 digits phone number" onkeyup="return ClearCallBackError('contactuserror1')" pattern="\d*"
-                                   required placeholder="Enter 10-15 digits number" value="" maxlength="15"
-                                   onkeypress="return isNumberKey(event);" minlength="10" name="callusphone" id="callusphone1" />
                             <span id="contactuserror1"></span><button id="Button11" style="display:none;" type="submit" class="fieldButton"></button>
                             <span class="closeinstantcall" style="display: none">X</span>
                         </span>
 
-                        <a id="btnCallmeNow" href="javascript:void(0)" class="fieldButton callmenow active" style="width:100%" onclick="return ProcessFooterCallRequest();">Call Me Now !</a>
+                        <a id="btnCallmeNow" href="tel:+44-800-524-4288" class="fieldButton callmenow active" style="width:100%">Call US Now !</a>
 
                     </div>
                     <a href="javascript:void(0)" class="btn btn-danger" id="btnCloseFooterProgress" onclick="return CloseFooterProgress()" style="float:right; display:none">X</a>
@@ -2572,7 +2649,7 @@ $(function () {
         </div>
     </i>
     <i class="crs" style="display: none;">X</i>
-    <span class="call_txt" style="display: none;">Would you like a free callback in 5 Seconds. <i class="fa fa-times" aria-hidden="true"></i></span>
+    <span class="call_txt" style="display: none;">No Hold, Your Call Answered in 5 Seconds. <i class="fa fa-times" aria-hidden="true"></i></span>
 </div>
 
 
@@ -2827,7 +2904,7 @@ $(function () {
          </div>
          <div class="callInfo">
              <h3>How may we help you? <i class="fa fa-times" aria-hidden="true"></i></h3>
-             <form id="form3" method="post" action="/contact">
+             <form id="form3" method="post" action="/contact.html">
                  <input type="hidden" id="hdnGetInTouch" name="FormType" value="GetInTouch" />
                  <ul>
                      <li>

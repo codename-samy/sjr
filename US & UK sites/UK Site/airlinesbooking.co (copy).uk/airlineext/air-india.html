@@ -5,7 +5,7 @@
     
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    
+    <meta name="google-site-verification" content="nHWexqr2a7bhajKAC9X0cZnAdA0mMLwrxNsr7jJZQto" />
     
 
     <link rel="shortcut icon" href="/Content/images/fav.png" type="image/x-icon" />
@@ -78,7 +78,7 @@
         }
 
             .mainContainer h1 span {
-                border-bottom: 3px solid #ff5757;
+                border-bottom: 3px solid #d4451b;
                 padding-bottom: 4px;
                 text-transform: capitalize;
             }
@@ -91,7 +91,7 @@
 
             .search-results-title p a {
                 text-decoration: underline;
-                color: #ff5757;
+                color: #d4451b;
             }
 
         .resultBox .list-header {
@@ -122,7 +122,7 @@
             height: auto;
             padding: 5px 8px;
             float: none;
-            color: #0fff03;
+            color: #024e82;
         }
 
         .flight-list-view .take-off {
@@ -213,11 +213,11 @@
         .bestdealonAirline.searchResultBox .flight-list-view .price h4 span{top:20px}
         .bestdealonAirline.searchResultBox{display:none}
 
-        .utmDeal li{box-shadow:1px 1px 5px #000;width:100%;color:#333;border:1px solid #000;padding:5px;text-align:center;position:relative;}
+        .utmDeal li{box-shadow:1px 1px 5px #ccc;width:100%;color:#333;border:1px solid #ccc;padding:5px;text-align:center;position:relative;}
         .utmDeal li p{font-size:16px;}
         .utmDeal li b{font-size:18px;}
         .utmDeal li i{font-size:30px}
-        .callHolder{color:#fff;padding:10px 20px;background:#07f547;width:100%;line-height:16px;overflow:hidden;}
+        .callHolder{color:#fff;padding:10px 20px;background:#fc5119;width:100%;line-height:16px;overflow:hidden;}
         .callHolderLeft{float:left;font-size:20px;padding-top:15px;}
         .callHolderRight{float:right;}
         .callHolderRight p{font-size:11px!important;margin:0px}
@@ -244,8 +244,8 @@
     width: 96%;
     padding: 4px 0px;
     background: #fff;
-    color: #07f547;
-    border: 2px solid #07f547;
+    color: #fc5119;
+    border: 2px solid #fc5119;
     border-radius: 20px;
     margin-left: 2%;
     font-size: 0;
@@ -261,9 +261,10 @@
     border-top: 10px solid #fc531c;
 }
 
-
+       
 
     </style>
+<link rel="stylesheet" href="/Content/css/m.landingCss.css">
 
     <script src="/Content/js/jquery.js"></script>
 <script src="/Content/js/jquery-ui.min.js"></script>
@@ -274,7 +275,7 @@
     <style>
       
         .blkoverlay1{background:rgba(0,0,0,.7);position:fixed;width:100%;height:100%;z-index:1000;display:none;cursor:url(/content/images/close-icon.png), auto;}
-        .confirmationPopup{width:470px;height:210px;border:4px solid #000;position:fixed;left:0px;top:0px;right:0px;bottom:0px;background:#fff;padding:2% 1%;z-index:100000;margin:auto;display:none;border-radius:10px;}
+        .confirmationPopup{width:470px;height:210px;border:4px solid #ccc;position:fixed;left:0px;top:0px;right:0px;bottom:0px;background:#fff;padding:2% 1%;z-index:100000;margin:auto;display:none;border-radius:10px;}
         .confirmationPopup p{font-size:15px;color:#333;text-align:center;}
         .confirmationPopup p span{color:#fb8c07;font-weight:bold;}
         .confirmationPopup p b{text-align:center;font-size:16px;padding-top:10px;display:block;}
@@ -309,25 +310,10 @@
         var isProcessing = false;
     </script>
 
-<script src="/Content/js/airline-modal.js" data-show-modal="true" data-timeout="5000"></script>
-<link rel="stylesheet" href="/Content/css/airline-modal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHNFJL447P">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MHNFJL447P');
-</script>
 </head>
 
 
 <body onload="CheckCookiesStatus(); StartTimers();" onunload="" onmousemove="" class="   expand-popup" >
-<div id="main-body" class="main-body">
     <div class="blackoverlay">
         <div class="bar"></div>
         Processing Request...
@@ -362,8 +348,8 @@
                 <div class="col-md-10 cookie-content">
                     <div class="divonDekstop">
                     We use cookies to improve your experience. By using the site you agree to the use of cookies.
-                    For more information and options regarding cookies and personal data, see our <a href="/cookies.html">Cookies Policy</a></div>
-                   <div class="divonmobb">We use <a href="/cookies.html">cookies</a> to improve your experience.Keep Browsing!</div>
+                    For more information and options regarding cookies and personal data, see our <a href="/cookies">Cookies Policy</a></div>
+                   <div class="divonmobb">We use <a href="/cookies">cookies</a> to improve your experience.Keep Browsing!</div>
                 </div>
                 <div class="col-md-2">
                     <input id="Button5" class="cookiebtn" type="button" value="Accept" onclick="return AllowCookies();" />
@@ -384,7 +370,7 @@
                         </div>
                         <div class="tel-top">
                             <a href="tel:+44-800-524-4288"> <span class="callnonmob"><i class="fa fa-phone"></i>+44-800-524-4288</span></a>
-                            
+                            <span><i class="fa fa-thumbs-up" aria-hidden="true"></i>Call Us:</span>
                         </div>
 
                     </div>
@@ -397,7 +383,7 @@
 
             <div class="nav-logo-wrap local-scroll">
                 <a href="/" class="logo">
-                    <img src="/Content/images/logo.jpg" alt="Airlines Booking" />
+                    <img src="/Content/images/logo.jpg" alt="airlinesbooking" />
                 </a>
             </div>
             <!-- ! site top panel-->
@@ -419,192 +405,106 @@
             <ul class="clearlist">
                 <!-- Item With Sub-->
                 <li>
-                <a href="/" id="home" class="mn-has-sub active flightMenu"
-                  >Flight</a
-                >
-                <a href="/hotels.html" id="home" class="mn-has-sub active flightMenu"
-                  >Hotels</a
-                >
-              </li>
+                    <a href="/" id="home" class="mn-has-sub active flightMenu">Flight</a>
+                </li>
                 <!-- End Item With Sub-->
                 <!-- Item With Sub-->
-                 <li class="megamenu">
-                <a href="#" class="mn-has-sub PopularDestMenu"
-                  >Top Destinations <i class="fa fa-angle-down button_open"></i
-                ></a>
-                <ul class="mn-sub mn-has-multi">
-                  <li class="mn-sub-multi">
-                    <h2>Popular Destinations</h2>
-                    <ul>
-                      <li>
-                        <a
-                          href="/destination/brisbane.html"
-                          onclick="return GetDestination('/destination/brisbane', 'Menu')"
-                          >Brisbane</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/dubai.html"
-                          onclick="return GetDestination('/destination/dubai', 'Menu')"
-                          >Dubai</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/cape-town.html"
-                          onclick="return GetDestination('/destination/cape-town', 'Menu')"
-                          >Cape Town</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/bali.html"
-                          onclick="return GetDestination('/destination/bali', 'Menu')"
-                          >Bali</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/nadi.html"
-                          onclick="return GetDestination('/destination/nadi', 'Menu')"
-                          >Nadi</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/nairobi.html"
-                          onclick="return GetDestination('/destination/nairobi', 'Menu')"
-                          >Nairobi</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/los-angeles.html"
-                          onclick="return GetDestination('/destination/los-angeles', 'Menu')"
-                          >Los Angeles</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/istanbul.html"
-                          onclick="return GetDestination('/destination/istanbul', 'Menu')"
-                          >Istanbul</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/perth.html"
-                          onclick="return GetDestination('/destination/perth', 'MM')"
-                          >Perth</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="/destination/las-vegas.html"
-                          onclick="return GetDestination('/destination/las-vegas', 'Menu')"
-                          >Las Vegas</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
+                <li class="megamenu ">
+                    <a href="#" class="mn-has-sub PopularAirMenu">Top Airlines <i class="fa fa-angle-down button_open"></i></a>
+                    <ul class="mn-sub mn-has-multi ligridview">
 
-              <li class="megamenu">
-                <a href="#" class="mn-has-sub PopularAirMenu"
-                  >Top Airlines <i class="fa fa-angle-down button_open"></i
-                ></a>
-                <ul class="mn-sub mn-has-multi ligridview">
-                  <li><a href="/airline/air-canada.html">Air Canada</a></li>
-                  <li>
-                    <a href="/airline/british-airways.html">British Airways</a>
-                  </li>
-                  <li>
-                    <a href="/airline/cathay-pacific.html">Cathay Pacific</a>
-                  </li>
-                  <li>
-                    <a href="/airline/emirates-airlines.html"
-                      >Emirates Airlines</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/airline/etihad-airways.html">Etihad Airways</a>
-                  </li>
-                  <li><a href="/airline/klm-airlines.html">KLM Airlines</a></li>
-                  <li>
-                    <a href="/airline/qantas-airways.html">Qantas Airways</a>
-                  </li>
-                  <li><a href="/airline/thai-airways.html">Thai Airways</a></li>
-                  <li>
-                    <a href="/airline/turkish-airlines.html"
-                      >Turkish Airlines</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/airline/virgin-atlantic.html">Virgin Atlantic</a>
-                  </li>
-                  <li>
-                    <a href="/airline/lufthansa.html">Lufthansa Airlines</a>
-                  </li>
-                  <li>
-                    <a href="/airline/singapore-airlines.html"
-                      >Singapore Airlines</a
-                    >
-                  </li>
-                </ul>
-              </li>
+                        <li><a href="/airline/air-canada">Air Canada</a></li>
+                        <li><a href="/airline/british-airways">British Airways</a></li>
+                        <li><a href="/airline/cathay-pacific">Cathay Pacific</a></li>
+                        <li><a href="/airline/emirates-airlines">Emirates Airlines</a></li>
+                        <li><a href="/airline/etihad-airways">Etihad Airways</a></li>
+                        <li><a href="/airline/klm-airlines">KLM Airlines</a></li>
+                        <li><a href="/airline/qantas-airways">Qantas Airways</a></li>
+                        <li><a href="/airline/thai-airways">Thai Airways</a></li>
+                        <li><a href="/airline/turkish-airlines">Turkish Airlines</a></li>
+                        <li><a href="/airline/virgin-atlantic">Virgin Atlantic</a></li>
+                        <li><a href="/airline/lufthansa">Lufthansa Airlines</a></li>
+                        <li><a href="/airline/singapore-airlines">Singapore Airlines</a></li>
+                        <li class="navmore"><a href="/airlinelist/all">more... </a></li>
+                    </ul>
+                </li>
+
+
+                <li class="megamenu">
+
+                    <a href="#" class="mn-has-sub PopularDestMenu">Top Destinations <i class="fa fa-angle-down button_open"></i></a>
+                    <ul class="mn-sub mn-has-multi">
+                        <li class="mn-sub-multi">
+                            <h2>Popular Destinations</h2>
+                            <ul>
+                                <li><a href="/destination/brisbane" onclick="return GetDestination('/destination/brisbane', 'Menu')">Brisbane</a></li>
+                                <li><a href="/destination/dubai" onclick="return GetDestination('/destination/dubai', 'Menu')">Dubai</a></li>
+                                <li><a href="/destination/cape-town" onclick="return GetDestination('/destination/cape-town', 'Menu')">Cape Town</a></li>
+                                <li><a href="/destination/bali" onclick="return GetDestination('/destination/bali', 'Menu')">Bali</a></li>
+                                <li><a href="/destination/nadi" onclick="return GetDestination('/destination/nadi', 'Menu')">Nadi</a></li>
+                                <li><a href="/destination/nairobi" onclick="return GetDestination('/destination/nairobi', 'Menu')">Nairobi</a></li>
+                                <li><a href="/destination/los-angeles" onclick="return GetDestination('/destination/los-angeles', 'Menu')">Los Angeles</a></li>
+                                <li><a href="/destination/istanbul" onclick="return GetDestination('/destination/istanbul', 'Menu')">Istanbul</a></li>
+                                <li><a href="/destination/perth" onclick="return GetDestination('/destination/perth', 'MM')">Perth</a></li>
+                                <li><a href="/destination/las-vegas" onclick="return GetDestination('/destination/las-vegas', 'Menu')">Las Vegas</a></li>                                
+                                <li class="navmore"><a href="/sitemap" >more... </a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
                 <li class="megamenu ">
                     <a href="#" class="mn-has-sub BusinessClassMenu">Top Business Deals <i class="fa fa-angle-down button_open"></i></a>
                     <ul class="mn-sub mn-has-multi ligridview">
-                        <li><a href="/business-class-flights/emirates-airlines.html">Emirates Airlines</a></li>
-                        <li><a href="/business-class-flights/singapore-airlines.html">Singapore Airlines</a></li>    
-                        <li><a href="/business-class-flights/virgin-atlantic.html">Virgin Atlantic</a></li>                       
+                        <li><a href="/business-class-flights/emirates-airlines">Emirates Airlines</a></li>
+                        <li><a href="/business-class-flights/singapore-airlines">Singapore Airlines</a></li>    
+                        <li><a href="/business-class-flights/virgin-atlantic">Virgin Atlantic</a></li>                       
                     </ul>
                 </li>
                
 
                 <li class="search1">
-                <a href="javascript:void(0);" class="freecallbackBtn">
-                  <span class="callusbtn">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      version="1.1"
-                      id="Svg1"
-                      x="0px"
-                      y="0px"
-                      width="32.667px"
-                      height="32.667px"
-                      viewBox="0 0 32.667 32.667"
-                      style="enable-background: new 0 0 32.667 32.667"
-                      xml:space="preserve"
-                    >
-                      <g>
-                        <path
-                          d="M16.333,0C7.327,0,0,7.327,0,16.334c0,9.006,7.326,16.333,16.333,16.333c0.557,0,1.007-0.451,1.007-1.006   c0-0.556-0.45-1.007-1.007-1.007c-7.896,0-14.318-6.424-14.318-14.319c0-7.896,6.422-14.32,14.318-14.32   c7.896,0,14.317,6.424,14.317,14.32c0,3.299-1.756,6.571-4.269,7.955c-0.913,0.502-1.903,0.751-2.959,0.761   c0.634-0.378,1.183-0.887,1.591-1.531c0.08-0.121,0.186-0.226,0.238-0.359c0.328-0.789,0.357-1.684,0.555-2.516   c0.243-1.066-4.658-3.143-5.084-1.815c-0.154,0.493-0.39,2.048-0.699,2.458c-0.275,0.365-0.953,0.193-1.377-0.168   c-1.117-0.952-2.364-2.352-3.458-3.457l0.002-0.001c-0.028-0.029-0.062-0.062-0.092-0.091c-0.031-0.03-0.062-0.062-0.093-0.092l0,0   c-1.106-1.093-2.506-2.338-3.457-3.458c-0.36-0.424-0.534-1.1-0.168-1.376c0.41-0.31,1.966-0.543,2.458-0.698   c1.326-0.425-0.75-5.329-1.816-5.084c-0.832,0.195-1.727,0.225-2.516,0.552c-0.134,0.056-0.238,0.16-0.359,0.24   c-2.799,1.775-3.16,6.083-0.428,9.292c1.041,1.228,2.127,2.416,3.245,3.576l-0.006,0.004c0.031,0.031,0.063,0.06,0.095,0.09   c0.03,0.031,0.059,0.062,0.088,0.095l0.006-0.006c1.16,1.118,2.535,2.764,4.769,4.255c4.703,3.141,8.312,2.264,10.438,1.098   c3.67-2.021,5.312-6.338,5.312-9.719C32.667,7.327,25.339,0,16.333,0z"
-                        ></path>
-                      </g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                      <g></g>
-                    </svg>
-                    Contact Us Anytime<i class="fa fa-angle-down"></i>
-                  </span>
-                </a>
-              </li>
+                    <a href="javascript:void(0);" class="freecallbackBtn">
+                        <span class="callusbtn">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Svg1" x="0px" y="0px" width="32.667px" height="32.667px" viewBox="0 0 32.667 32.667" style="enable-background:new 0 0 32.667 32.667;" xml:space="preserve">
+<g>
+                            <path d="M16.333,0C7.327,0,0,7.327,0,16.334c0,9.006,7.326,16.333,16.333,16.333c0.557,0,1.007-0.451,1.007-1.006   c0-0.556-0.45-1.007-1.007-1.007c-7.896,0-14.318-6.424-14.318-14.319c0-7.896,6.422-14.32,14.318-14.32   c7.896,0,14.317,6.424,14.317,14.32c0,3.299-1.756,6.571-4.269,7.955c-0.913,0.502-1.903,0.751-2.959,0.761   c0.634-0.378,1.183-0.887,1.591-1.531c0.08-0.121,0.186-0.226,0.238-0.359c0.328-0.789,0.357-1.684,0.555-2.516   c0.243-1.066-4.658-3.143-5.084-1.815c-0.154,0.493-0.39,2.048-0.699,2.458c-0.275,0.365-0.953,0.193-1.377-0.168   c-1.117-0.952-2.364-2.352-3.458-3.457l0.002-0.001c-0.028-0.029-0.062-0.062-0.092-0.091c-0.031-0.03-0.062-0.062-0.093-0.092l0,0   c-1.106-1.093-2.506-2.338-3.457-3.458c-0.36-0.424-0.534-1.1-0.168-1.376c0.41-0.31,1.966-0.543,2.458-0.698   c1.326-0.425-0.75-5.329-1.816-5.084c-0.832,0.195-1.727,0.225-2.516,0.552c-0.134,0.056-0.238,0.16-0.359,0.24   c-2.799,1.775-3.16,6.083-0.428,9.292c1.041,1.228,2.127,2.416,3.245,3.576l-0.006,0.004c0.031,0.031,0.063,0.06,0.095,0.09   c0.03,0.031,0.059,0.062,0.088,0.095l0.006-0.006c1.16,1.118,2.535,2.764,4.769,4.255c4.703,3.141,8.312,2.264,10.438,1.098   c3.67-2.021,5.312-6.338,5.312-9.719C32.667,7.327,25.339,0,16.333,0z"></path>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg> Get An Instant Call Back<i class="fa fa-angle-down"></i>
+                        </span>
+                    </a>
+
+                </li>
             </ul>
         </div>
         <div class="call-icon-wrap"><i class="fa fa-phone" aria-hidden="true"></i><i class="fa fa-times" aria-hidden="true" style="display: none;"></i></div>
@@ -801,35 +701,86 @@
 
 
 
+<script>
+        $(function () {
+            $('body').addClass('air-india');
+            $('.header .right-header nav .logo-menu a').html("<img src='/Content/images/dog_logo.png'>")
+        });
+</script>
  
-<div class="callbx-fixedtop  "> <div class="rowbx"> <div class="icon-bx"> <a href="tel:+44-800-524-4288"><span><span class="hidden-box">+44-800-524-4288</span><i class="fa fa-phone" aria-hidden="true"></i></span></a> </div> <div class="rgt-col"> <p><span class="txtsmall">For the best prices call today</span></p> <p> <a href="tel:+44-800-524-4288"><span>+44-800-524-4288</span></a> </p> </div> </div> </div>
-<div class="banner ">
-   <div class="bannerTxt">Air India Flight Deals</div>
-    <img class="air-modal-bg" src="/Content/images/StarAirLines/AI.jpg">
 
-    
-</div>
-
-<a href="#" class="modifySearchBtn ">Modify Search</a>
-
-<section class="search-box search-index-page airline-flight" style="background: url(/Content/images/StarAirLines/AI.jpg);">
+<header class="headers _headers">
     <div class="container">
-        <div class="airline-deals-logo"><i><img class="air-modal-logo" src="/Content/images/Airline-logo-cms/AI.png" alt='Air India' title='Air India' /></i></div>
+        <div class="_num-call active">
+            <div class="fare-logo">
+                <a href="/" id="lnkCompanyLogo"><img style="width:116px;padding-top: 5px;" src="/Content/images/logo-white.png"></a>
+            </div>
+            <div class="number">
+                <h2 onclick="location.href = 'tel:+44-800-524-4288'"><span>Call Us</span><a href="tel:+44-800-524-4288">+44-800-524-4288</a></h2>
+            </div>
+        </div>
+        <div class="headerInr _header-logo active">
+            <div class="callIcon">
+                <a href="tel:+44-800-524-4288"><img src="/Content/images/phone.png"></a>
+            </div>
+            <div class="rightCall">
+                <a href="tel:+44-800-524-4288"><span>+44-800-524-4288</span></a>
+            </div>
+
+            <i class="mobile_menu_switcher mobile_menu_switcher-airline"></i>
+        </div>
+    </div>
+</header>
+
+
+<!-- Banner -->
+<section class="banners">
+    <div class="bannerInner new">
+        <div class="clickFull">
+                    <a href="tel:+44-800-524-4288" class="ddka"></a>
+                        <div class="airLineimg">
+                            <img src="/Content/images/Airline-logo-cms/AI.png" />
+                        </div>
+                        <h1 style="word-spacing: 12px;"><span>Reservations Changes Cancellation</span></h1>
+                        <div class="airlineLlogos">
+                            <img src="/Content/images/Airline-image/AI.png">
+                        </div>
+
+            <ul>
+                <li>✓ Flexible payment</li>
+                <li>✓ Price match guarantee</li>
+            </ul>
+            <h2><b>No Hold - Call Answered in 5 Sec</b></h2>
+            <div class="numbers">
+                <a href="tel:+44-800-524-4288">
+                    <span class="ringing_phone"> <img style="margin-top: -1px;" src="/Content/images/phone.png"> </span>
+                    <span class="nbrs"> +44-800-524-4288</span>
+                </a>
+            </div>
+        </div>
+    
+    </div>
+</section>
+
+<section class="airlineSrchW bannerInner">
+    <div class="numbers">
 <form id="formAirSearch">
     <input name="hvDirect" type="hidden" id="hvDirect" value="off" />
     <input name="ddlAirline" type="hidden" id="ddlAirline" value="All" />
-    <input name="FlightGuid" type="hidden" id="hdnFlightGuid" value="768f5f78-b28f-4c02-ac65-46ee58306e06" />
+    <input name="FlightGuid" type="hidden" id="hdnFlightGuid" value="5a2185ef-4d53-4e4d-b977-f52401fbd1bc" />
     <input name="RequestFrom" type="hidden" id="hdnRequestFrom" />
 
     <input name="hvIsBusinessClassDeal" type="hidden" id="hvIsBusinessClassDeal" value="false" /> 
     <div class="search-visit">
-                <h2 class="book-cheap">Book Cheap Flight Tickets Now!</h2>
-                <script
-                  async
-                  src="https://tp.media/content?currency=gbp&trs=267581&shmarker=484323&show_hotels=false&powered_by=false&locale=en&searchUrl=www.aviasales.com%2Fsearch&color_button=%23003a0f&color_icons=%23003a0f&dark=%23FFFFFFff&light=%23FFFFFF&secondary=%23FF575700&special=%23C4C4C400&color_focused=%23FFFFFFff&border_radius=0&no_labels=&plain=true&promo_id=7879&campaign_id=100"
-                  charset="utf-8"
-                ></script>
-              </div>
+        <div class="search-visit">
+            <h2 class="book-cheap">Book Cheap Flight Tickets Now!</h2>
+            <script
+              async
+              src="https://tp.media/content?currency=gbp&trs=267581&shmarker=484323&show_hotels=false&powered_by=false&locale=en&searchUrl=www.aviasales.com%2Fsearch&color_button=%23003a0f&color_icons=%23003a0f&dark=%23FFFFFFff&light=%23FFFFFF&secondary=%23FF575700&special=%23C4C4C400&color_focused=%23FFFFFFff&border_radius=0&no_labels=&plain=true&promo_id=7879&campaign_id=100"
+              charset="utf-8"
+            ></script>
+          </div>
+    </div>
 </form>
 <div class="advanceSearch">+ Advance Search</div>
 <a href="#" class="closeSearchpanel">X</a>
@@ -863,12 +814,90 @@
 </script>
     </div>
 </section>
-<style>
-    .list-inline.list-two
-    {
-         margin-top: 20px !important;
-    }
-</style>
+
+
+<!-----Home-USP------>
+<section class="_home_usp">
+    <div class="container usp-container">
+        <div class="_husp">
+            <div class="bg-usp">
+                <h3>Great Reasons to Book With Us.</h3>
+                <p>Explore how we can assist you with stress-free reservations.</p>
+            </div>
+            <div class="usp-box">
+                <div class="usp-detail">
+                    <img src="/Content/images/callAbook.png">
+                    <div><p>24/7 Customer Care Desk</p><span>Speak to our travel experts to get our best-offered deals</span></div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/unbeatableOffer.png">
+                    <div><p>Exclusive Offers</p><span>Search & compare our best flight offers for a perfect experience</span></div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/secureTravel.png">
+                    <div>
+                        <p>Total Payment Security</p>
+                        <span>Upgrade to get a 100% refund if you cancel your flight booking</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/dealTrust.png">
+                    <div>
+                        <p>Tailored Travel Experience</p>
+                        <span>Over 45,000+ travels have trusted us to be their travel partners</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/nohold.png">
+                    <div>
+                        <p>No hold Time</p>
+                        <span>Enjoy the convenience of no hold time when you contact us.</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/pricebg.png">
+                    <div>
+                        <p>Price Beat Gurantee</p>
+                        <span>Experience our Price Beat Guarantee for the best travel deals.</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/team.png">
+                    <div>
+                        <p>Dedicated Travel Agents</p>
+                        <span>Our dedicated travel agents are here to assist you every step of the way.</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/freeccu.png">
+                    <div>
+                        <p>Free Changes,Cancelation, & Upgarde</p>
+                        <span>Get flexibility with our free changes, easy cancellations, and seamless upgrades.</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/discountcall.png">
+                    <div>
+                        <p>Disconuted Phone only deals</p>
+                        <span>Unlock discounts and rewards. Call Us NOW!</span>
+                    </div>
+                </div>
+                <div class="usp-detail">
+                    <img src="/Content/images/callmore.png">
+                    <div>
+                        <p>Call To know more</p>
+                        <span>Discover the wealth of information awaiting you.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!-----End-USP------>
+
+         
 
 
 <div class="searchHolder ">
@@ -878,12 +907,12 @@
     <div class="tab-content">
         <!-- BEGIN: FLIGHT SEARCH -->
         <div role="tabpanel" class="tab-pane active" id="flight">
-            <div
+ <div
                   class="col-md-12 product-search-title"
                   id="divShortWidgetTitle"
                 >
                   Book Flights Tickets @Cheapest Price
-                  <hr>
+                  <hr style="border: none; height: 2px; background-color: white;">
                   <center>
                     <div>
                       <img src="/Content/images/customer-toll.jpg" />
@@ -897,11 +926,11 @@
                   >
                 </center>
                 </div>
-              <form id="formAirSearch1" style="display: none;">
+            <form id="formAirSearch1" style="display: none;">
                 <input name="hvDirect" type="hidden" id="hvDirect1" value="off" />
                 <input name="ddlAirline" type="hidden" id="ddlAirline1" value="All" />
                 <input name="ddlTypejourney" type="hidden" id="ddlTypejourney1" value="1" />
-                <input name="FlightGuid" type="hidden" id="hdnFlightGuid1" value="768f5f78-b28f-4c02-ac65-46ee58306e06" />
+                <input name="FlightGuid" type="hidden" id="hdnFlightGuid1" value="5a2185ef-4d53-4e4d-b977-f52401fbd1bc" />
                 <input name="hvIsDeal" type="hidden" id="hvIsDeal" value="No" /> 
                 <input name="hvIsBusinessClassDeal" type="hidden" id="hvIsBusinessClassDealShort" value="false" /> 
                 <div class="col-md-12 product-search-title" id="divShortWidgetTitle" >Book Cheap Flights</div>
@@ -910,7 +939,7 @@
                     <input name="hvFrom" type="hidden" id="hvFrom1" value="Lon" />
                     <input name="hvTo" type="hidden" id="hvTo1" value="" />
 
-                    <label>Destination</label>
+                    <label>Departure</label>
                     <div class="input-group">
                         <input type="text" name="tbDepart"  class="date form-control  tbDepart1" id="tbDepart1" placeholder="DD-MMM-YY" readonly />
                         <span class="input-group-addon"><i class="fa fa-calendar fa-fw tbDepart1 date"></i></span>
@@ -1001,352 +1030,10 @@
 <!-- Content Part Start Here -->
 <section class="mainContainer">
     <div class="contentBox paddingBox">
-        <div class="container">
-            <div>
-                    <h1><span>Air India Flight Deals</span></h1>
-                    <div class="search-results-title">
-                        <p>*Fares are based on round-trip charges and are inclusive of all fuel surcharges, service charge and tax. The displayed information is based on historic data and are subjected to a change without any guarantee at the time of making the reservation. To know more, read our booking <a href="/terms.html" target="_blank">Terms &amp; Conditions</a></p>
-                    </div>
-                    <div class="searchResultBox ">
-                        <div class="row">
-                            <div id="dealBlock" class="col-xs-12 col-sm-8 col-md-9 resultBox">
-                                <div class="row list-header mob-heading-desk">
-                                    <div class="col-md-3 text-center">From</div>
-                                    <div class="col-md-3 text-center">To</div>
-                                    <div class="col-md-2 text-center">Departure </div>
-                                    <div class="col-md-2 text-center"> Return</div>
-                                    <div class="col-md-2 text-center">*Sample Fares</div>
-                                </div>
 
-                                <div class="clearfix"></div>
-                                <div class="flight-listing">
-                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Paris','CDG','DEL','01-Nov-2023','11-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Paris" data-destination="Delhi" data-fromcode="CDG" data-tocode="DEL" data-departure="01-Nov-2023" data-arrival="11-Nov-2023" >
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Paris</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Delhi </span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>01-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>11-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
-                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
-                                                    <div class="price book ">
-                                                        <a href="javascript:void(0);" class="callNow">
-                                                            <h4>£ 613.73*<span>/pp</span></h4>
-                                                        </a>
-                                                       
-                                                    </div>
-                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
-                                                </div>
-                                            </div>
-                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Mumbai','BOM','NYC','01-Nov-2023','11-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Mumbai" data-destination="New York" data-fromcode="BOM" data-tocode="NYC" data-departure="01-Nov-2023" data-arrival="11-Nov-2023" >
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Mumbai</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>New York </span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>01-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>11-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
-                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
-                                                    <div class="price book ">
-                                                        <a href="javascript:void(0);" class="callNow">
-                                                            <h4>£ 722.55*<span>/pp</span></h4>
-                                                        </a>
-                                                       
-                                                    </div>
-                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
-                                                </div>
-                                            </div>
-                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Mumbai','BOM','FRA','01-Nov-2023','11-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Mumbai" data-destination="Frankfurt" data-fromcode="BOM" data-tocode="FRA" data-departure="01-Nov-2023" data-arrival="11-Nov-2023" >
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Mumbai</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Frankfurt </span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>01-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>11-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
-                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
-                                                    <div class="price book ">
-                                                        <a href="javascript:void(0);" class="callNow">
-                                                            <h4>£ 785.53*<span>/pp</span></h4>
-                                                        </a>
-                                                       
-                                                    </div>
-                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
-                                                </div>
-                                            </div>
-                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Delhi','DEL','CDG','01-Nov-2023','11-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Delhi" data-destination="Paris" data-fromcode="DEL" data-tocode="CDG" data-departure="01-Nov-2023" data-arrival="11-Nov-2023" >
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Delhi</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Paris </span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>01-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>11-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
-                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
-                                                    <div class="price book ">
-                                                        <a href="javascript:void(0);" class="callNow">
-                                                            <h4>£ 843.54*<span>/pp</span></h4>
-                                                        </a>
-                                                       
-                                                    </div>
-                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
-                                                </div>
-                                            </div>
-                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'London','LHR','SIN','06-Oct-2023','11-Oct-2023')" data-airline="Air India" data-airlinecode="AI" data-from="London" data-destination="Singapore" data-fromcode="LHR" data-tocode="SIN" data-departure="06-Oct-2023" data-arrival="11-Oct-2023" >
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> London</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Singapore </span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>06-Oct-2023</span></h4>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>11-Oct-2023</span></h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
-                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
-                                                    <div class="price book ">
-                                                        <a href="javascript:void(0);" class="callNow">
-                                                            <h4>£ 855.0*<span>/pp</span></h4>
-                                                        </a>
-                                                       
-                                                    </div>
-                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
-                                                </div>
-                                            </div>
-                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Frankfurt','FRA','BOM','31-Oct-2023','10-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Frankfurt" data-destination="Mumbai" data-fromcode="FRA" data-tocode="BOM" data-departure="31-Oct-2023" data-arrival="10-Nov-2023" >
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Frankfurt</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="take-off ">
-                                                          <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Mumbai </span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>31-Oct-2023</span></h4>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
-                                                    <div class="landing ">
-                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>10-Nov-2023</span></h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
-                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
-                                                    <div class="price book ">
-                                                        <a href="javascript:void(0);" class="callNow">
-                                                            <h4>£ 889.35*<span>/pp</span></h4>
-                                                        </a>
-                                                       
-                                                    </div>
-                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
-                                                </div>
-                                            </div>
-                                </div>
-
-                                
-
-                            </div>
-                            
-                        </div>
-                        
-                        
-                    </div>
-                <div class="utmDeal ">
-    <ul>
-        <li>
-            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
-
-            <div class="utmDealContentHolder">
-                <b>Paris (CDG)</b><br />
-                <i class="fa fa-exchange"></i><br />
-                <b>Delhi (DEL)</b>
-                <p>
-                    <b>Travel Dates:</b> Nov 01, 2023 - Nov 11, 2023<br />
-                    <b>Class:</b> Economy
-                </p>
-            </div>
-
-            <div class="callHolder">
-                <div class="callHolderLeft"><small>From</small> £613.73*</div>
-                <div class="callHolderRight">
-                    <p>Call Our travel expert</p>
-                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
-                    <p>Open 24/7</p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
-
-            <div class="utmDealContentHolder">
-                <b>Mumbai (BOM)</b><br />
-                <i class="fa fa-exchange"></i><br />
-                <b>New York (NYC)</b>
-                <p>
-                    <b>Travel Dates:</b> Nov 01, 2023 - Nov 11, 2023<br />
-                    <b>Class:</b> Economy
-                </p>
-            </div>
-
-            <div class="callHolder">
-                <div class="callHolderLeft"><small>From</small> £722.55*</div>
-                <div class="callHolderRight">
-                    <p>Call Our travel expert</p>
-                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
-                    <p>Open 24/7</p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
-
-            <div class="utmDealContentHolder">
-                <b>Mumbai (BOM)</b><br />
-                <i class="fa fa-exchange"></i><br />
-                <b>Frankfurt (FRA)</b>
-                <p>
-                    <b>Travel Dates:</b> Nov 01, 2023 - Nov 11, 2023<br />
-                    <b>Class:</b> Economy
-                </p>
-            </div>
-
-            <div class="callHolder">
-                <div class="callHolderLeft"><small>From</small> £785.53*</div>
-                <div class="callHolderRight">
-                    <p>Call Our travel expert</p>
-                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
-                    <p>Open 24/7</p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
-
-            <div class="utmDealContentHolder">
-                <b>Delhi (DEL)</b><br />
-                <i class="fa fa-exchange"></i><br />
-                <b>Paris (CDG)</b>
-                <p>
-                    <b>Travel Dates:</b> Nov 01, 2023 - Nov 11, 2023<br />
-                    <b>Class:</b> Economy
-                </p>
-            </div>
-
-            <div class="callHolder">
-                <div class="callHolderLeft"><small>From</small> £843.54*</div>
-                <div class="callHolderRight">
-                    <p>Call Our travel expert</p>
-                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
-                    <p>Open 24/7</p>
-                </div>
-            </div>
-        </li>
-        <li>
-            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
-
-            <div class="utmDealContentHolder">
-                <b>London (LHR)</b><br />
-                <i class="fa fa-exchange"></i><br />
-                <b>Singapore (SIN)</b>
-                <p>
-                    <b>Travel Dates:</b> Oct 06, 2023 - Oct 11, 2023<br />
-                    <b>Class:</b> Economy
-                </p>
-            </div>
-
-            <div class="callHolder">
-                <div class="callHolderLeft"><small>From</small> £855.0*</div>
-                <div class="callHolderRight">
-                    <p>Call Our travel expert</p>
-                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
-                    <p>Open 24/7</p>
-                </div>
-            </div>
-        </li>
-    </ul>
-</div>
-            </div>
-        </div>
         <div class="container">
             <div class="desc">
-                <h2>Book <b>Air India</b> Tickets with <span style="text-transform:capitalize">Airlines Booking</span> </h2>
+                <h2>Book <b>Air India</b> Tickets with <span style="text-transform:capitalize">airlinesbooking</span> </h2>
 
                 <div class="airwaysDesc" style="display: block;">
 
@@ -1447,6 +1134,363 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div>
+                    <h1><span>Air India Flight Deals</span></h1>
+                    <div class="search-results-title">
+                        <p>*Fares are based on round-trip charges and are inclusive of all fuel surcharges, service charge and tax. The displayed information is based on historic data and are subjected to a change without any guarantee at the time of making the reservation. To know more, read our booking <a href="/terms" target="_blank">Terms &amp; Conditions</a></p>
+                    </div>
+                    <div class="searchResultBox ">
+                        <div class="row">
+                            <div id="dealBlock" class="col-xs-12 col-sm-8 col-md-9 resultBox">
+                                <div class="row list-header mob-heading-desk">
+                                    <div class="col-md-3 text-center">From</div>
+                                    <div class="col-md-3 text-center">To</div>
+                                    <div class="col-md-2 text-center">Departure </div>
+                                    <div class="col-md-2 text-center"> Return</div>
+                                    <div class="col-md-2 text-center">*Sample Fares</div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                                <div class="flight-listing">
+                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Kuwait','KWI','PAT','28-Dec-2023','05-Feb-2024')" data-airline="Air India" data-airlinecode="AI" data-from="Kuwait" data-destination="Patna" data-fromcode="KWI" data-tocode="PAT" data-departure="28-Dec-2023" data-arrival="05-Feb-2024" >
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                        
+                                                        <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Kuwait</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                    
+                                                        <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Patna </span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>28-Dec-2023</span></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>05-Feb-2024</span></h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
+                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
+                                                    <div class="price book ">
+                                                        <a href="javascript:void(0);" class="callNow">
+                                                            <h4>£ 237.16*<span>/pp</span></h4>
+                                                        </a>
+                                                       
+                                                    </div>
+                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
+                                                </div>
+                                            </div>
+                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Delhi','DEL','BOM','14-Nov-2023','16-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Delhi" data-destination="Mumbai" data-fromcode="DEL" data-tocode="BOM" data-departure="14-Nov-2023" data-arrival="16-Nov-2023" >
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                        
+                                                        <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Delhi</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                    
+                                                        <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Mumbai </span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>14-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>16-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
+                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
+                                                    <div class="price book ">
+                                                        <a href="javascript:void(0);" class="callNow">
+                                                            <h4>£ 435.76*<span>/pp</span></h4>
+                                                        </a>
+                                                       
+                                                    </div>
+                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
+                                                </div>
+                                            </div>
+                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Paris','CDG','DEL','15-Nov-2023','25-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Paris" data-destination="Delhi" data-fromcode="CDG" data-tocode="DEL" data-departure="15-Nov-2023" data-arrival="25-Nov-2023" >
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                        
+                                                        <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Paris</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                    
+                                                        <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Delhi </span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>15-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>25-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
+                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
+                                                    <div class="price book ">
+                                                        <a href="javascript:void(0);" class="callNow">
+                                                            <h4>£ 483.0*<span>/pp</span></h4>
+                                                        </a>
+                                                       
+                                                    </div>
+                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
+                                                </div>
+                                            </div>
+                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Delhi','DEL','CDG','14-Nov-2023','24-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Delhi" data-destination="Paris" data-fromcode="DEL" data-tocode="CDG" data-departure="14-Nov-2023" data-arrival="24-Nov-2023" >
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                        
+                                                        <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Delhi</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                    
+                                                        <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Paris </span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>14-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>24-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
+                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
+                                                    <div class="price book ">
+                                                        <a href="javascript:void(0);" class="callNow">
+                                                            <h4>£ 669.94*<span>/pp</span></h4>
+                                                        </a>
+                                                       
+                                                    </div>
+                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
+                                                </div>
+                                            </div>
+                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Frankfurt','FRA','BOM','15-Nov-2023','25-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Frankfurt" data-destination="Mumbai" data-fromcode="FRA" data-tocode="BOM" data-departure="15-Nov-2023" data-arrival="25-Nov-2023" >
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                        
+                                                        <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Frankfurt</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                    
+                                                        <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Mumbai </span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>15-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>25-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
+                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
+                                                    <div class="price book ">
+                                                        <a href="javascript:void(0);" class="callNow">
+                                                            <h4>£ 705.95*<span>/pp</span></h4>
+                                                        </a>
+                                                       
+                                                    </div>
+                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
+                                                </div>
+                                            </div>
+                                           <div class="flight-list-view" onclick="SetSearchWidgetParameter(this,'Mumbai','BOM','FRA','15-Nov-2023','25-Nov-2023')" data-airline="Air India" data-airlinecode="AI" data-from="Mumbai" data-destination="Frankfurt" data-fromcode="BOM" data-tocode="FRA" data-departure="15-Nov-2023" data-arrival="25-Nov-2023" >
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                        
+                                                        <h5 class="dep"><span class="fl-dep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i> Mumbai</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="take-off ">
+                                                    
+                                                        <h5 class="arr"><span class="fl-rep-fullname"><i class="fa fa-map-marker m-r-10 icoinnone"></i>Frankfurt </span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="dep"><span class="lan-fl-rep-fullname"><i class="fa fa-plane m-r-10 fa-rotate-90 icoinnone"></i>15-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 text-center clear-padding flight-desc mob-description-box">
+                                                    <div class="landing ">
+                                                        <h4 class="arr"><span class="lan-fl-dep-fullname"><i class="fa fa-plane m-r-10 icoinnone"></i>25-Nov-2023</span></h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="clearfix visible-sm-block visible-xs-block"></div>
+                                                <div class="col-md-2 flight-book text-center clear-padding mob-description-box">
+                                                    <div class="price book ">
+                                                        <a href="javascript:void(0);" class="callNow">
+                                                            <h4>£ 720.93*<span>/pp</span></h4>
+                                                        </a>
+                                                       
+                                                    </div>
+                                                    <div class="book mob-heading-desk"><a href="javascript:void(0);"  class="callNow">Book Now</a></div>
+                                                </div>
+                                            </div>
+                                </div>
+
+                                
+
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                <div class="utmDeal ">
+    <ul>
+        <li>
+            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
+
+            <div class="utmDealContentHolder">
+                <b>Kuwait (KWI)</b><br />
+                <i class="fa fa-exchange"></i><br />
+                <b>Patna (PAT)</b>
+                <p>
+                    <b>Travel Dates:</b> Dec 28, 2023 - Feb 05, 2024<br />
+                    <b>Class:</b> Economy
+                </p>
+            </div>
+
+            <div class="callHolder">
+                <div class="callHolderLeft"><small>From</small> £237.16*</div>
+                <div class="callHolderRight">
+                    <p>Call Our travel expert</p>
+                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
+                    <p>Open 24/7</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
+
+            <div class="utmDealContentHolder">
+                <b>Delhi (DEL)</b><br />
+                <i class="fa fa-exchange"></i><br />
+                <b>Mumbai (BOM)</b>
+                <p>
+                    <b>Travel Dates:</b> Nov 14, 2023 - Nov 16, 2023<br />
+                    <b>Class:</b> Economy
+                </p>
+            </div>
+
+            <div class="callHolder">
+                <div class="callHolderLeft"><small>From</small> £435.76*</div>
+                <div class="callHolderRight">
+                    <p>Call Our travel expert</p>
+                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
+                    <p>Open 24/7</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
+
+            <div class="utmDealContentHolder">
+                <b>Paris (CDG)</b><br />
+                <i class="fa fa-exchange"></i><br />
+                <b>Delhi (DEL)</b>
+                <p>
+                    <b>Travel Dates:</b> Nov 15, 2023 - Nov 25, 2023<br />
+                    <b>Class:</b> Economy
+                </p>
+            </div>
+
+            <div class="callHolder">
+                <div class="callHolderLeft"><small>From</small> £483.0*</div>
+                <div class="callHolderRight">
+                    <p>Call Our travel expert</p>
+                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
+                    <p>Open 24/7</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
+
+            <div class="utmDealContentHolder">
+                <b>Delhi (DEL)</b><br />
+                <i class="fa fa-exchange"></i><br />
+                <b>Paris (CDG)</b>
+                <p>
+                    <b>Travel Dates:</b> Nov 14, 2023 - Nov 24, 2023<br />
+                    <b>Class:</b> Economy
+                </p>
+            </div>
+
+            <div class="callHolder">
+                <div class="callHolderLeft"><small>From</small> £669.94*</div>
+                <div class="callHolderRight">
+                    <p>Call Our travel expert</p>
+                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
+                    <p>Open 24/7</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="https://www.airlinesbooking.co.uk/Content/images/Airline-logo-cms/AI.png" class="airlineLogo">
+
+            <div class="utmDealContentHolder">
+                <b>Frankfurt (FRA)</b><br />
+                <i class="fa fa-exchange"></i><br />
+                <b>Mumbai (BOM)</b>
+                <p>
+                    <b>Travel Dates:</b> Nov 15, 2023 - Nov 25, 2023<br />
+                    <b>Class:</b> Economy
+                </p>
+            </div>
+
+            <div class="callHolder">
+                <div class="callHolderLeft"><small>From</small> £705.95*</div>
+                <div class="callHolderRight">
+                    <p>Call Our travel expert</p>
+                    <a href="tel:+44-800-524-4288"><span class="txt"><i class="fa fa-phone" aria-hidden="true"></i> +44-800-524-4288</span></a>
+                    <p>Open 24/7</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+            </div>
+        </div>
+   
     </div>
 
     <input type="hidden" value="Airlines" id="hdnActiveMenu" />
@@ -1488,21 +1532,21 @@
 
 <div class="whychooseus">
     <div class="container">
-        <div class="whyheading"><span class="line"></span><span class="line-heading">What Makes Airlines Booking Your Best Choice for Flying</span><span class="line"></span></div>
+        <div class="whyheading"><span class="line"></span><span class="line-heading">Why fly with airlinesbooking</span><span class="line"></span></div>
         <ul>
             <li><h2><img src="/content/images/secure-icon1.png"></h2>
-                <h3>Total Payment Security</h3>
-                <p>At Airlines Booking, your peace of mind is our priority. We employ state-of-the-art encryption technology to safeguard every booking you make. Our partnership with WorldPay guarantees the utmost protection for your flight reservations and ensures that your sensitive information remains secure. With us, you can confidently plan your vacations, knowing that your data is in trusted hands. Book your holiday with unwavering confidence today.</p>
+                <h3>100% Secure Payment</h3>
+                <p>All the bookings made on airlinesbooking are 100% encrypted. We’re affiliated with WorldPay and your payments made for booking the flights are protected and ensure that your data is in safe hands. Now, book your holidays with complete trust.</p>
             </li>
             <li>
                 <h2><img src="/content/images/exclusive-deals-w.png"></h2>
-                <h3>Exclusive Offers</h3>
-                <p>At Airlines Booking, our unwavering commitment is to offer you unparalleled deals to a wide variety of captivating global destinations. You can entrust your travel desires to our team of seasoned experts - just inform us of your preferred destination, and we will meticulously craft exclusive offers designed specifically for your preferences and requirements. Embark on the journey of a lifetime, and let your dream vacation commence right here with us.</p>
+                <h3>Exclusive Deals</h3>
+                <p>We offer you the best deals to hundreds of destinations around the globe. Just let our travel experts know where you want to travel and we will bring the top offers for you.</p>
             </li>
             <li>
                 <h2><img src="/content/images/personalized-icon.png"></h2>
-                <h3>Tailored Travel Experience</h3>
-                <p>At Airlines Booking, we take pride in our devoted team of travel consultants who are committed to delivering an exceptionally personalized service, guiding you through each facet of the booking process. Their expertise goes above and beyond the conventional, as they intricately tailor the entire journey to impeccably align with your one-of-a-kind preferences, ensuring that every aspect of your travel experience is perfectly attuned to your distinct needs and desires.</p>
+                <h3>Personalized Service</h3>
+                <p>Our travel consultants help you at every point in the booking process with their personalized touch. They fine-tune the procedure and your journey, refining it completely according to your requirements.</p>
             </li>
         </ul>
     </div>
@@ -1571,163 +1615,853 @@
     <div class="footerTop">
         <div class="container">
             <div class="row pb-md-10">
-                
-
-                <div class="col-md-2 col-sm-7 fotterLinkforMobile">
-                  <div class="widget-footer impLink">
-                    <h4>Important Links</h4>
-                    <div class="widget-tags-wrap">
-                      <a href="/about.html" rel="tag" class="tag">About Us</a>
-                      <a href="/contact.html" rel="tag" class="tag"
-                        >Contact Us</a
-                      >
-                      <a href="/faqs.html" rel="tag" class="tag">FAQs</a>
-                      <a href="/traveladvice.html" rel="tag" class="tag"
-                        >Travel Advice</a
-                      >
-                      <a href="/sitemap.html" rel="tag" class="tag">Site Map</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-2 col-sm-7 fotterLinkforMobile">
-                  <div class="widget-footer impLink">
-                    <h4>Legal</h4>
-                    <div class="widget-tags-wrap">
-                      <a href="/privacy.html" rel="tag" class="tag">Privacy</a>
-                      <a
-                        href="/terms.html"
-                        rel="tag"
-                        class="tag"
-                        target="_blank"
-                        >Terms
-                      </a>
-                      <a href="/disclaimer.html" rel="tag" class="tag"
-                        >Disclaimer
-                      </a>
-                      <a href="/dataprotection.html" rel="tag" class="tag"
-                        >Data Protection Policy</a
-                      >
-                      <a href="/cookies.html" rel="tag" class="tag"
-                        >Cookies Policy</a
-                      >
-                    </div>
-                  </div>
-                </div>
-
                 <div class="col-md-2 col-sm-6 mb-sm-30 hideformobile">
-                  <div class="widget-footer">
-                    <h4>Destinations</h4>
-                    <div class="widget-tags-wrap">
-                      <a
-                        href="/destination/brisbane.html"
-                        rel="tag"
-                        class="tag"
-                        onclick="return GetDestination('/destination/Bangkok', 'Menu')"
-                        >Brisbane</a
-                      >
-                      <a
-                        href="/destination/los-angeles.html"
-                        rel="tag"
-                        class="tag"
-                        onclick="return GetDestination('/destination/nadi', 'Menu')"
-                        >Los Angeles</a
-                      >
-                      <a
-                        href="/destination/cape-town.html"
-                        rel="tag"
-                        class="tag"
-                        onclick="return GetDestination('/destination/cape-town', 'Menu')"
-                        >Cape Town</a
-                      >
-                      <a
-                        href="/destination/sydney.html"
-                        rel="tag"
-                        class="tag"
-                        onclick="return GetDestination('/destination/toronto', 'Menu')"
-                        >Sydney</a
-                      >
-                      <a
-                        href="/destination/hong-kong.html"
-                        rel="tag"
-                        class="tag"
-                        onclick="return GetDestination('/destination/abu-dhabi', 'Menu')"
-                        >Hong Kong</a
-                      >
+                    <div class="widget-footer">
+                        <h4>Destinations </h4>
+                        <div class="widget-tags-wrap">
+                            <a href="/destination/bangkok" rel="tag" class="tag" onclick="return GetDestination('/destination/Bangkok', 'Menu')">Bangkok</a>
+                            <a href="/destination/nadi" rel="tag" class="tag" onclick="return GetDestination('/destination/nadi', 'Menu')">Nadi</a>
+                            <a href="/destination/cape-town" rel="tag" class="tag" onclick="return GetDestination('/destination/cape-town', 'Menu')">Cape Town</a>
+                            <a href="/destination/toronto" rel="tag" class="tag" onclick="return GetDestination('/destination/toronto', 'Menu')">Toronto</a>
+                            <a href="/destination/abu-dhabi" rel="tag" class="tag" onclick="return GetDestination('/destination/abu-dhabi', 'Menu')">Abu Dhabi</a>
+                            
+                        </div>
+
                     </div>
-                  </div>
+                </div>
+                
+                <div class="col-md-2 col-sm-7 fotterLinkforMobile">
+                    <div class="widget-footer impLink">
+                        <h4>Important Links</h4>
+                        <div class="widget-tags-wrap">
+                            <a href="/about" rel="tag" class="tag">About Us</a>
+                            <a href="/contact" rel="tag" class="tag">Contact Us</a>
+                            <a href="/faqs" rel="tag" class="tag">FAQs</a>
+                            <a href="/traveladvice" rel="tag" class="tag">Travel Advice</a>
+                            <a href="/sitemap" rel="tag" class="tag">Site Map</a>                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-7 fotterLinkforMobile">
+                    <div class="widget-footer impLink">
+                        <h4>Legal</h4>
+                        <div class="widget-tags-wrap">
+                            <a href="/privacy" rel="tag" class="tag">Privacy</a>
+                            <a href="/terms" rel="tag" class="tag" target="_blank">Terms </a>
+                            <a href="/disclaimer" rel="tag" class="tag">Disclaimer </a>
+                            <a href="/dataprotection" rel="tag" class="tag">Data Protection Policy</a>
+                            <a href="/cookies" rel="tag" class="tag">Cookies Policy</a>
+
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="col-md-2 col-sm-7 hideformobile">
-                  <div class="widget-footer impLink">
-                    <h4>Airlines</h4>
-                    <div class="widget-tags-wrap">
-                      <a
-                        href="/airline/emirates-airlines.html"
-                        rel="tag"
-                        class="tag"
-                        >Emirates Airlines</a
-                      >
-                      <a
-                        href="/airline/british-airways.html"
-                        rel="tag"
-                        class="tag"
-                        >British Airways</a
-                      >
+                    <div class="widget-footer impLink">
+                        <h4>Airlines</h4>
+                        <div class="widget-tags-wrap">
+                            <a href="/airline/british-airways" rel="tag" class="tag">British Airways</a>
+                            <a href="/airline/emirates-airlines" rel="tag" class="tag">Emirates Airlines</a>
+                            <a href="/airline/etihad-airways" rel="tag" class="tag">Etihad Airways</a>
+                            <a href="/airline/turkish-airlines" rel="tag" class="tag">Turkish Airlines</a>
+                            <a href="/airline/virgin-atlantic" rel="tag" class="tag">Virgin Atlantic Airlines</a>
 
-                      <a
-                        href="/airline/etihad-airways.html"
-                        rel="tag"
-                        class="tag"
-                        >Etihad Airways</a
-                      >
+                        </div>
 
-                      <a href="/airline/thai-airways.html" rel="tag" class="tag"
-                        >Thai Airlines</a
-                      >
-                      <a href="/airline/lufthansa.html" rel="tag" class="tag"
-                        >Lufthansa</a
-                      >
                     </div>
-                  </div>
                 </div>
+
 
                 <div class="col-md-4 col-sm-6 mb-sm-30 contactus-footer">
-                  <div class="socialLinkHolder">
-                    <h2>Connect with Us</h2>
-                    <div class="social">
-                      <a
-                        class="social-icon fb"
-                        target="_blank"
-                        data-tooltip="Facebook"
-                        href="https://www.facebook.com/airlinesbookinguk"
-                      >
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        class="social-icon tw"
-                        target="_blank"
-                        data-tooltip="Twitter"
-                        href="https://twitter.com/airlinesbookinguk"
-                      >
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                      </a>
+                    
+                    <div class="socialLinkHolder">
+                        
+                        <h2>Connect with Us</h2>
+                        <div class="social">
+                            <a class="social-icon fb" target="_blank" data-tooltip="Facebook" href="https://www.facebook.com/airlinesbooking-2228853123824929/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a class="social-icon tw" target="_blank" data-tooltip="Twitter" href="https://twitter.com/airlinesbooking1">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
 
-                      <a
-                        class="social-icon insta"
-                        target="_blank"
-                        data-tooltip="Instagram"
-                        href="https://www.instagram.com/airlinesbookinguk"
-                      >
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
+                            
+                            <a class="social-icon insta" target="_blank" data-tooltip="Instagram" href="https://www.instagram.com/airlinesbookingco/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
                     </div>
-                  </div>
+
                 </div>
-              </div>
+            </div>
         </div>
     </div>
 </footer>
+
+
+
+<!--Airline and destination popup-->
+<style>
+    .exclusivePopups.airlinepopu {
+    /* background-image: url(../images/pop-bg.png); */
+    background: #ffcdcd;
+    padding-bottom: 80px;
+}
+    .ecsvpopupsMain {
+    background-color: #fff;
+    border-radius: 25px;
+    height: auto;
+}
+.exclusivePopups.airlinepopu h2 {
+    color: #032f4c;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+  .ecsvpopupsMain h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #003A0F;
+}
+.AirlinePlainimg {
+    position: relative;
+    margin-top: 30px;
+}
+  .callicons .circlePhone {
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  @keyframes trin {
+    from {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+    20%, 32%, 44%, 56%, 68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    23%, 35%, 47%, 59%, 71% {
+        transform: rotate3d(0,0,1,15deg);
+    }
+    26%, 38%, 50%, 62%, 74% {
+        transform: rotate3d(0,0,1,0deg);
+    }
+    29%, 41%, 53%, 65%, 77% {
+        transform: rotate3d(0,0,1,-15deg);
+    }
+    80% {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+}
+.callicons .circlePhone {
+    border: solid 5px #fff;
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    background: #ff5757 url(/Content/images/call-aft.png) center center no-repeat;
+    text-align: center;
+    display: inline-block;
+    background-size: 26px;
+    margin-left: 10px;
+}
+  .callicons {
+    border: solid 1px #e6effe;
+    border-radius: 40px;
+    background: rgb(229,238,255);
+    background: linear-gradient(90deg, rgba(229,238,255,1) 0%, rgba(246,251,255,1) 100%);
+    display: flex;
+    padding: 4px;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+
+  .callicons h4 {
+    margin: 0;
+    padding-left: 9px;
+    padding-top: 10px;
+}
+.AirlinePlainimg .call-img img {
+    border-radius: 50%;
+    border: 2px solid #003A0F;
+    margin-top: 26px;
+}
+.AirlinePlainimg> img {
+    padding: 0 20px;
+}
+
+
+
+    .exclusivePopups {
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 100000;
+    padding: 0px 13px 100px 13px;
+    text-align: center;
+    overflow-y: auto;
+    padding-bottom: 0;z-index: 9999999;
+}
+   a.excluClosebtn {
+    position: absolute;
+    right: 20px;
+    top: 28px;
+}
+   .callicons{
+       padding-top:0px;
+   }
+ 
+     .exclusivePopups.airlinepopu h2 span{
+       display: block;
+    font-size: 20px;
+    color: #032f4c;
+    font-weight: normal;
+    padding-top: 3px;
+     }
+
+.btn.active, .btn:active,
+.btn.focus, .btn:focus, .btn:hover {
+color: #fff;
+box-shadow: none;
+text-decoration: none;
+outline: 0 !important;
+border: 0 !important;
+}
+     .ecsvpopupsMain h3 span {
+    display: block;
+    font-weight: 200;
+    font-size: 16px;
+}
+     .ecsvpopupsMain h3 span .call{
+         font-weight:bold;
+         display: inline;
+     }
+     .ecsvpopupsMain h3 img {
+    margin-left: 0;
+    position: relative;
+    top: 13px;
+    left: -2px;
+}
+     .ecsvpopupsMain .callicons h4 span {
+    font-weight: 100;
+    color: #000000;
+    font-size: 21px;
+    display: block;
+    margin-bottom: 3px;
+    text-align: left;
+}
+     .airlinepopu .callicons h4 a {
+    color: #032f4c;
+}
+.ecsvpopupsMain .callicons h4 a {
+    font-weight: bold;
+    font-size: x-large;
+    display: block;
+    letter-spacing: 0;
+    transition: unset;
+    color: #fff;
+    padding-top: 0;
+}
+   
+     .callbtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.pulse {
+    height: 70px;
+    width: 70px;
+    background-color: #ff6000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pulse::before {
+    content: "";
+    position: absolute;
+    border: 10px solid #fff;
+    width: calc(100% + 25px);
+    height: calc(100% + 25px);
+    border-radius: 50%;
+    animation: pulse 1s linear infinite;
+}
+.pulse::after {
+    content: "";
+    position: absolute;
+    border: 10px solid #fff;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border-radius: 50%;
+    animation: pulse 1s linear infinite;
+    animation-delay: 0.3s;
+}
+    
+.btmStroppopup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #032f4c;
+    text-align: center;
+    padding: 8px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 17px;
+}
+/*.AirlinePlainimg img {
+    position: absolute;
+    bottom: 232px;
+    right: 0;
+    width: 97%;
+}*/
+.AirlinePlainimg .pulse img {
+    bottom: auto;
+    position: absolute;
+    right: auto;
+    background: #ff7624;
+    padding: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/*.AirlinePlainimg .call-img img{top: 74px;}*/
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0
+    }
+}
+.clforms {
+   position: relative;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 0;
+}
+.clforms label {
+    position: absolute;
+    left: 10px;
+    bottom:25px;
+    color: #333;
+    font-size: 17px;
+}
+.callbackbx input {
+    border: 0;
+    height: 46px;
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 68px;
+    font-size: 18px;
+    border: 1px solid #9d9d9d;
+}
+.callbackbx input::-webkit-input-placeholder {font-size: 15px;}
+.callbackbx input::placeholder {font-size: 15px;}
+
+.clforms label img {
+    position: static;
+    margin-left: 14px;
+    width: auto;
+}
+.exclusivePopups.airlinepopu h2 img {
+    max-width: 77%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.clforms button {
+   position: absolute;
+    right: 12px;
+    height: 42px;
+    background: #ff5b04;
+    border-radius: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-right: 15px;
+    bottom: 24px;
+    outline: 0;
+}
+.clforms span {
+    color: #f00;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    padding-left: 17px;
+    font-size: 14px;
+}
+div#ipblockpopup {
+    margin: 0 !important;
+    position: fixed;
+    bottom: -30px;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 227px;
+    top: auto;
+    background: #fff;
+    padding-top: 21px;
+}
+span#AirlineCallBackProgreess {
+    position: fixed;
+    bottom: 65px;
+    width: 94%;
+    left: 3%;
+    background: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgba(0, 0, 0,0.4);
+}
+i#btnCloseAirlineCallBackProgress {
+    position: absolute;
+    right: 10px;
+    background: orange;
+    width: 26px;
+    height: 26px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    top: 9px;
+    font-style: normal;
+}
+.connection {
+    width: 100%;
+    padding: 31px 0 15px;
+}
+.connection-txt {
+    align-items: center;
+    display: flex;
+    padding: 9px 13px 5px!important;
+    border-radius: 27px;
+    background: #dff2f9;
+    border: 1px solid #d3d3d3;
+}
+.connection-txt {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 17px;
+}
+.connection-txt span:first-child {
+    background: #033d51;
+    height: 36px;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 23px;
+    width: 36px;
+    text-align: center;
+}
+.connection-txt span:first-child img {
+    width: 19px;
+    padding-top: 3px;
+}
+.connection-txt span:last-child {
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+.connection .spc {
+    padding: 10px 0 15px 11px;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0;
+}
+.connection .recive-call {
+    color: #333;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.connection hr {
+    border-bottom: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-top: 1px solid #d3d3d3;
+}
+.connection .txt-p {
+    font-size: 13px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #333;
+}
+.connection .txt-p:before {
+    width: 21px;
+    content: '';
+    background: url(/Content/images/arrow-call.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    display: inline-block;
+}
+.confirmationPopup {
+    width: 100% !important;
+    height: 230px;
+    top: auto !important;
+    bottom: 0;
+}
+.btnHolder {
+    bottom: 9px;
+}
+.btnHolder button {
+    background: #ec8101;
+}
+.connection p.connection-txt img {
+   position: relative;
+    display: inline-block;
+    margin-right: 4px;
+    top: -2px;
+    left: 3px;
+}
+.connection p {
+    color: #000;
+}
+
+.labelText {
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 2px;
+}
+.exclusivePopups.airlinepopu h3.nohlds {
+    font-weight: 600;
+    padding-top: 0;
+    margin-bottom: 14px;
+}
+p.pohlp a {
+    color: #003A0F;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: inline-flex;
+}
+.callicons {
+    background: #ff5757;
+    padding-top: 4px;
+}
+.usplst {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    position: relative;
+}
+.usplst div {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 6px 0 8px 0;
+    width: 45%;
+    font-weight: 500;
+    background-color: #ff5757;
+    border-radius: 20px;
+    margin: 5px 2px;
+}
+.usplst a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 360px) {
+.callbackbx input::-webkit-input-placeholder {font-size: 13px;}
+.callbackbx input::placeholder {font-size: 13px;}
+}
+
+
+</style>
+<style>
+    .anodisp {
+        display: none;
+    }
+      .fullDivLink{position:absolute;left:0px;top:50px;width:100%;height:75%;z-index:1}
+      .ecsvpopupsMain{position:relative}
+</style>
+
+<div class="exclusivePopups airlinepopu">
+    <div class="ecsvpopupsMain">
+        <a href="tel:+44-800-524-4288" class="fullDivLink"></a>
+        <a href="javascript:;" class="excluClosebtn"><img src="/Content/images/close-aft.png" /></a>
+        <h2 style="padding-top: 20px"><img src="/Content/images/Airline-logo-cms/AI.png" /></h2>
+        
+        <h3><a href="tel:+44-800-524-4288" class="svnSpt">24 Hours Helpline <br> Reservations &amp; Support</a></h3>
+        <div class="usplst">
+            <div>Flight Reservation</div>
+            <div>Flight Changes</div>
+            <div>Flight Cancellation</div>
+            <div>Flight Support Desk</div>
+            <a href="tel:+44-800-524-4288" class="svnSpt">&nbsp;</a>
+        </div>
+        <div class="AirlinePlainimg">
+                <img src="/Content/images/Airline-image/AI.png" />
+            <div class="call-img">
+                <img src="/Content/images/girl-aft.png">
+            </div>
+        </div>
+
+        
+        <h3 class="nohlds">No Hold - Call Answered in 5 Sec</h3>
+        <div class="callicons">
+            <a href="tel:+44-800-524-4288" class="circlePhone"></a>
+            <h4>
+                
+                <a href="tel:+44-800-524-4288">+44-800-524-4288</a>
+            </h4>
+        </div>
+        <p class="pohlp">
+            <a href="tel:+44-800-524-4288" style="padding-right: 10px;">
+              ✓ Flexible Payments
+            </a>
+            <a href="tel:+44-800-524-4288">
+            ✓ Price Match Guarantee
+              </a>
+          </p>
+          <center>
+          <hr style="height: 3px; width: 60%; background-color: #003A0F; border: none; margin-top: -10px;">
+        </center>
+     
+        <div class="modal-footer" style="background-color: #003A0F; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">
+            <a href="tel:+44-800-524-4288" style="color: white; text-decoration: none; font-weight: bold; margin: auto;">
+              <center>
+                <span style="background-color: rgb(255, 87, 87); display: flex; margin-bottom: -15px;">
+                  <span style="padding: 10px;">Call to Book</span>
+                  <span style="padding: 10px; border-left: 1px solid white; border-right: 1px solid white;">45K+ Traveler's Trust</span>
+                  <span style="padding: 10px;">Secure Travel</span>
+                </span>
+                <br>
+                <strong>CALL NOW <br> OUR TOLL FREE NUMBER <br> +44-800-524-4288</strong>
+              </center>
+            </a>
+          </div>
+
+        <span class="call-back-loader hidden" id="AirlineCallBackProgreess">
+            <div id="divAirlineCallBackProgreess" class="">
+
+                <i class="crs" id="btnCloseAirlineCallBackProgress">X</i>
+                <div class="connection">
+                    <p class="connection-txt">
+                        <span><img src="/Content/images/call.png" alt="call"></span>
+                        <span>You're being connected...</span>
+                    </p>
+                    <p class="spc">Please check your phone.</p>
+                    <p class="recive-call">If you have not received a call<br> from us, ensure:</p>
+                    <hr>
+                    <p class="txt-p">Your phone is not on voicemail</p>
+                    <p class="txt-p">You are in a good network connectivity</p>
+                </div>
+            </div>
+
+        </span>
+        <div class="confirmationPopup" id="AirlineCallBackconfirmationPopup">
+
+            <p style="">
+                We have already received a call back from phone number <br />
+                <span id="cbAirlineCallBackNumber"><i class="flaticon-suntour-phone"></i></span> at
+                <span id="dtCbAirlineCallBacktime"></span>.
+                <br /> <b>Do you want to receive a call back again?</b>
+            </p>
+            <div class="btnHolder">
+                <input type="hidden" id="hdnAirlineCallBackConfirmationSource" value="Home" />
+                <button id="btnAirlineCallBackCallUsYes" class="yesBtn" onclick="AcceptAirlineCallBackCallUsOption()">Submit</button>
+                <button id="btnAirlineCallBackCallUsNo" class="noBtn" onclick="CancelAirlineCallBackCallUsOption()">Cancel</button>
+            </div>
+
+        </div>
+
+
+        
+
+       
+
+    </div>
+    
+</div>
+
+
+
+
+<script>
+    $(document).on("keydown", "#AirlineCallBackform", function (event) {
+        return event.key != "Enter";
+    });
+    $(document).ready(function () {
+        $('#callusAirlineCallBackphone1').on("cut copy paste", function (e) {
+            e.preventDefault();
+        });
+    });
+$(function () {
+    $('a.excluClosebtn').click(function () {
+        $('.exclusivePopups').hide();
+        $('.promo-btnexc').show();
+        // Disable body scrolling for 10 seconds
+    $('body').css('overflow', 'hidden');
+    setTimeout(function () {
+        $('body').css('overflow', 'auto'); // Re-enable body scrolling after 10 seconds
+    }, 10000); // 10000 milliseconds = 10 seconds
+    });
+    $('.promo-btnexc').click(function () {
+        $('.exclusivePopups').show();
+        $('.promo-btnexc').hide();
+    });
+});
+
+function ClearAirlineCallBackError(TargetID) {
+    $("#" + TargetID).html("");
+}
+
+function AcceptAirlineCallBackCallUsOption() {
+    PostAirlineCallBackRequest("AirlineCallBackform");
+    CancelAirlineCallBackCallUsOption();
+
+    //$("#callBackBoxMobile").addClass("hidden");
+    // $("#btnCloseMobileCB").addClass("hidden");
+    $("#AirlineCallBackProgreess").removeClass("hidden");
+
+
+    setTimeout(function () {
+        $("#blkoverlay1").removeAttr("style").hide();
+        // $("#btnCloseMobileCB").removeClass("hidden");
+        //$("#btnCloseMobileCB").click();
+        //$("#callBackBoxMobile").removeClass("hidden");
+        $("#AirlineCallBackProgreess").addClass("hidden");
+
+        document.getElementById("AirlineCallBackform").reset();
+        $("#btnCloseAirlineCallBackProgress").click();
+    }, 120000)
+
+}
+function CancelAirlineCallBackCallUsOption() {
+
+    $('#AirlineCallBackconfirmationPopup').hide();
+    document.getElementById("AirlineCallBackform").reset();
+    $("#callusAirlineCallBackphone1").focus();
+
+}
+
+function ProcessCallRequestAirlineCallBack() {
+
+    var phoneNumber = $("#callusAirlineCallBackphone1").val().trim();
+    var isPhoneNoExist = false;
+
+    if (phoneNumber == "") {
+        $("#AirlineCallBackError1").html("Please enter phone number.");
+        return false;
+    }
+    if (!validatePhone(phoneNumber)) {
+        $("#AirlineCallBackError1").html("Please provide valid phone number.");
+        return false;
+    }
+    $.ajax({
+        url: "/FooterLinks/CheckPhoneExist?callType=CMB&phoneNo=" + phoneNumber,
+        type: "GET",
+        cache: false,
+        dataType: "json",
+        contentType: 'application/json; charset=utf-8',
+        beforeSend: function () {
+            $("#ButtonAirlineCallBacknew").html('Please wait...');
+            $("#ButtonAirlineCallBacknew").attr('disabled', true).css("cursor", "no-drop");;
+        },
+        success: function (data) {
+            if (data.IsNumberExist == "Yes") {
+                document.getElementById("cbAirlineCallBackNumber").innerText = phoneNumber;
+                document.getElementById("dtCbAirlineCallBacktime").innerText = data.RecentDate;
+                $('#hdnAirlineCallBackConfirmationSource').val("HomeFooter");
+                $('#AirlineCallBackconfirmationPopup').show();
+            }
+            else if (data.IsNumberExist == "No") {
+                PostAirlineCallBackRequest("AirlineCallBackform");
+
+                // $("#callBackBoxMobile").addClass("hidden");
+                // $("#btnCloseMobileCB").addClass("hidden");
+                $("#AirlineCallBackProgreess").removeClass("hidden");
+
+
+                setTimeout(function () {
+                    $("#AirlineCallBackProgreess").addClass("hidden");
+                    document.getElementById("AirlineCallBackform").reset();
+                    $("#callusAirlineCallBackphone1").focus();
+                    $("#btnCloseAirlineCallBackProgress").click();
+                }, 120000)
+            }
+            else if (data.IsNumberExist == "Blocked") {
+                document.getElementById("cbAirlineCallBackNumber").innerText = phoneNumber;
+                document.getElementById("dtCbAirlineCallBacktime").innerText = data.RecentDate;
+                $('#hdnAirlineCallBackConfirmationSource').val("Home1");
+                ShowCallBlockPopup();
+            }
+
+            $("#ButtonAirlineCallBacknew").html('Call Me Now');
+            $("#ButtonAirlineCallBacknew").removeAttr('disabled').removeAttr("style");;
+
+        },
+        error: function (err) {
+            console.log(err);
+
+            $("#ButtonAirlineCallBacknew").html('Call Me Now');
+            $("#ButtonAirlineCallBacknew").removeAttr('disabled').removeAttr("style");;
+        }
+    });
+}
+
+
+
+
+//===============Call Back Related Functions End===============
+
+function PostAirlineCallBackRequest(formName) {
+    var data = $('form#' + formName).serialize();
+    $.post('/FooterLinks/ContactUs', data, function (result) {
+    });
+}
+
+$("#btnCloseAirlineCallBackProgress").click(function () {
+    $("#callusAirlineCallBackphone1").val("");
+    $("#AirlineCallBackError1").html("");
+
+
+    $("#AirlineCallBackProgreess").addClass("hidden");
+    $("#AirlineCallBackError1").html("");
+
+
+
+    document.getElementById("AirlineCallBackform").reset();
+    $("#callusAirlineCallBackphone1").focus();
+})
+
+
+//===============Call Back Related Functions End===============
+$(function () {
+    $('input#callusAirlineCallBackphone1').click(function () {
+        $('input#callusAirlineCallBackphone1').focus();
+    });
+})
+
+
+</script>
+
 
 
     </div>
@@ -1753,25 +2487,14 @@
                      
            <div id="divCallBackTextInfo">
             
-            <div class="footer-telno" style="margin: 0px -10px">
-            <a href="tel:+44-800-524-4288"
-            ><span
-              ><i class="flaticon-suntour-phone"></i>A Single Call Solves Everything</span
-            ></a
-          >
-            
-            <a href="tel:+44-800-524-4288"
-              ><span
-                ><i class="flaticon-suntour-phone"></i>+44-800-524-4288</span
-              ></a
-            >
-            <span class="onecalltext">Calls answered in 5 seconds</span>
-          </div>
+            <div class="footer-telno" style="margin:0px -10px;">
+                <span class="onecalltext">One call. All the answers</span>
+                <a href="tel:+44-800-524-4288"><span><i class="flaticon-suntour-phone"></i>+44-800-524-4288</span></a>
+                <span class="onecalltext">Calls answered in 5 seconds</span>
+            </div>
 
             <div class="ortext">OR</div>
-            <p>
-            Please don't hesitate to <a href="/contact.html" style="color: #FF5757; font-weight: bold;">Get in Touch</a> with us at any time for top-notch Reservations and Cancellation Support.
-          </p>
+            <p>For a free & immediate callback, enter your number below and we will call you in 5 seconds.</p>
 
             </div>
 
@@ -1785,11 +2508,16 @@
 
                      
                         <span class="font-4">
+                            <b class="call-bycountry">+44</b>
+                            <input class="anodisp" name="countrycode" type="text">
+                            <input type="tel" title="Enter 10-15 digits phone number" onkeyup="return ClearCallBackError('contactuserror1')" pattern="\d*"
+                                   required placeholder="Enter 10-15 digits number" value="" maxlength="15"
+                                   onkeypress="return isNumberKey(event);" minlength="10" name="callusphone" id="callusphone1" />
                             <span id="contactuserror1"></span><button id="Button11" style="display:none;" type="submit" class="fieldButton"></button>
                             <span class="closeinstantcall" style="display: none">X</span>
                         </span>
 
-                        <a id="btnCallmeNow" href="tel:+44-800-524-4288" class="fieldButton callmenow active" style="width:100%">Call US Now !</a>
+                        <a id="btnCallmeNow" href="javascript:void(0)" class="fieldButton callmenow active" style="width:100%" onclick="return ProcessFooterCallRequest();">Call Me Now !</a>
 
                     </div>
                     <a href="javascript:void(0)" class="btn btn-danger" id="btnCloseFooterProgress" onclick="return CloseFooterProgress()" style="float:right; display:none">X</a>
@@ -1844,7 +2572,7 @@
         </div>
     </i>
     <i class="crs" style="display: none;">X</i>
-    <span class="call_txt" style="display: none;">No Hold, Your Call Answered in 5 Seconds. <i class="fa fa-times" aria-hidden="true"></i></span>
+    <span class="call_txt" style="display: none;">Would you like a free callback in 5 Seconds. <i class="fa fa-times" aria-hidden="true"></i></span>
 </div>
 
 
@@ -2052,13 +2780,13 @@
         <div class="footerContiner">
             
 
-            <div class="footerBottom" style="text-align: center;">
+            <div class="footerBottom">
                 <div class="container">
                     <div class="footerWhitesec">
 
                         <div class="website-operated">
-                The website is operated by Airline Reservation Limited,Company Number 14498022 is a company registered in England and Wales,85 Great Portland Street, first floor, London W1W 7LT, United Kingdom
-              </div>
+                            The website is operated by Airline Reservation Limited,Company Number 14498022 is a company registered in England and Wales,85 Great Portland Street, first floor, London W1W 7LT, United Kingdom
+                        </div>
                         
                     </div>
                     <div class="footer-visalogo">
@@ -2175,7 +2903,7 @@
             <div class="modal-content">
 
                 <div class="modal-body">
-                    <div class="ibblockbg"><img src="/Content/images/logo.jpg" alt="Airlines Booking"></div>
+                    <div class="ibblockbg"><img src="/Content/images/logo.jpg" alt="airlinesbooking"></div>
                     <p>
                         Your <strong>IP and/or Phone Number</strong> found suspicious and under screening. Please wait to continue.
                     </p>
@@ -3099,5 +3827,5 @@
         }
 
     </script>
-</div></body>
+</body>
 </html>

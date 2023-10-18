@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-Up List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            background-color: #ff5757;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+        ol {
+            display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        }
+        li {
+            background-color: #fff;
+        border: 1px solid #ddd;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+        flex-basis: calc(25% - 20px);
+        }
+        a {
+            color: #003A0F;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0074D9;
+        }
+        /* Responsive styles for smaller screens */
+    @media (max-width: 768px) {
+        li {
+            flex-basis: calc(50% - 20px); /* Two columns for screens <= 768px */
+        }
+    }
+
+    /* Responsive styles for even smaller screens */
+    @media (max-width: 480px) {
+        li {
+            flex-basis: 100%; /* Single column for screens <= 480px */
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>List of Airlines</h1>
+    <ol>
+        <li><a href="/airlineext/aer-lingus.html">Aer Lingus</a></li>
+        <li><a href="/airlineext/aeroflot.html">Aeroflot</a></li>
+        <li><a href="/airlineext/aeromexico.html">Aeromexico</a></li>
+        <li><a href="/airlineext/airasia.html">AirAsia</a></li>
+        <li><a href="/airlineext/air-astana.html">Air Astana</a></li>
+        <li><a href="/airlineext/air-canada.html">Air Canada</a></li>
+        <li><a href="/airlineext/air-china.html">Air China</a></li>
+        <li><a href="/airlineext/air-europa.html">Air Europa</a></li>
+        <li><a href="/airlineext/air-france.html">Air France</a></li>
+        <li><a href="/airlineext/air-india.html">Air India</a></li>
+        <li><a href="/airlineext/air-mauritius.html">Air Mauritius</a></li>
+        <li><a href="/airlineext/air-new-zealand.html">Air New Zealand</a></li>
+        <li><a href="/airlineext/alaska.html">Alaska</a></li>
+        <li><a href="/airlineext/alitalia.html">Alitalia</a></li>
+        <li><a href="/airlineext/american-airlines.html">American Airlines</a></li>
+        <li><a href="/airlineext/asiana-airlines.html">Asiana Airlines</a></li>
+        <li><a href="/airlineext/aurigny-air-services.html">Aurigny Air Services</a></li>
+        <li><a href="/airlineext/austrian.html">Austrian</a></li>
+        <li><a href="/airlineext/bangkok-air.html">Bangkok Air</a></li>
+        <li><a href="/airlineext/blue-air.html">Blue Air</a></li>
+        <li><a href="/airlineext/british-airways.html">British Airways</a></li>
+        <li><a href="/airlineext/brussels-airlines.html">Brussels Airlines</a></li>
+        <li><a href="/airlineext/cathay-pacific.html">Cathay Pacific</a></li>
+        <li><a href="/airlineext/china-airlines.html">China Airlines</a></li>
+        <li><a href="/airlineext/china-eastern.html">China Eastern</a></li>
+        <li><a href="/airlineext/china-southern.html">China Southern</a></li>
+        <li><a href="/airlineext/continental-airlines.html">Continental Airlines</a></li>
+        <li><a href="/airlineext/delta-airlines.html">Delta Airlines</a></li>
+        <li><a href="/airlineext/eastern-airways.html">Eastern Airways</a></li>
+        <li><a href="/airlineext/easyjet.html">easyJet</a></li>
+        <li><a href="/airlineext/egypt-air.html">Egypt Air</a></li>
+        <li><a href="/airlineext/emirates-airlines.html">Emirates Airlines</a></li>
+        <li><a href="/airlineext/ethiopian-airlines.html">Ethiopian Airlines</a></li>
+        <li><a href="/airlineext/etihad-airways.html">Etihad Airways</a></li>
+        <li><a href="/airlineext/eurowings.html">Eurowings</a></li>
+        <li><a href="/airlineext/eva-air.html">EVA Air</a></li>
+        <li><a href="/airlineext/finnair.html">Finnair</a></li>
+        <li><a href="/airlineext/flybe.html">Flybe</a></li>
+        <li><a href="/airlineext/flydubai.html">Flydubai</a></li>
+        <li><a href="/airlineext/fly-norse-atlantic-airways.html">Fly Norse Atlantic Airways</a></li>
+        <li><a href="/airlineext/frontier-airlines.html">Frontier Airlines</a></li>
+        <li><a href="/airlineext/garuda-indonesia-airlines.html">Garuda Indonesia Airlines</a></li>
+        <li><a href="/airlineext/german-wings.html">German Wings</a></li>
+        <li><a href="/airlineext/gulf-air.html">Gulf Air</a></li>
+        <li><a href="/airlineext/iberia.html">Iberia</a></li>
+        <li><a href="/airlineext/iceland-air.html">Iceland Air</a></li>
+        <li><a href="/airlineext/jazeera-airways.html">Jazeera Airways</a></li>
+        <li><a href="/airlineext/jet2.html">Jet2</a></li>
+        <li><a href="/airlineext/jetblue-airways.html">JetBlue Airways</a></li>
+        <li><a href="/airlineext/jetstar-asia.html">Jetstar Asia</a></li>
+        <li><a href="/airlineext/kenya-airways.html">Kenya Airways</a></li>
+        <li><a href="/airlineext/klm-airlines.html">KLM Airlines</a></li>
+        <li><a href="/airlineext/korean-air.html">Korean Air</a></li>
+        <li><a href="/airlineext/kuwait-airways.html">Kuwait Airways</a></li>
+        <li><a href="/airlineext/latam-airlines.html">LATAM Airlines</a></li>
+        <li><a href="/airlineext/lufthansa.html">Lufthansa</a></li>
+        <li><a href="/airlineext/malaysia-airlines.html">Malaysia Airlines</a></li>
+        <li><a href="/airlineext/malindo-air.html">Malindo Air</a></li>
+        <li><a href="/airlineext/middle-east-airlines.html">Middle East Airlines</a></li>
+        <li><a href="/airlineext/norwegian-air-international.html">Norwegian Air International</a></li>
+        <li><a href="/airlineext/norwegian-air-shuttle.html">Norwegian Air Shuttle</a></li>
+        <li><a href="/airlineext/oman-air.html">Oman Air</a></li>
+        <li><a href="/airlineext/pegasus-airlines.html">Pegasus Airlines</a></li>
+        <li><a href="/airlineext/philippine-airlines.html">Philippine Airlines</a></li>
+        <li><a href="/airlineext/polish-airlines.html">Polish Airlines</a></li>
+        <li><a href="/airlineext/qantas-airways.html">Qantas Airways</a></li>
+        <li><a href="/airlineext/qatar-airways.html">Qatar Airways</a></li>
+        <li><a href="/airlineext/royal-air-maroc.html">Royal Air Maroc</a></li>
+        <li><a href="/airlineext/royal-brunei.html">Royal Brunei</a></li>
+        <li><a href="/airlineext/cathay-pacific.html">Cathay Pacific</a></li>
+        <li><a href="/airlineext/ryanair.html">Ryanair</a></li>
+        <li><a href="/airlineext/saudi-arabian.html">Saudi Arabian</a></li>
+        <li><a href="/airlineext/scandinavian-airlines.html">Scandinavian Airlines</a></li>
+        <li><a href="/airlineext/scoot.html">Scoot</a></li>
+        <li><a href="/airlineext/dragonair.html">Dragonair</a></li>
+        <li><a href="/airlineext/silk-air.html">Silk Air</a></li>
+        <li><a href="/airlineext/eva-air.html">EVA Air</a></li>
+        <li><a href="/airlineext/singapore-airlines.html">Singapore Airlines</a></li>
+        <li><a href="/airlineext/garuda-indonesia-airlines.html">Garuda Indonesia Airlines</a></li>
+        <li><a href="/airlineext/turkish-airlines.html">Turkish Airlines</a></li>
+        <li><a href="/airlineext/ukraine-international-airlines.html">Ukraine International Airlines</a></li>
+        <li><a href="/airlineext/united-airlines.html">United Airlines</a></li>
+        <li><a href="/airlineext/frontier-airlines.html">Frontier Airlines</a></li>
+        <li><a href="/airlineext/uzbekistan-airways.html">Uzbekistan Airways</a></li>
+        <li><a href="/airlineext/gulf-air.html">Gulf Air</a></li>
+        <li><a href="/airlineext/iberia.html">Iberia</a></li>
+        <li><a href="/airlineext/iceland-air.html">Iceland Air</a></li>
+        <li><a href="/airlineext/vietnam-airlines.html">Vietnam Airlines</a></li>
+        <li><a href="/airlineext/german-wings.html">German Wings</a></li>
+        <li><a href="/airlineext/virgin-atlantic.html">Virgin Atlantic</a></li>
+        <li><a href="/airlineext/virgin-australia.html">Virgin Australia</a></li>
+        <li><a href="/airlineext/iberia.html">Iberia</a></li>
+        <li><a href="/airlineext/vistara.html">Vistara</a></li>
+        <li><a href="/airlineext/iceland-air.html">Iceland Air</a></li>
+        <li><a href="/airlineext/westjet.html">WestJet</a></li>
+    </ol>
+     
+</body>
+</html>
